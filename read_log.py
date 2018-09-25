@@ -7,8 +7,8 @@ import csv
 
 robot_name = "robot_" + sys.argv[1]
 log_file_path = robot_name + ".log"
-regex = '\d.\d+'
- 
+regex = '\d.\d+e*-*\d*'
+
 match_list = []
 with open(log_file_path, "r") as file:
     count = 0
@@ -18,6 +18,13 @@ with open(log_file_path, "r") as file:
             for match in re.finditer(regex, line, re.S):
                 match_text = match.group()
                 match_list.append(match_text)
+
+counter = 0
+for element in match_list:
+    if re.match('\d.\d+e*-+\d*', element):
+        match_list[counter] = '{:.10f}'.format(float(element)).rstrip('0')
+    counter += 1
+
 
 csvfile = robot_name + ".csv"
 with open(csvfile, "w") as output:
