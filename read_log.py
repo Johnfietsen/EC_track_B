@@ -1,11 +1,22 @@
-""" Little script generate CSV's with robot velocities 
-Usage: python read_log.py <robot_number>-<experiment_number>"""
+message = """ Little script generate CSV's with robot velocities 
+Usage: python read_log.py <robot_number>-<experiment_number> <path (can be omitted)>"""
 
 import re
 import sys
 import csv
 
-robot_name = "robot_" + sys.argv[1]
+path = '' 
+
+if len(sys.argv) < 2:
+    print(message)
+    sys.exit(0)
+
+if len(sys.argv) > 2:
+    path = sys.argv[2]
+    if path[-1] != '/':
+        path += '/'
+
+robot_name = path + "robot_" + sys.argv[1]
 log_file_path = robot_name + ".log"
 regex = '\d.\d+e*-*\d*'
 
