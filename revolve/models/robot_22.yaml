@@ -1,0 +1,139 @@
+body:
+  children:
+    0:
+      id: node-1
+      label: ''
+      orientation: 90.0
+      params:
+        blue: 0.7304125640637485
+        green: 0.09606281167026243
+        red: 0.18885058782687714
+      slot: 1
+      type: ActiveHinge
+    1:
+      id: node-2
+      label: ''
+      orientation: 0.0
+      params:
+        blue: 0.7304125640637485
+        green: 0.09606281167026243
+        red: 0.18885058782687714
+      slot: 1
+      type: FixedBrick
+    2:
+      children:
+        1:
+          id: node-4
+          label: ''
+          orientation: 90.0
+          params:
+            blue: 0.058870549035442976
+            green: 0.18661946736820378
+            red: 0.5308067728929753
+          slot: 0
+          type: FixedBrick
+      id: node-3
+      label: ''
+      orientation: 270.0
+      params:
+        blue: 0.7304125640637485
+        green: 0.09606281167026243
+        red: 0.18885058782687714
+      slot: 0
+      type: ActiveHinge
+    3:
+      children:
+        0:
+          children:
+            0:
+              id: node-7
+              label: ''
+              orientation: 0.0
+              params:
+                blue: 0.7304125640637485
+                green: 0.09606281167026243
+                red: 0.18885058782687714
+              slot: 1
+              type: ActiveHinge
+          id: node-6
+          label: ''
+          orientation: 180.0
+          params:
+            blue: 0.7304125640637485
+            green: 0.09606281167026243
+            red: 0.18885058782687714
+          slot: 1
+          type: ActiveHinge
+        2:
+          children:
+            0:
+              children:
+                0:
+                  id: node-10
+                  label: ''
+                  orientation: 180.0
+                  params:
+                    blue: 0.7304125640637485
+                    green: 0.09606281167026243
+                    red: 0.18885058782687714
+                  slot: 1
+                  type: ActiveHinge
+                2:
+                  id: node-11
+                  label: ''
+                  orientation: 0.0
+                  params:
+                    blue: 0.7304125640637485
+                    green: 0.09606281167026243
+                    red: 0.18885058782687714
+                  slot: 0
+                  type: FixedBrick
+              id: node-9
+              label: ''
+              orientation: 270.0
+              params:
+                blue: 0.7304125640637485
+                green: 0.09606281167026243
+                red: 0.18885058782687714
+              slot: 3
+              type: FixedBrick
+          id: node-8
+          label: ''
+          orientation: 90.0
+          params:
+            blue: 0.7304125640637485
+            green: 0.09606281167026243
+            red: 0.18885058782687714
+          slot: 1
+          type: ActiveHinge
+        3:
+          id: node-12
+          label: ''
+          orientation: 0.0
+          params:
+            blue: 0.7304125640637485
+            green: 0.09606281167026243
+            red: 0.18885058782687714
+          slot: 1
+          type: ActiveHinge
+      id: node-5
+      label: ''
+      orientation: 0.0
+      params:
+        blue: 0.7304125640637485
+        green: 0.09606281167026243
+        red: 0.18885058782687714
+      slot: 1
+      type: FixedBrick
+  id: node-0
+  label: ''
+  orientation: 0.0
+  params:
+    blue: 0.7304125640637485
+    green: 0.09606281167026243
+    red: 0.18885058782687714
+  type: Core
+id: 22
+parents:
+  1: '12'
+  2: '15'

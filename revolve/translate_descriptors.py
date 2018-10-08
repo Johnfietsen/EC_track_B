@@ -6,7 +6,7 @@ import numpy as np
 
 M_MAX = 20
 
-with open("revolve-simulator/revolve/models/robot_150.yaml", 'r') as stream:
+with open("models/robot_150.yaml", 'r') as stream:
     try:
         file = yaml.safe_load(stream)
     except yaml.YAMLError as exc:
