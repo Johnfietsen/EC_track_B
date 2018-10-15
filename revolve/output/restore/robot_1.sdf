@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<sdf version="1.5"><model name="gen__1"><pose>0.000000e+00 0.000000e+00 5.000000e-02 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<link name="link_component_node-0__box"><pose>-2.002350e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<visual name="component_node-0__box_visual"><pose>2.002350e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<sdf version="1.5"><model name="gen__1"><pose>0.000000e+00 0.000000e+00 1.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<link name="link_component_node-0__box"><pose>7.040274e-19 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-0__box_visual"><pose>-7.040274e-19 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
 <material><ambient>0.72 0.95 0.10 1.00</ambient><diffuse>0.72 0.95 0.10 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
 <geometry><mesh><uri>model://rg_robot/meshes/CoreComponent.dae</uri></mesh></geometry></visual>
-<collision name="component_node-0__box_collision"><pose>2.002350e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<collision name="component_node-0__box_collision"><pose>-7.040274e-19 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -13,10 +13,10 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>9.000000e-02 9.000000e-02 4.500000e-02</size></box></geometry></collision>
-<sensor type="imu" name="node-0-imu_sensor"><pose>2.002350e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<sensor type="imu" name="node-0-imu_sensor"><pose>-7.040274e-19 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
 <update_rate>8.000000e+00</update_rate>
 <always_on>1</always_on></sensor>
-<collision name="component_node-1__tail_collision"><pose>2.002350e-03 -4.575000e-02 0.000000e+00 0.000000e+00 -0.000000e+00 1.570796e+00</pose>
+<collision name="component_node-1__tail_collision"><pose>-7.040274e-19 -4.575000e-02 0.000000e+00 0.000000e+00 -0.000000e+00 1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -25,10 +25,10 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
-<visual name="component_node-1__servo_servo_visual"><pose>2.002350e-03 -5.885000e-02 0.000000e+00 0.000000e+00 -0.000000e+00 1.570796e+00</pose>
+<visual name="component_node-1__servo_servo_visual"><pose>-7.040274e-19 -5.885000e-02 0.000000e+00 0.000000e+00 -0.000000e+00 1.570796e+00</pose>
 <material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
 <geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
-<collision name="component_node-1__servo_collision"><pose>2.002350e-03 -5.885000e-02 0.000000e+00 0.000000e+00 -0.000000e+00 1.570796e+00</pose>
+<collision name="component_node-1__servo_collision"><pose>-7.040274e-19 -5.885000e-02 0.000000e+00 0.000000e+00 -0.000000e+00 1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -37,7 +37,7 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
-<collision name="component_node-4__tail_collision"><pose>2.002350e-03 4.575000e-02 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<collision name="component_node-10__tail_collision"><pose>-7.040274e-19 4.575000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -46,10 +46,10 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
-<visual name="component_node-4__servo_servo_visual"><pose>2.002350e-03 5.885000e-02 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
-<material><ambient>0.72 0.05 0.60 1.00</ambient><diffuse>0.72 0.05 0.60 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<visual name="component_node-10__servo_servo_visual"><pose>-7.040274e-19 5.885000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
 <geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
-<collision name="component_node-4__servo_collision"><pose>2.002350e-03 5.885000e-02 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<collision name="component_node-10__servo_collision"><pose>-7.040274e-19 5.885000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -58,10 +58,7 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
-<visual name="component_node-5__root_visual"><pose>4.775235e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<material><ambient>0.72 0.05 0.60 1.00</ambient><diffuse>0.72 0.05 0.60 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
-<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
-<collision name="component_node-5__root_collision"><pose>4.775235e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<collision name="component_node-100__tail_collision"><pose>4.575000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -70,10 +67,10 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
-<visual name="component_node-5__frame_frame_visual"><pose>5.760235e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<material><ambient>0.72 0.05 0.60 1.00</ambient><diffuse>0.72 0.05 0.60 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
-<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
-<collision name="component_node-5__frame_collision"><pose>5.760235e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-100__servo_servo_visual"><pose>5.885000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-100__servo_collision"><pose>5.885000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -81,11 +78,8 @@
 <slip2>1.000000e-02</slip2></ode>
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
-<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
-<visual name="component_node-6__box_visual"><pose>-6.349765e-02 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
-<material><ambient>0.72 0.05 0.60 1.00</ambient><diffuse>0.72 0.05 0.60 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
-<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
-<collision name="component_node-6__box_collision"><pose>-6.349765e-02 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-1000__tail_collision"><pose>-4.575000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -93,8 +87,20 @@
 <slip2>1.000000e-02</slip2></ode>
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
-<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
-<inertial><mass>1.404000e-01</mass><inertia><ixx>1.739562e-04</ixx><ixy>0.000000e+00</ixy><ixz>-9.699203e-23</ixz><iyy>1.452956e-04</iyy><iyz>5.513854e-55</iyz><izz>2.823684e-04</izz></inertia></inertial>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-1000__servo_servo_visual"><pose>-5.885000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-1000__servo_collision"><pose>-5.885000e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>1.540000e-01</mass><inertia><ixx>1.745632e-04</ixx><ixy>4.701977e-38</ixy><ixz>0.000000e+00</ixz><iyy>1.745632e-04</iyy><iyz>0.000000e+00</iyz><izz>3.127567e-04</izz></inertia></inertial>
 <self_collide>True</self_collide></link>
 <link name="link_component_node-1__frame"><pose>2.012591e-35 -8.732521e-02 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
 <visual name="component_node-1__frame_frame_visual"><pose>-2.012591e-35 1.522521e-02 0.000000e+00 0.000000e+00 -0.000000e+00 1.570796e+00</pose>
@@ -195,11 +201,11 @@
 <geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
 <inertial><mass>1.640000e-02</mass><inertia><ixx>1.713631e-06</ixx><ixy>4.653156e-39</ixy><ixz>2.586454e-23</ixz><iyy>2.948533e-06</iyy><iyz>-6.268371e-23</iyz><izz>1.924831e-06</izz></inertia></inertial>
 <self_collide>True</self_collide></link>
-<link name="link_component_node-3__servo"><pose>1.413524e-34 -1.499813e-01 3.622658e-18 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<visual name="component_node-3__servo_servo_visual"><pose>0.000000e+00 5.731250e-03 -7.018757e-19 -1.224647e-16 -1.224647e-16 -1.570796e+00</pose>
+<link name="link_component_node-3__servo"><pose>-3.438057e-34 -1.611229e-01 4.987117e-18 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-3__servo_servo_visual"><pose>4.851581e-34 1.687290e-02 -2.066334e-18 -1.224647e-16 -1.224647e-16 -1.570796e+00</pose>
 <material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
 <geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
-<collision name="component_node-3__servo_collision"><pose>0.000000e+00 5.731250e-03 -7.018757e-19 -1.224647e-16 -1.224647e-16 -1.570796e+00</pose>
+<collision name="component_node-3__servo_collision"><pose>4.851581e-34 1.687290e-02 -2.066334e-18 -1.224647e-16 -1.224647e-16 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -208,7 +214,7 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
-<collision name="component_node-3__tail_collision"><pose>0.000000e+00 -7.368750e-03 9.024116e-19 -1.224647e-16 -1.224647e-16 -1.570796e+00</pose>
+<collision name="component_node-3__tail_collision"><pose>4.851581e-34 3.772901e-03 -4.620471e-19 -1.224647e-16 -1.224647e-16 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -217,7 +223,19 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
-<inertial><mass>1.600000e-02</mass><inertia><ixx>1.876548e-06</ixx><ixy>2.988771e-38</ixy><ixz>9.699203e-23</ixz><iyy>2.290667e-06</iyy><iyz>4.627708e-23</iyz><izz>2.668548e-06</izz></inertia></inertial>
+<visual name="component_node-4__box_visual"><pose>-7.610323e-34 -1.747710e-02 2.140327e-18 3.141593e+00 2.449294e-16 -6.430140e-32</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-4__box_collision"><pose>-7.610323e-34 -1.747710e-02 2.140327e-18 3.141593e+00 2.449294e-16 -6.430140e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<inertial><mass>2.620000e-02</mass><inertia><ixx>9.478372e-06</ixx><ixy>-1.815388e-37</ixy><ixz>1.845880e-22</ixz><iyy>4.790729e-06</iyy><iyz>7.148607e-22</iyz><izz>1.062801e-05</izz></inertia></inertial>
 <self_collide>True</self_collide></link>
 <joint type="revolute" name="joint_link_component_node-3__servo_link_component_node-2__frame"><pose>4.108336e-36 -1.560000e-02 1.776261e-18 -1.224647e-16 -1.224647e-16 -1.570796e+00</pose>
 <parent>link_component_node-3__servo</parent>
@@ -246,11 +264,11 @@
 <upper>7.853982e-01</upper>
 <effort>1.765800e-01</effort>
 <velocity>5.235988e+00</velocity></limit></axis></joint>
-<link name="link_component_node-4__frame"><pose>1.331357e-34 8.050854e-02 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<visual name="component_node-4__frame_frame_visual"><pose>-3.152696e-35 -8.408537e-03 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
-<material><ambient>0.72 0.05 0.60 1.00</ambient><diffuse>0.72 0.05 0.60 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<link name="link_component_node-10__frame"><pose>2.012591e-35 8.732521e-02 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-10__frame_frame_visual"><pose>-2.012591e-35 -1.522521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
 <geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
-<collision name="component_node-4__frame_collision"><pose>-3.152696e-35 -8.408537e-03 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<collision name="component_node-10__frame_collision"><pose>-2.012591e-35 -1.522521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -259,10 +277,10 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
-<visual name="component_node-4__root_visual"><pose>5.404622e-36 1.441463e-03 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
-<material><ambient>0.72 0.05 0.60 1.00</ambient><diffuse>0.72 0.05 0.60 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<visual name="component_node-10__root_visual"><pose>-2.012591e-35 -5.375207e-03 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
 <geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
-<collision name="component_node-4__root_collision"><pose>5.404622e-36 1.441463e-03 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<collision name="component_node-10__root_collision"><pose>-2.012591e-35 -5.375207e-03 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -271,22 +289,19 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
-<inertial><mass>8.200000e-03</mass><inertia><ixx>8.174347e-07</ixx><ixy>7.847207e-39</ixy><ixz>-1.293227e-23</ixz><iyy>1.474267e-06</iyy><iyz>3.297044e-55</iyz><izz>9.230347e-07</izz></inertia></inertial>
-<self_collide>True</self_collide></link>
-<joint type="revolute" name="joint_link_component_node-0__box_link_component_node-4__frame"><pose>-5.027396e-35 -1.340854e-02 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
-<parent>link_component_node-0__box</parent>
-<child>link_component_node-4__frame</child>
-<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
-<use_parent_model_frame>0</use_parent_model_frame>
-<limit><lower>-7.853982e-01</lower>
-<upper>7.853982e-01</upper>
-<effort>1.765800e-01</effort>
-<velocity>5.235988e+00</velocity></limit></axis></joint>
-<link name="link_component_node-5__servo"><pose>7.458125e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<visual name="component_node-5__servo_servo_visual"><pose>-5.731250e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<material><ambient>0.72 0.05 0.60 1.00</ambient><diffuse>0.72 0.05 0.60 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<collision name="component_node-20__tail_collision"><pose>-1.731386e-35 -3.875207e-03 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-20__servo_servo_visual"><pose>3.180327e-35 9.224793e-03 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
 <geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
-<collision name="component_node-5__servo_collision"><pose>-5.731250e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<collision name="component_node-20__servo_collision"><pose>3.180327e-35 9.224793e-03 0.000000e+00 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -295,7 +310,25 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
-<collision name="component_node-5__tail_collision"><pose>7.368750e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<inertial><mass>2.420000e-02</mass><inertia><ixx>3.270289e-06</ixx><ixy>8.855985e-39</ixy><ixz>-9.699203e-23</ixz><iyy>3.764933e-06</iyy><iyz>5.513854e-55</iyz><izz>4.167889e-06</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-20__frame"><pose>1.372440e-34 1.204000e-01 6.021400e-19 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-20__frame_frame_visual"><pose>-3.563530e-35 -1.060000e-02 -6.021400e-19 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-20__frame_collision"><pose>-3.563530e-35 -1.060000e-02 -6.021400e-19 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<visual name="component_node-20__root_visual"><pose>1.296286e-36 -7.500000e-04 -6.021400e-19 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-20__root_collision"><pose>1.296286e-36 -7.500000e-04 -6.021400e-19 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
 <surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
 <friction><ode><mu>1.000000e+00</mu>
 <mu2>1.000000e+00</mu2>
@@ -304,11 +337,689 @@
 <bullet><friction>1.000000e+00</friction>
 <friction2>1.000000e+00</friction2></bullet></friction></surface>
 <geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
-<inertial><mass>1.600000e-02</mass><inertia><ixx>2.290667e-06</ixx><ixy>0.000000e+00</ixy><ixz>0.000000e+00</ixz><iyy>1.876548e-06</iyy><iyz>0.000000e+00</iyz><izz>2.668548e-06</izz></inertia></inertial>
+<visual name="component_node-30__root_visual"><pose>4.108336e-36 7.500000e-04 -1.899908e-19 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-30__root_collision"><pose>4.108336e-36 7.500000e-04 -1.899908e-19 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-30__frame_frame_visual"><pose>4.108336e-36 1.060000e-02 5.222903e-18 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-30__frame_collision"><pose>4.108336e-36 1.060000e-02 5.222903e-18 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>1.640000e-02</mass><inertia><ixx>1.713631e-06</ixx><ixy>3.274944e-37</ixy><ixz>-8.754306e-23</ixz><iyy>2.948533e-06</iyy><iyz>2.812789e-22</iyz><izz>1.924831e-06</izz></inertia></inertial>
 <self_collide>True</self_collide></link>
-<joint type="revolute" name="joint_link_component_node-5__servo_link_component_node-0__box"><pose>6.260235e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
-<parent>link_component_node-5__servo</parent>
-<child>link_component_node-0__box</child>
+<link name="link_component_node-30__servo"><pose>3.842553e-33 1.611229e-01 2.198005e-17 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-30__servo_servo_visual"><pose>-3.701201e-33 -1.687290e-02 -8.873702e-18 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-30__servo_collision"><pose>-3.701201e-33 -1.687290e-02 -8.873702e-18 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-30__tail_collision"><pose>-3.701201e-33 -3.772901e-03 -1.674828e-18 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-40__box_visual"><pose>5.805805e-33 1.747710e-02 8.979129e-18 3.141593e+00 8.881784e-16 3.141593e+00</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-40__box_collision"><pose>5.805805e-33 1.747710e-02 8.979129e-18 3.141593e+00 8.881784e-16 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<inertial><mass>2.620000e-02</mass><inertia><ixx>9.478372e-06</ixx><ixy>-7.623316e-37</ixy><ixz>-8.772269e-22</ixz><iyy>4.790729e-06</iyy><iyz>-3.007442e-21</iyz><izz>1.062801e-05</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<joint type="revolute" name="joint_link_component_node-30__servo_link_component_node-20__frame"><pose>4.108336e-36 1.560000e-02 7.970565e-18 -7.065416e-16 -5.495324e-16 1.570796e+00</pose>
+<parent>link_component_node-30__servo</parent>
+<child>link_component_node-20__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-10__frame_link_component_node-20__frame"><pose>-5.438230e-35 -1.560000e-02 -6.021400e-19 -3.141593e+00 -0.000000e+00 -1.570796e+00</pose>
+<parent>link_component_node-10__frame</parent>
+<child>link_component_node-20__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-0__box_link_component_node-10__frame"><pose>-2.012591e-35 -2.022521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -1.570796e+00</pose>
+<parent>link_component_node-0__box</parent>
+<child>link_component_node-10__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<link name="link_component_node-100__frame"><pose>8.732521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-100__frame_frame_visual"><pose>-1.522521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-100__frame_collision"><pose>-1.522521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<visual name="component_node-100__root_visual"><pose>-5.375207e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-100__root_collision"><pose>-5.375207e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<collision name="component_node-200__tail_collision"><pose>-3.875207e-03 0.000000e+00 0.000000e+00 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-200__servo_servo_visual"><pose>9.224793e-03 0.000000e+00 0.000000e+00 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-200__servo_collision"><pose>9.224793e-03 0.000000e+00 0.000000e+00 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>2.420000e-02</mass><inertia><ixx>3.764933e-06</ixx><ixy>0.000000e+00</ixy><ixz>0.000000e+00</ixz><iyy>3.270289e-06</iyy><iyz>9.699203e-23</iyz><izz>4.167889e-06</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-200__frame"><pose>1.204000e-01 4.051781e-35 2.433013e-19 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-200__frame_frame_visual"><pose>-1.060000e-02 -4.051781e-35 -2.433013e-19 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-200__frame_collision"><pose>-1.060000e-02 -4.051781e-35 -2.433013e-19 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<visual name="component_node-200__root_visual"><pose>-7.500000e-04 -4.051781e-35 -2.433013e-19 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-200__root_collision"><pose>-7.500000e-04 -4.051781e-35 -2.433013e-19 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-300__root_visual"><pose>7.500000e-04 -1.278442e-35 -7.676786e-20 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-300__root_collision"><pose>7.500000e-04 -1.278442e-35 -7.676786e-20 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-300__frame_frame_visual"><pose>1.060000e-02 3.514475e-34 2.110371e-18 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-300__frame_collision"><pose>1.060000e-02 3.514475e-34 2.110371e-18 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>1.640000e-02</mass><inertia><ixx>2.948533e-06</ixx><ixy>1.502230e-38</ixy><ixz>1.136538e-22</ixz><iyy>1.713631e-06</iyy><iyz>4.810414e-23</iyz><izz>1.924831e-06</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-300__servo"><pose>1.894200e-01 1.004251e-33 1.946147e-17 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-300__servo_servo_visual"><pose>-4.516996e-02 -1.223293e-34 -1.416571e-17 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-300__servo_collision"><pose>-4.516996e-02 -1.223293e-34 -1.416571e-17 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-300__tail_collision"><pose>-3.206996e-02 3.620806e-34 -1.125693e-17 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-400__box_visual"><pose>-1.081996e-02 1.104186e-34 -6.538477e-18 3.141593e+00 4.555316e-16 1.570796e+00</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-400__box_collision"><pose>-1.081996e-02 1.104186e-34 -6.538477e-18 3.141593e+00 4.555316e-16 1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<visual name="component_node-500__box_visual"><pose>3.018004e-02 -1.689767e-34 9.278850e-18 5.495324e-16 -7.065416e-16 -1.570796e+00</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-500__box_collision"><pose>3.018004e-02 -1.689767e-34 9.278850e-18 5.495324e-16 -7.065416e-16 -1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<visual name="component_node-600__root_visual"><pose>5.143004e-02 -1.460510e-34 2.095641e-17 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-600__root_collision"><pose>5.143004e-02 -1.460510e-34 2.095641e-17 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-600__frame_frame_visual"><pose>6.128004e-02 1.550405e-34 2.636931e-17 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-600__frame_collision"><pose>6.128004e-02 1.550405e-34 2.636931e-17 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>4.460000e-02</mass><inertia><ixx>8.765058e-06</ixx><ixy>-1.373080e-36</ixy><ixz>-2.119972e-20</ixz><iyy>6.598759e-05</iyy><iyz>7.669330e-22</iyz><izz>6.760046e-05</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-600__servo"><pose>2.731748e-01 1.614364e-33 5.810311e-17 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-600__servo_servo_visual"><pose>-9.224793e-03 -5.005100e-35 -4.991024e-18 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-600__servo_collision"><pose>-9.224793e-03 -5.005100e-35 -4.991024e-18 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-600__tail_collision"><pose>3.875207e-03 3.503854e-34 2.207850e-18 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-700__root_visual"><pose>5.375207e-03 1.619843e-34 2.953066e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-700__root_collision"><pose>5.375207e-03 1.619843e-34 2.953066e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-700__frame_frame_visual"><pose>1.522521e-02 -2.613441e-33 7.327344e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-700__frame_collision"><pose>1.522521e-02 -2.613441e-33 7.327344e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>2.420000e-02</mass><inertia><ixx>3.764933e-06</ixx><ixy>-5.572009e-37</ixy><ixz>-2.666447e-22</ixz><iyy>3.270289e-06</iyy><iyz>7.570483e-22</iyz><izz>4.167889e-06</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-700__servo"><pose>3.185229e-01 -8.029524e-33 7.880771e-17 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-700__servo_servo_visual"><pose>-1.687290e-02 3.297007e-33 -7.493073e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-700__servo_collision"><pose>-1.687290e-02 3.297007e-33 -7.493073e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-700__tail_collision"><pose>-3.772901e-03 -3.941682e-34 -1.675505e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-800__box_visual"><pose>1.747710e-02 -2.638616e-33 7.761391e-18 3.141593e+00 1.073936e-15 1.570796e+00</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-800__box_collision"><pose>1.747710e-02 -2.638616e-33 7.761391e-18 3.141593e+00 1.073936e-15 1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<inertial><mass>2.620000e-02</mass><inertia><ixx>4.790729e-06</ixx><ixy>-1.539893e-36</ixy><ixz>-2.592273e-21</ixz><iyy>9.478372e-06</iyy><iyz>1.137645e-21</iyz><izz>1.062801e-05</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<joint type="revolute" name="joint_link_component_node-700__servo_link_component_node-600__servo"><pose>2.022521e-02 -4.022286e-33 9.547790e-18 -9.514710e-16 -4.440892e-16 -2.817691e-31</pose>
+<parent>link_component_node-700__servo</parent>
+<child>link_component_node-600__servo</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-600__servo_link_component_node-300__servo"><pose>6.628004e-02 3.078788e-34 2.911697e-17 3.141593e+00 -5.495324e-16 3.056766e-32</pose>
+<parent>link_component_node-600__servo</parent>
+<child>link_component_node-300__servo</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-300__servo_link_component_node-200__frame"><pose>1.560000e-02 5.363367e-34 3.220595e-18 -3.330669e-16 -2.220446e-16 3.697785e-32</pose>
+<parent>link_component_node-300__servo</parent>
+<child>link_component_node-200__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-100__frame_link_component_node-200__frame"><pose>-1.560000e-02 -4.051781e-35 -2.433013e-19 -3.141593e+00 -0.000000e+00 3.141593e+00</pose>
+<parent>link_component_node-100__frame</parent>
+<child>link_component_node-200__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-0__box_link_component_node-100__frame"><pose>-2.022521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 3.141593e+00</pose>
+<parent>link_component_node-0__box</parent>
+<child>link_component_node-100__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<link name="link_component_node-1000__frame"><pose>-8.732521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-1000__frame_frame_visual"><pose>1.522521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-1000__frame_collision"><pose>1.522521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<visual name="component_node-1000__root_visual"><pose>5.375207e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<material><ambient>0.72 0.05 0.35 1.00</ambient><diffuse>0.72 0.05 0.35 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-1000__root_collision"><pose>5.375207e-03 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<collision name="component_node-2000__tail_collision"><pose>3.875207e-03 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-2000__servo_servo_visual"><pose>-9.224793e-03 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-2000__servo_collision"><pose>-9.224793e-03 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>2.420000e-02</mass><inertia><ixx>3.764933e-06</ixx><ixy>0.000000e+00</ixy><ixz>0.000000e+00</ixz><iyy>3.270289e-06</iyy><iyz>-9.699203e-23</iyz><izz>4.167889e-06</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-2000__frame"><pose>-1.204000e-01 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-2000__frame_frame_visual"><pose>1.060000e-02 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-2000__frame_collision"><pose>1.060000e-02 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<visual name="component_node-2000__root_visual"><pose>7.500000e-04 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<material><ambient>0.72 0.24 0.54 1.00</ambient><diffuse>0.72 0.24 0.54 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-2000__root_collision"><pose>7.500000e-04 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-3000__root_visual"><pose>-7.500000e-04 0.000000e+00 0.000000e+00 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-3000__root_collision"><pose>-7.500000e-04 0.000000e+00 0.000000e+00 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-3000__frame_frame_visual"><pose>-1.060000e-02 0.000000e+00 0.000000e+00 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-3000__frame_collision"><pose>-1.060000e-02 0.000000e+00 0.000000e+00 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>1.640000e-02</mass><inertia><ixx>2.948533e-06</ixx><ixy>0.000000e+00</ixy><ixz>0.000000e+00</ixz><iyy>1.713631e-06</iyy><iyz>-3.879681e-23</iyz><izz>1.924831e-06</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-3000__servo"><pose>-1.894200e-01 -7.471174e-34 3.093304e-18 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-3000__servo_servo_visual"><pose>4.516996e-02 7.471174e-34 -3.093304e-18 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-3000__servo_collision"><pose>4.516996e-02 7.471174e-34 -3.093304e-18 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-3000__tail_collision"><pose>3.206996e-02 7.471174e-34 -3.093304e-18 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-4000__box_visual"><pose>1.081996e-02 5.535324e-35 -3.093304e-18 3.141593e+00 3.673940e-16 -1.570796e+00</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-4000__box_collision"><pose>1.081996e-02 5.535324e-35 -3.093304e-18 3.141593e+00 3.673940e-16 -1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<visual name="component_node-5000__box_visual"><pose>-3.018004e-02 -6.364110e-34 1.927748e-18 2.449294e-16 -2.449294e-16 1.570796e+00</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-5000__box_collision"><pose>-3.018004e-02 -6.364110e-34 1.927748e-18 2.449294e-16 -2.449294e-16 1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<visual name="component_node-6000__root_visual"><pose>-5.143004e-02 -6.701556e-34 7.132497e-18 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-6000__root_collision"><pose>-5.143004e-02 -6.701556e-34 7.132497e-18 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-6000__frame_frame_visual"><pose>-6.128004e-02 -1.113335e-33 9.545051e-18 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-6000__frame_collision"><pose>-6.128004e-02 -1.113335e-33 9.545051e-18 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>4.460000e-02</mass><inertia><ixx>8.765058e-06</ixx><ixy>-9.747835e-37</ixy><ixz>6.084671e-21</ixz><iyy>6.598759e-05</iyy><iyz>-4.517707e-22</iyz><izz>6.760046e-05</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-6000__servo"><pose>-2.731748e-01 -2.878630e-33 1.814309e-17 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-6000__servo_servo_visual"><pose>9.224793e-03 4.220237e-34 -2.259423e-18 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-6000__servo_collision"><pose>9.224793e-03 4.220237e-34 -2.259423e-18 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-6000__tail_collision"><pose>-3.875207e-03 -1.673819e-34 9.491519e-19 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-7000__root_visual"><pose>-5.375207e-03 -2.419154e-34 1.316546e-18 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></visual>
+<collision name="component_node-7000__root_collision"><pose>-5.375207e-03 -2.419154e-34 1.316546e-18 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-7000__frame_frame_visual"><pose>-1.522521e-02 -7.776101e-34 3.729100e-18 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveHinge_Frame.dae</uri></mesh></geometry></visual>
+<collision name="component_node-7000__frame_collision"><pose>-1.522521e-02 -7.776101e-34 3.729100e-18 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.800000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<inertial><mass>2.420000e-02</mass><inertia><ixx>3.764933e-06</ixx><ixy>-5.548060e-38</ixy><ixz>9.869574e-23</ixz><iyy>3.270289e-06</iyy><iyz>-3.378719e-22</iyz><izz>4.167889e-06</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<link name="link_component_node-7000__servo"><pose>-3.185229e-01 -6.174306e-33 2.925017e-17 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<visual name="component_node-7000__servo_servo_visual"><pose>1.687290e-02 1.797461e-33 -4.132669e-18 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<material><ambient>0.98 0.24 0.70 1.00</ambient><diffuse>0.98 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/ActiveCardanHinge_Servo_Holder.dae</uri></mesh></geometry></visual>
+<collision name="component_node-7000__servo_collision"><pose>1.687290e-02 1.797461e-33 -4.132669e-18 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>2.450000e-02 3.400000e-02 1.000000e-02</size></box></geometry></collision>
+<collision name="component_node-7000__tail_collision"><pose>3.772901e-03 1.085014e-33 -9.240942e-19 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>1.500000e-03 3.400000e-02 3.400000e-02</size></box></geometry></collision>
+<visual name="component_node-8000__box_visual"><pose>-1.747710e-02 -2.330613e-33 4.280655e-18 3.141593e+00 5.665539e-16 -1.570796e+00</pose>
+<material><ambient>0.00 0.24 0.70 1.00</ambient><diffuse>0.00 0.24 0.70 1.00</diffuse><specular>0.1 0.1 0.1 1.00</specular></material>
+<geometry><mesh><uri>model://rg_robot/meshes/FixedBrick.dae</uri></mesh></geometry></visual>
+<collision name="component_node-8000__box_collision"><pose>-1.747710e-02 -2.330613e-33 4.280655e-18 3.141593e+00 5.665539e-16 -1.570796e+00</pose>
+<surface><contact><ode><kd>3.333333e+06</kd><kp>9.000000e+04</kp></ode></contact>
+<friction><ode><mu>1.000000e+00</mu>
+<mu2>1.000000e+00</mu2>
+<slip1>1.000000e-02</slip1>
+<slip2>1.000000e-02</slip2></ode>
+<bullet><friction>1.000000e+00</friction>
+<friction2>1.000000e+00</friction2></bullet></friction></surface>
+<geometry><box><size>4.100000e-02 4.100000e-02 3.550000e-02</size></box></geometry></collision>
+<inertial><mass>2.620000e-02</mass><inertia><ixx>4.790729e-06</ixx><ixy>-3.173552e-37</ixy><ixz>1.429721e-21</ixz><iyy>9.478372e-06</iyy><iyz>-5.543396e-22</iyz><izz>1.062801e-05</izz></inertia></inertial>
+<self_collide>True</self_collide></link>
+<joint type="revolute" name="joint_link_component_node-7000__servo_link_component_node-6000__servo"><pose>-2.022521e-02 -1.049536e-33 4.953747e-18 -4.440892e-16 -2.449294e-16 -3.141593e+00</pose>
+<parent>link_component_node-7000__servo</parent>
+<child>link_component_node-6000__servo</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-6000__servo_link_component_node-3000__servo"><pose>-6.628004e-02 -1.338299e-33 1.076970e-17 3.141593e+00 -2.449294e-16 -3.141593e+00</pose>
+<parent>link_component_node-6000__servo</parent>
+<child>link_component_node-3000__servo</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-3000__servo_link_component_node-2000__frame"><pose>-1.560000e-02 0.000000e+00 0.000000e+00 -2.449294e-16 -0.000000e+00 3.141593e+00</pose>
+<parent>link_component_node-3000__servo</parent>
+<child>link_component_node-2000__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-1000__frame_link_component_node-2000__frame"><pose>1.560000e-02 0.000000e+00 0.000000e+00 -3.141593e+00 0.000000e+00 0.000000e+00</pose>
+<parent>link_component_node-1000__frame</parent>
+<child>link_component_node-2000__frame</child>
+<axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
+<use_parent_model_frame>0</use_parent_model_frame>
+<limit><lower>-7.853982e-01</lower>
+<upper>7.853982e-01</upper>
+<effort>1.765800e-01</effort>
+<velocity>5.235988e+00</velocity></limit></axis></joint>
+<joint type="revolute" name="joint_link_component_node-0__box_link_component_node-1000__frame"><pose>2.022521e-02 0.000000e+00 0.000000e+00 0.000000e+00 -0.000000e+00 0.000000e+00</pose>
+<parent>link_component_node-0__box</parent>
+<child>link_component_node-1000__frame</child>
 <axis><xyz>0.000000e+00 1.000000e+00 0.000000e+00</xyz>
 <use_parent_model_frame>0</use_parent_model_frame>
 <limit><lower>-7.853982e-01</lower>
@@ -328,9 +1039,31 @@
 <rv:gain>5.000000e-01</rv:gain></rv:neuron>
 <rv:neuron layer="output" type="Simple" id="node-3-out-0" part_id="node-3"><rv:bias>0.000000e+00</rv:bias>
 <rv:gain>5.000000e-01</rv:gain></rv:neuron>
-<rv:neuron layer="output" type="Simple" id="node-4-out-0" part_id="node-4"><rv:bias>0.000000e+00</rv:bias>
+<rv:neuron layer="output" type="Simple" id="node-10-out-0" part_id="node-10"><rv:bias>0.000000e+00</rv:bias>
 <rv:gain>5.000000e-01</rv:gain></rv:neuron>
-<rv:neuron layer="output" type="Simple" id="node-5-out-0" part_id="node-5"><rv:bias>0.000000e+00</rv:bias>
+<rv:neuron layer="output" type="Simple" id="node-20-out-0" part_id="node-20"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-30-out-0" part_id="node-30"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-100-out-0" part_id="node-100"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-200-out-0" part_id="node-200"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-300-out-0" part_id="node-300"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-600-out-0" part_id="node-600"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-700-out-0" part_id="node-700"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-1000-out-0" part_id="node-1000"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-2000-out-0" part_id="node-2000"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-3000-out-0" part_id="node-3000"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-6000-out-0" part_id="node-6000"><rv:bias>0.000000e+00</rv:bias>
+<rv:gain>5.000000e-01</rv:gain></rv:neuron>
+<rv:neuron layer="output" type="Simple" id="node-7000-out-0" part_id="node-7000"><rv:bias>0.000000e+00</rv:bias>
 <rv:gain>5.000000e-01</rv:gain></rv:neuron></rv:brain>
 <rv:sensor link="link_component_node-0__box" sensor="node-0-imu_sensor" type="imu" id="node-0__node-0-imu_sensor" part_id="node-0" />
 <rv:motor joint="joint_link_component_node-0__box_link_component_node-1__frame" type="position" id="node-1__rotate" part_id="node-1"><rv:pid><rv:p>9.000000e-01</rv:p>
@@ -348,12 +1081,67 @@
 <rv:d>0.000000e+00</rv:d>
 <rv:i_max>0.000000e+00</rv:i_max>
 <rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
-<rv:motor joint="joint_link_component_node-0__box_link_component_node-4__frame" type="position" id="node-4__rotate" part_id="node-4"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:motor joint="joint_link_component_node-0__box_link_component_node-10__frame" type="position" id="node-10__rotate" part_id="node-10"><rv:pid><rv:p>9.000000e-01</rv:p>
 <rv:i>0.000000e+00</rv:i>
 <rv:d>0.000000e+00</rv:d>
 <rv:i_max>0.000000e+00</rv:i_max>
 <rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
-<rv:motor joint="joint_link_component_node-5__servo_link_component_node-0__box" type="position" id="node-5__rotate" part_id="node-5"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:motor joint="joint_link_component_node-10__frame_link_component_node-20__frame" type="position" id="node-20__rotate" part_id="node-20"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-30__servo_link_component_node-20__frame" type="position" id="node-30__rotate" part_id="node-30"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-0__box_link_component_node-100__frame" type="position" id="node-100__rotate" part_id="node-100"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-100__frame_link_component_node-200__frame" type="position" id="node-200__rotate" part_id="node-200"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-300__servo_link_component_node-200__frame" type="position" id="node-300__rotate" part_id="node-300"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-600__servo_link_component_node-300__servo" type="position" id="node-600__rotate" part_id="node-600"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-700__servo_link_component_node-600__servo" type="position" id="node-700__rotate" part_id="node-700"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-0__box_link_component_node-1000__frame" type="position" id="node-1000__rotate" part_id="node-1000"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-1000__frame_link_component_node-2000__frame" type="position" id="node-2000__rotate" part_id="node-2000"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-3000__servo_link_component_node-2000__frame" type="position" id="node-3000__rotate" part_id="node-3000"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-6000__servo_link_component_node-3000__servo" type="position" id="node-6000__rotate" part_id="node-6000"><rv:pid><rv:p>9.000000e-01</rv:p>
+<rv:i>0.000000e+00</rv:i>
+<rv:d>0.000000e+00</rv:d>
+<rv:i_max>0.000000e+00</rv:i_max>
+<rv:i_min>0.000000e+00</rv:i_min></rv:pid></rv:motor>
+<rv:motor joint="joint_link_component_node-7000__servo_link_component_node-6000__servo" type="position" id="node-7000__rotate" part_id="node-7000"><rv:pid><rv:p>9.000000e-01</rv:p>
 <rv:i>0.000000e+00</rv:i>
 <rv:d>0.000000e+00</rv:d>
 <rv:i_max>0.000000e+00</rv:i_max>

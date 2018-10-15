@@ -12,7 +12,7 @@ if __name__ == "__main__":
             manager_cmd=os.path.join(here, "single_robot_manager.py"),
             world_file="worlds/inferno.world",
             # world_file="worlds/my_mesh.world",
-            gazebo_cmd="gazebo",
+            gazebo_cmd="gzserver",
             gazebo_args=["--verbose"],
             plugins_dir_path=os.path.join(rvpath, 'build', 'lib'),
             models_dir_path=os.path.join(rvpath, 'models')

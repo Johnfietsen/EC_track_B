@@ -1,0 +1,4080 @@
+Created Supervisor with:
+        - manager command: /root/projects/EC_track_B/revolve/single_robot_manager.py None
+        - gazebo command: gzserver ['--verbose']
+        - world file: worlds/inferno.world
+        - gazebo plugin dir: /root/projects/EC_track_B/revolve/build/lib
+        - gazebo models dir: /root/projects/EC_track_B/revolve/models
+Launching all processes...
+Launching Gazebo...
+[gazebo-launch] Gazebo multi-robot simulator, version 6.5.1
+[gazebo-launch] Copyright (C) 2012-2015 Open Source Robotics Foundation.
+[gazebo-launch] Released under the Apache 2 License.
+[gazebo-launch] http://gazebosim.org
+[gazebo-launch] 
+[gazebo-launch] [1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[gazebo-launch] AL lib: (WW) alc_initconfig: Failed to initialize backend "pulse"
+[gazebo-launch] [0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11345[0m[1;32m
+[gazebo-launch] ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+[gazebo-launch] [0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m95.179.179.107[0m[1;32m
+[gazebo-launch] ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+[gazebo-launch] [0m[1;32m[0mWorld plugin loaded.
+[gazebo-launch] ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+Launching experiment manager...
+[gazebo] ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+[gazebo] ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+[gazebo] ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+[gazebo] ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+[gazebo] ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+[gazebo] AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': No such file or directory
+[gazebo] [1;31m[Err] [0m[1;31m[[0m[1;31mOpenAL.cc[0m[1;31m:[0m[1;31m77[0m[1;31m] [0m[1;31mUnable to open audio device[[0m[1;31mdefault[0m[1;31m]
+[gazebo]  Audio will be disabled.
+[gazebo] Setting robot state update frequency to 5.
+[gazebo] Processing insert model request ID `139021210`.
+[gazebo] Model `gen__1` inserted, world now contains 2 models.
+[gazebo] [0m
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.5872e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.2384e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.1267e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.4666e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.2602e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.1056e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.2682e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7927e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.2889e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.7083e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.2324e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.1758e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.1378e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.1248e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.2989e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7396e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.1761e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.9143e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.2282e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.2644e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.3609e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.4409e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.5908e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.4922e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.5509e-04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4869e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.7718e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.4849e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4982e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.6946e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0442e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.6247e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.5179e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.5896e+03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.5349e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.2459e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.0055e-05)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4447e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.2730e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.3282e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.8380e-05)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.3183e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4934e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.3827e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.6641e-04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.6611e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0976e-14)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0973e-14)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.9644e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.8637e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.0814e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.9654e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.9737e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.4384e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.0355e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.2225e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.2790e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.3717e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.1347e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.1941e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.5557e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.5490e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.2238e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.1090e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.5522e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4526e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.7327e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.8962e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.5229e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.8692e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.2072e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.4742e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.6711e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.8243e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.9713e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.1005e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.1669e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.1715e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.1151e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.9986e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.1519e+03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.3699e+04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.2916e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.7584e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.3444e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.4558e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.1520e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.0660e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.9297e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.8884e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.9495e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.1616e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.6873e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.5179e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4349e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.8206e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.6879e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.4805e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.6262e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.3493e+04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.2481e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4412e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.2034e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.9676e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.8304e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.0266e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.4459e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.9553e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.3913e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.0139e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.4736e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.7859e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.3146e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.1166e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.7740e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.5061e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.3681e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.7586e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.8959e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.8596e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.3185e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.2349e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.7473e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.9197e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.1719e-05)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.0504e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.2547e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.8595e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7747e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.3646e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0232e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.0761e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.0875e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.1333e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.9212e+04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7705e+04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.5710e+04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.8965e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.6659e+01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.1940e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.1422e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.2604e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.1885e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.9824e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.9803e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.0190e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.1081e-11)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.0422e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.8734e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.4512e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0235e+03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4813e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0369e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.7161e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.2186e+03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4463e+02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.2859e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0252e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.0489e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7124e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.0963e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.0705e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.3022e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7886e+05)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7643e+05)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.8832e+05)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7620e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.9784e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.9236e+04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.5846e-13)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.9748e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.0881e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.6681e+03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.2350e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.6220e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.0900e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.4156e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.0120e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.7113e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-6.5008e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.6420e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.3750e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.8387e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.1918e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.5332e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.0018e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.9092e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.1522e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.4279e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.1734e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7332e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4429e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.1747e+03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.1328e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-8.0574e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.9785e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.4154e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4508e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.2250e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.6268e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.5916e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.2420e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.2519e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.0627e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4655e-11)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.0843e+05)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.7266e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-4.9173e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.3708e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.2123e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.4892e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-7.9441e-12)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.4639e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.3776e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.2398e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.9211e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-5.4073e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-2.6290e+01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-9.6810e-04)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.3638e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.2050e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.5122e-01)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-1.4496e-02)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-3.5796e-03)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=0.0000e+00)
+[gazebo] 
+[gazebo] ODE Message 3: LCP internal error, s <= 0 (s=-0.0000e+00)
+[manager] Got disconnect / connection reset - shutting down.
+Program 'manager' exited normally
+Terminating processes...
