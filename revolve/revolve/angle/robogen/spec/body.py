@@ -39,29 +39,29 @@ def get_body_spec(conf):
             arity=2,
             params=color_params
         ),
-        "ParametricBarJoint": PartSpec(
-            body_part=ParametricBarJoint,
-            arity=2,
-            params=[ParamSpec(
-                "connection_length",
-                default=50,
-                min_value=20,
-                max_value=100,
-                epsilon=conf.body_mutation_epsilon
-            ), ParamSpec(
-                "alpha",
-                default=0,
-                min_value=-0.5 * math.pi,
-                max_value=0.5 * math.pi,
-                epsilon=conf.body_mutation_epsilon
-            ), ParamSpec(
-                "beta",
-                default=0,
-                min_value=0,
-                max_value=0 if conf.enforce_planarity else math.pi,
-                epsilon=conf.body_mutation_epsilon
-            )] + color_params
-        )
+        # "ParametricBarJoint": PartSpec(
+        #     body_part=ParametricBarJoint,
+        #     arity=2,
+        #     params=[ParamSpec(
+        #         "connection_length",
+        #         default=50,
+        #         min_value=20,
+        #         max_value=100,
+        #         epsilon=conf.body_mutation_epsilon
+        #     ), ParamSpec(
+        #         "alpha",
+        #         default=0,
+        #         min_value=-0.5 * math.pi,
+        #         max_value=0.5 * math.pi,
+        #         epsilon=conf.body_mutation_epsilon
+        #     ), ParamSpec(
+        #         "beta",
+        #         default=0,
+        #         min_value=0,
+        #         max_value=0 if conf.enforce_planarity else math.pi,
+        #         epsilon=conf.body_mutation_epsilon
+        #     )] + color_params
+        # )
     }
 
     if conf.enable_wheel_parts:

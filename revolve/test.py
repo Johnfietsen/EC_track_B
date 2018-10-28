@@ -9,7 +9,7 @@ from revolve.util import Supervisor
 
 if __name__ == "__main__":
     supervisor = Supervisor(
-            manager_cmd=os.path.join(here, "tutorial4.py"),
+            manager_cmd=os.path.join(here, "single_robot_manager.py"),
             world_file="worlds/gait-learning.world",
             gazebo_cmd="gazebo",
             gazebo_args=["--verbose"],
