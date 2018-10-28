@@ -73,7 +73,7 @@ parser.add_argument(
 # General population parameters
 parser.add_argument(
     '--population-size',
-    default=50, type=int,
+    default=5, type=int,
     help="The approximate size of the maintained population."
 )
 
@@ -128,7 +128,7 @@ parser.add_argument(
 
 parser.add_argument(
     '--kill-fraction',
-    default=0, type=int,
+    default=0.7, type=int,
     help="Kill all robots that have a fitness below this fraction of the mean."
 )
 
@@ -283,15 +283,8 @@ class OnlineEvoManager(World):
 
         :return:
         """
-        # logger.debug('/////////////////////////// {}'.format(str(self.conf.tournament_size)))
-        # logger.debug('/////////////////////////// {}'.format(str(random.sample(parents, self.conf.tournament_size))))
-        # hey = sorted(random.sample(parents, self.conf.tournament_size),key=lambda r: r.fitness())[-1]
-        # logger.debug('/////////////////////////// {}'.format(str(hey)))
-        # logger.debug('/////////////////////////// {}'.format(str(hey)))
-        # return sorted(random.sample(parents, self.conf.tournament_size),
-        #               key=lambda r: r.fitness())[-1]
-
-        return random.sample(parents, self.conf.tournament_size)[-1]
+        return sorted(random.sample(parents, self.conf.tournament_size),
+                      key=lambda r: r.fitness())[-1]
 
     def select_parents(self):
         """
@@ -380,7 +373,7 @@ class OnlineEvoManager(World):
             # Just kill the desired fraction
             n_kill = int(round(self.conf.kill_fraction *
                                self.conf.population_limit))
-            to_kill = random.shuffle(robots)[:n_kill] #sorted(robots, key=lambda r: r.fitness())[:n_kill]
+            to_kill = sorted(robots, key=lambda r: r.fitness())[:n_kill]
 
         # Never kill more than the required number of robots
         # for two completely different random tournaments (two is a
