@@ -73,7 +73,7 @@ parser.add_argument(
 # General population parameters
 parser.add_argument(
     '--population-size',
-    default=5, type=int,
+    default=50, type=int,
     help="The approximate size of the maintained population."
 )
 
