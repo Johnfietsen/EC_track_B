@@ -1,0 +1,19 @@
+ digraph g{ forcelabels=true;
+1[label=<1<BR/>M0>,color="grey",style=filled,fontsize=8];
+2[label=<2<BR/>M0>,color="grey",style=filled,fontsize=8];
+3 [label=<3<BR />Oscillator M1<BR /> period: 3.648373<BR /> phase_offset: 8.338796<BR /> amplitude: 4.374288>, shape=box,color=red,style=filled,fontsize=8];4 [label=<4<BR />Oscillator M2<BR /> period: 8.002057<BR /> phase_offset: 9.634388<BR /> amplitude: 7.441050>, shape=box,color=red,style=filled,fontsize=8];5 [label=<5<BR />Oscillator M3<BR /> period: 9.601941<BR /> phase_offset: 6.582756<BR /> amplitude: 6.967571>, shape=box,color=red,style=filled,fontsize=8];6 [label=<6<BR />Oscillator M4<BR /> period: 5.248257<BR /> phase_offset: 4.779525<BR /> amplitude: 4.374288>, shape=box,color=red,style=filled,fontsize=8];7 [label=<7<BR />Oscillator M5<BR /> period: 9.601941<BR /> phase_offset: 8.452030<BR /> amplitude: 7.441050>, shape=box,color=red,style=filled,fontsize=8];8 [label=<8<BR />Oscillator M6<BR /> period: 5.248257<BR /> phase_offset: 4.600248<BR /> amplitude: 4.374288>, shape=box,color=red,style=filled,fontsize=8];9 [label=<9<BR />Oscillator M7<BR /> period: 5.248257<BR /> phase_offset: 4.600248<BR /> amplitude: 4.374288>, shape=box,color=red,style=filled,fontsize=8];10 [label=<10<BR />Oscillator M9<BR /> period: 3.220502<BR /> phase_offset: 7.960385<BR /> amplitude: 5.324622>, shape=box,color=red,style=filled,fontsize=8];11 [label=<11<BR />Oscillator M10<BR /> period: 5.248257<BR /> phase_offset: 4.600248<BR /> amplitude: 4.374288>, shape=box,color=red,style=filled,fontsize=8];12 [label=<12<BR />Oscillator M12<BR /> period: 3.220502<BR /> phase_offset: 7.960385<BR /> amplitude: 5.324622>, shape=box,color=red,style=filled,fontsize=8];1 -> 3[label="0.622341 ",fontsize="8"];
+2 -> 3[label="-0.31551 ",fontsize="8"];
+2 -> 4[label="-0.057991 ",fontsize="8"];
+2 -> 5[label="-0.057991 ",fontsize="8"];
+2 -> 6[label="0.905055 ",fontsize="8"];
+2 -> 7[label="-0.057991 ",fontsize="8"];
+2 -> 8[label="0.905055 ",fontsize="8"];
+2 -> 9[label="0.4982 ",fontsize="8"];
+2 -> 10[label="0.279438 ",fontsize="8"];
+2 -> 11[label="0.4982 ",fontsize="8"];
+2 -> 12[label="0.279438 ",fontsize="8"];
+3 -> 3[label="0.895372 ",fontsize="8"];
+4 -> 4[label="0.271304 ",fontsize="8"];
+9 -> 9[label="0.895372 ",fontsize="8"];
+11 -> 11[label="0.895372 ",fontsize="8"];
+ }
