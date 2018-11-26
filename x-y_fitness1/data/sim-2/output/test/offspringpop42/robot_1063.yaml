@@ -1,0 +1,208 @@
+body:
+  params:
+    blue: 0
+    green: 1
+    red: 1
+  type        : Core
+  id          : module0
+  children    :
+    2:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : 0
+          params:
+            blue: 0.7
+            green: 0.7
+            red: 0.7
+          type        : TouchSensor
+          id          : module1sensor-f
+brain:
+  neurons:
+    node1:
+      id: node1
+      layer: input
+      part_id: module1sensor-f
+      type: Input
+    node2:
+      id: node2
+      layer: output
+      part_id: module2
+      type: Oscillator
+    node3:
+      id: node3
+      layer: input
+      part_id: module3sensor-f
+      type: Input
+    node4:
+      id: node4
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module6
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module8
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module9
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node10:
+      id: node10
+      layer: input
+      part_id: module11sensor-f
+      type: Input
+    node11:
+      id: node11
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node1-2:
+      id: node1-2
+      layer: input
+      part_id: module1sensor-f
+      type: Input
+    node3-2:
+      id: node3-2
+      layer: input
+      part_id: module3sensor-f
+      type: Input
+    node10-2:
+      id: node10-2
+      layer: input
+      part_id: module11sensor-f
+      type: Input
+    node-core1:
+      id: node-core1
+      layer: input
+      part_id: module0
+      type: Input
+    node-core2:
+      id: node-core2
+      layer: input
+      part_id: module0
+      type: Input
+    node-core3:
+      id: node-core3
+      layer: input
+      part_id: module0
+      type: Input
+    node-core4:
+      id: node-core4
+      layer: input
+      part_id: module0
+      type: Input
+    node-core5:
+      id: node-core5
+      layer: input
+      part_id: module0
+      type: Input
+    node-core6:
+      id: node-core6
+      layer: input
+      part_id: module0
+      type: Input
+  connections:
+  - dst: node2
+    src: node1
+    weight: -1
+  - dst: node5
+    src: node1
+    weight: -0.741159
+  - dst: node6
+    src: node1
+    weight: 0.482437
+  - dst: node8
+    src: node1
+    weight: 0.482437
+  - dst: node9
+    src: node1
+    weight: -0.147327
+  - dst: node2
+    src: node2
+    weight: -0.557847
+  - dst: node2
+    src: node3
+    weight: 0.051319
+  - dst: node4
+    src: node3
+    weight: -0.147327
+  - dst: node5
+    src: node3
+    weight: -0.443172
+  - dst: node7
+    src: node3
+    weight: 0.358016
+  - dst: node4
+    src: node4
+    weight: 0.19196
+  - dst: node5
+    src: node5
+    weight: -0.557847
+  - dst: node6
+    src: node6
+    weight: 0.19196
+  - dst: node2
+    src: node10
+    weight: 0.051319
+  - dst: node11
+    src: node10
+    weight: -0.147327
+  params:
+    node2:
+      period: 1.94629
+      phase_offset: 1
+      amplitude: 3.80005
+    node4:
+      period: 6.58966
+      phase_offset: 2.89622
+      amplitude: 8.17455
+    node5:
+      period: 6.80982
+      phase_offset: 4.56985
+      amplitude: 3.02555
+    node6:
+      period: 4.05214
+      phase_offset: 5.82442
+      amplitude: 5.83306
+    node7:
+      period: 6.13282
+      phase_offset: 6.55713
+      amplitude: 1.94373
+    node8:
+      period: 5.61388
+      phase_offset: 4.08698
+      amplitude: 6.29603
+    node9:
+      period: 8.65803
+      phase_offset: 2.68672
+      amplitude: 7.29992
+    node11:
+      period: 6.58966
+      phase_offset: 2.0275
+      amplitude: 8.43901

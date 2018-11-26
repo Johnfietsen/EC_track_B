@@ -1,0 +1,7 @@
+ digraph g{ forcelabels=true;
+1 [label=<1<BR />Oscillator M2<BR /> period: 8.805480<BR /> phase_offset: 2.580845<BR /> amplitude: 8.087437>, shape=box,color=red,style=filled,fontsize=8];2 [label=<2<BR />Oscillator M3<BR /> period: 7.974119<BR /> phase_offset: 1.625072<BR /> amplitude: 1.437094>, shape=box,color=red,style=filled,fontsize=8];3 [label=<3<BR />Oscillator M4<BR /> period: 4.075339<BR /> phase_offset: 8.431532<BR /> amplitude: 1.881935>, shape=box,color=red,style=filled,fontsize=8];4[label=<4<BR/>M1>,color="grey",style=filled,fontsize=8];
+5 [label=<5<BR />Oscillator M7<BR /> period: 8.969889<BR /> phase_offset: 4.631362<BR /> amplitude: 3.978552>, shape=box,color=red,style=filled,fontsize=8];4 -> 1[label="-0.661297 ",fontsize="8"];
+4 -> 2[label="0.989566 ",fontsize="8"];
+4 -> 3[label="0.710482 ",fontsize="8"];
+4 -> 5[label="0.76063 ",fontsize="8"];
+ }
