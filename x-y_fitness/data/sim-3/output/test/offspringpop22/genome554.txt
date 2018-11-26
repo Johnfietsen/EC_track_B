@@ -1,0 +1,5 @@
+AJ1 brainmoveFTS_2.000000|2.000000 movef movef addf addl brainperperturb_-0.018896 addr brainmoveTTS_1.000000|1.000000 movef addf movel addr AJ2_0.643647|4.364871|7.440996|7.539445 brainampperturb_-0.507482 AJ2_-0.932405|6.127973|3.121001|9.974820 mover B 
+AJ2 brainmoveTTS_1.000000|1.000000 movel AJ2_-0.915405|7.409326|7.797370|5.697117 movef addf brainmoveTTS_2.000000|2.000000 movef brainmoveFTS_2.000000|1.000000 brainedge_-0.001884 addl addl movel AJ1_0.449783|9.115480|6.775975|4.465198 addf 
+B brainmoveFTS_2.000000|1.000000 addf brainmoveTTS_1.000000|2.000000 movef brainmoveTTS_1.000000|1.000000 moveb brainmoveTTS_3.000000|1.000000 brainmoveTTS_1.000000|1.000000 AJ1_0.184096|9.869987|3.972850|8.418000 addl brainperturb_0.689132 
+C C B addl ST_0.707374 addf moveb brainperturb_-0.923217 
+ST brainampperturb_0.672942 movef addr brainmoveTTS_1.000000|2.000000 
