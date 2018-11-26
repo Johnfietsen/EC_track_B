@@ -1,0 +1,23 @@
+ digraph g{ forcelabels=true;
+1[label=<1<BR/>M0>,color="grey",style=filled,fontsize=8];
+2 [label=<2<BR />Oscillator M1<BR /> period: 1.223008<BR /> phase_offset: 6.902457<BR /> amplitude: 4.698297>, shape=box,color=red,style=filled,fontsize=8];3 [label=<3<BR />Oscillator M2<BR /> period: 4.172762<BR /> phase_offset: 5.184587<BR /> amplitude: 3.968565>, shape=box,color=red,style=filled,fontsize=8];4 [label=<4<BR />Oscillator M3<BR /> period: 2.959341<BR /> phase_offset: 9.253473<BR /> amplitude: 2.529091>, shape=box,color=red,style=filled,fontsize=8];5 [label=<5<BR />Oscillator M4<BR /> period: 1.223008<BR /> phase_offset: 6.902457<BR /> amplitude: 1.676309>, shape=box,color=red,style=filled,fontsize=8];6 [label=<6<BR />Oscillator M5<BR /> period: 4.172762<BR /> phase_offset: 5.184587<BR /> amplitude: 5.035639>, shape=box,color=red,style=filled,fontsize=8];7 [label=<7<BR />Oscillator M6<BR /> period: 2.985566<BR /> phase_offset: 7.592744<BR /> amplitude: 3.485863>, shape=box,color=red,style=filled,fontsize=8];8 [label=<8<BR />Oscillator M7<BR /> period: 1.244236<BR /> phase_offset: 4.278173<BR /> amplitude: 2.364414>, shape=box,color=red,style=filled,fontsize=8];9[label=<9<BR/>M8>,color="grey",style=filled,fontsize=8];
+10[label=<10<BR/>M8>,color="grey",style=filled,fontsize=8];
+11 [label=<11<BR />Oscillator M10<BR /> period: 2.985566<BR /> phase_offset: 7.592744<BR /> amplitude: 3.485863>, shape=box,color=red,style=filled,fontsize=8];12 [label=<12<BR />Oscillator M11<BR /> period: 1.244236<BR /> phase_offset: 4.278173<BR /> amplitude: 2.364414>, shape=box,color=red,style=filled,fontsize=8];13[label=<13<BR/>M12>,color="grey",style=filled,fontsize=8];
+14[label=<14<BR/>M12>,color="grey",style=filled,fontsize=8];
+1 -> 2[label="-1 ",fontsize="8"];
+1 -> 3[label="-0.747282 ",fontsize="8"];
+1 -> 4[label="-1 ",fontsize="8"];
+1 -> 5[label="0.079077 ",fontsize="8"];
+1 -> 6[label="1 ",fontsize="8"];
+1 -> 7[label="0.91964 ",fontsize="8"];
+1 -> 8[label="0.399396 ",fontsize="8"];
+1 -> 11[label="0.91964 ",fontsize="8"];
+1 -> 12[label="0.399396 ",fontsize="8"];
+2 -> 2[label="0.490682 ",fontsize="8"];
+3 -> 3[label="0.490682 ",fontsize="8"];
+4 -> 4[label="-0.321011 ",fontsize="8"];
+9 -> 2[label="0.210955 ",fontsize="8"];
+10 -> 2[label="-0.866174 ",fontsize="8"];
+13 -> 2[label="0.210955 ",fontsize="8"];
+14 -> 2[label="0.153859 ",fontsize="8"];
+ }

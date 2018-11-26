@@ -1,0 +1,451 @@
+body:
+  params:
+    blue: 0
+    green: 1
+    red: 1
+  type        : Core
+  id          : module0
+  children    :
+    3:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 0.58
+        green: 0.08
+        red: 1
+      type        : ActiveHinge
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : 90
+          params:
+            blue: 0
+            green: 0
+            red: 0.7
+          type        : ActiveHinge
+          id          : module2
+          children    :
+            1:
+              slot        : 0
+              orientation : -90
+              params:
+                blue: 0.58
+                green: 0.08
+                red: 1
+              type        : ActiveHinge
+              id          : module3
+              children    :
+                1:
+                  slot        : 0
+                  orientation : 0
+                  params:
+                    blue: 0.58
+                    green: 0.08
+                    red: 1
+                  type        : ActiveHinge
+                  id          : module4
+                  children    :
+                    1:
+                      slot        : 0
+                      orientation : 0
+                      params:
+                        blue: 1
+                        green: 0
+                        red: 0
+                      type        : FixedBrick
+                      id          : module5
+                      children    :
+brain:
+  neurons:
+    node1:
+      id: node1
+      layer: output
+      part_id: module1
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
+      part_id: module2
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module3
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module6
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module9
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module11
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node10:
+      id: node10
+      layer: output
+      part_id: module13
+      type: Oscillator
+    node11:
+      id: node11
+      layer: output
+      part_id: module14
+      type: Oscillator
+    node12:
+      id: node12
+      layer: output
+      part_id: module16
+      type: Oscillator
+    node13:
+      id: node13
+      layer: output
+      part_id: module17
+      type: Oscillator
+    node14:
+      id: node14
+      layer: output
+      part_id: module18
+      type: Oscillator
+    node15:
+      id: node15
+      layer: output
+      part_id: module20
+      type: Oscillator
+    node16:
+      id: node16
+      layer: output
+      part_id: module21
+      type: Oscillator
+    node17:
+      id: node17
+      layer: output
+      part_id: module22
+      type: Oscillator
+    node18:
+      id: node18
+      layer: output
+      part_id: module23
+      type: Oscillator
+    node19:
+      id: node19
+      layer: output
+      part_id: module24
+      type: Oscillator
+    node20:
+      id: node20
+      layer: output
+      part_id: module25
+      type: Oscillator
+    node21:
+      id: node21
+      layer: output
+      part_id: module27
+      type: Oscillator
+    node22:
+      id: node22
+      layer: output
+      part_id: module28
+      type: Oscillator
+    node23:
+      id: node23
+      layer: output
+      part_id: module30
+      type: Oscillator
+    node24:
+      id: node24
+      layer: output
+      part_id: module31
+      type: Oscillator
+    node25:
+      id: node25
+      layer: output
+      part_id: module32
+      type: Oscillator
+    node26:
+      id: node26
+      layer: output
+      part_id: module33
+      type: Oscillator
+    node27:
+      id: node27
+      layer: output
+      part_id: module34
+      type: Oscillator
+    node28:
+      id: node28
+      layer: output
+      part_id: module35
+      type: Oscillator
+    node29:
+      id: node29
+      layer: output
+      part_id: module37
+      type: Oscillator
+    node30:
+      id: node30
+      layer: output
+      part_id: module38
+      type: Oscillator
+    node31:
+      id: node31
+      layer: output
+      part_id: module39
+      type: Oscillator
+    node32:
+      id: node32
+      layer: output
+      part_id: module40
+      type: Oscillator
+    node33:
+      id: node33
+      layer: output
+      part_id: module45
+      type: Oscillator
+    node34:
+      id: node34
+      layer: output
+      part_id: module47
+      type: Oscillator
+    node35:
+      id: node35
+      layer: output
+      part_id: module48
+      type: Oscillator
+    node36:
+      id: node36
+      layer: output
+      part_id: module49
+      type: Oscillator
+    node37:
+      id: node37
+      layer: output
+      part_id: module50
+      type: Oscillator
+    node38:
+      id: node38
+      layer: output
+      part_id: module51
+      type: Oscillator
+    node39:
+      id: node39
+      layer: output
+      part_id: module52
+      type: Oscillator
+    node40:
+      id: node40
+      layer: output
+      part_id: module54
+      type: Oscillator
+    node-core1:
+      id: node-core1
+      layer: input
+      part_id: module0
+      type: Input
+    node-core2:
+      id: node-core2
+      layer: input
+      part_id: module0
+      type: Input
+    node-core3:
+      id: node-core3
+      layer: input
+      part_id: module0
+      type: Input
+    node-core4:
+      id: node-core4
+      layer: input
+      part_id: module0
+      type: Input
+    node-core5:
+      id: node-core5
+      layer: input
+      part_id: module0
+      type: Input
+    node-core6:
+      id: node-core6
+      layer: input
+      part_id: module0
+      type: Input
+  params:
+    node1:
+      period: 4.12855
+      phase_offset: 1.15474
+      amplitude: 4.07405
+    node2:
+      period: 4.70525
+      phase_offset: 5.65121
+      amplitude: 8.53333
+    node3:
+      period: 3.50502
+      phase_offset: 2.37769
+      amplitude: 2.3093
+    node4:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node5:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node6:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node7:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node8:
+      period: 8.41302
+      phase_offset: 3.49241
+      amplitude: 5.15974
+    node9:
+      period: 7.57433
+      phase_offset: 3.81097
+      amplitude: 2.3288
+    node10:
+      period: 6.87488
+      phase_offset: 7.42722
+      amplitude: 1.80962
+    node11:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node12:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node13:
+      period: 8.45016
+      phase_offset: 5.27357
+      amplitude: 4.73696
+    node14:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node15:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node16:
+      period: 8.41302
+      phase_offset: 3.49241
+      amplitude: 5.15974
+    node17:
+      period: 7.57433
+      phase_offset: 3.81097
+      amplitude: 2.3288
+    node18:
+      period: 6.87488
+      phase_offset: 7.42722
+      amplitude: 1.80962
+    node19:
+      period: 8.45016
+      phase_offset: 5.27357
+      amplitude: 4.73696
+    node20:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node21:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node22:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node23:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node24:
+      period: 8.41302
+      phase_offset: 3.49241
+      amplitude: 5.15974
+    node25:
+      period: 7.57433
+      phase_offset: 3.81097
+      amplitude: 2.3288
+    node26:
+      period: 6.87488
+      phase_offset: 7.42722
+      amplitude: 1.80962
+    node27:
+      period: 8.45016
+      phase_offset: 5.27357
+      amplitude: 4.73696
+    node28:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node29:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node30:
+      period: 8.41302
+      phase_offset: 3.49241
+      amplitude: 5.15974
+    node31:
+      period: 7.57433
+      phase_offset: 3.81097
+      amplitude: 2.3288
+    node32:
+      period: 6.87488
+      phase_offset: 7.42722
+      amplitude: 1.80962
+    node33:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node34:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381
+    node35:
+      period: 8.41302
+      phase_offset: 3.49241
+      amplitude: 5.15974
+    node36:
+      period: 7.57433
+      phase_offset: 3.81097
+      amplitude: 2.3288
+    node37:
+      period: 6.87488
+      phase_offset: 7.42722
+      amplitude: 1.80962
+    node38:
+      period: 8.45016
+      phase_offset: 5.27357
+      amplitude: 4.73696
+    node39:
+      period: 8.35783
+      phase_offset: 7.06121
+      amplitude: 1.32055
+    node40:
+      period: 3.19095
+      phase_offset: 6.15123
+      amplitude: 7.91381

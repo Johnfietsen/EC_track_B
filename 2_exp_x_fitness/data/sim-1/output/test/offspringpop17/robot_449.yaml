@@ -1,0 +1,142 @@
+body:
+  params:
+    blue: 0
+    green: 1
+    red: 1
+  type        : Core
+  id          : module0
+  children    :
+    2:
+      slot        : 0
+      orientation : 90
+      params:
+        blue: 0
+        green: 0
+        red: 0.7
+      type        : ActiveHinge
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : -90
+          params:
+            blue: 1
+            green: 0
+            red: 0
+          type        : FixedBrick
+          id          : module2
+          children    :
+brain:
+  neurons:
+    node1:
+      id: node1
+      layer: output
+      part_id: module1
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
+      part_id: module3
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module13
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module14
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module15
+      type: Oscillator
+    node-core1:
+      id: node-core1
+      layer: input
+      part_id: module0
+      type: Input
+    node-core2:
+      id: node-core2
+      layer: input
+      part_id: module0
+      type: Input
+    node-core3:
+      id: node-core3
+      layer: input
+      part_id: module0
+      type: Input
+    node-core4:
+      id: node-core4
+      layer: input
+      part_id: module0
+      type: Input
+    node-core5:
+      id: node-core5
+      layer: input
+      part_id: module0
+      type: Input
+    node-core6:
+      id: node-core6
+      layer: input
+      part_id: module0
+      type: Input
+  params:
+    node1:
+      period: 10
+      phase_offset: 6.68115
+      amplitude: 1
+    node2:
+      period: 6.24641
+      phase_offset: 2.54979
+      amplitude: 8.04931
+    node3:
+      period: 9.61508
+      phase_offset: 7.66232
+      amplitude: 2.37249
+    node4:
+      period: 8.36623
+      phase_offset: 9.09634
+      amplitude: 3.40974
+    node5:
+      period: 1.64028
+      phase_offset: 9.65193
+      amplitude: 4.64089
+    node6:
+      period: 9.61508
+      phase_offset: 7.66232
+      amplitude: 2.37249
+    node7:
+      period: 8.36623
+      phase_offset: 9.09634
+      amplitude: 3.40974
+    node8:
+      period: 9.61508
+      phase_offset: 7.66232
+      amplitude: 2.37249
+    node9:
+      period: 8.36623
+      phase_offset: 9.09634
+      amplitude: 3.40974

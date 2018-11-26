@@ -1,0 +1,152 @@
+body:
+  params:
+    blue: 0
+    green: 1
+    red: 1
+  type        : Core
+  id          : module0
+  children    :
+    3:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : 0
+          params:
+            blue: 0.58
+            green: 0.08
+            red: 1
+          type        : ActiveHinge
+          id          : module2
+          children    :
+            1:
+              slot        : 0
+              orientation : 90
+              params:
+                blue: 0
+                green: 0
+                red: 0.7
+              type        : ActiveHinge
+              id          : module3
+              children    :
+                1:
+                  slot        : 0
+                  orientation : -90
+                  params:
+                    blue: 1
+                    green: 0
+                    red: 0
+                  type        : FixedBrick
+                  id          : module4
+                  children    :
+                    2:
+                      slot        : 0
+                      orientation : 0
+                      params:
+                        blue: 1
+                        green: 0
+                        red: 0
+                      type        : FixedBrick
+                      id          : module8
+brain:
+  neurons:
+    node1:
+      id: node1
+      layer: output
+      part_id: module2
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
+      part_id: module3
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node4:
+      id: node4
+      layer: input
+      part_id: module7sensor-l
+      type: Input
+    node5:
+      id: node5
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node4-2:
+      id: node4-2
+      layer: input
+      part_id: module7sensor-l
+      type: Input
+    node-core1:
+      id: node-core1
+      layer: input
+      part_id: module0
+      type: Input
+    node-core2:
+      id: node-core2
+      layer: input
+      part_id: module0
+      type: Input
+    node-core3:
+      id: node-core3
+      layer: input
+      part_id: module0
+      type: Input
+    node-core4:
+      id: node-core4
+      layer: input
+      part_id: module0
+      type: Input
+    node-core5:
+      id: node-core5
+      layer: input
+      part_id: module0
+      type: Input
+    node-core6:
+      id: node-core6
+      layer: input
+      part_id: module0
+      type: Input
+  connections:
+  - dst: node1
+    src: node1
+    weight: 0.856988
+  - dst: node1
+    src: node4
+    weight: -0.129087
+  - dst: node2
+    src: node4
+    weight: 0.304261
+  - dst: node3
+    src: node4
+    weight: -0.179729
+  - dst: node5
+    src: node4
+    weight: 0.587057
+  params:
+    node1:
+      period: 6.083
+      phase_offset: 1.45971
+      amplitude: 10
+    node2:
+      period: 4.55096
+      phase_offset: 6.3851
+      amplitude: 7.11397
+    node3:
+      period: 6.41569
+      phase_offset: 5.89041
+      amplitude: 5.50783
+    node5:
+      period: 1.44587
+      phase_offset: 5.32507
+      amplitude: 7.50459

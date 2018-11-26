@@ -1,0 +1,19 @@
+ digraph g{ forcelabels=true;
+1[label=<1<BR/>M0>,color="grey",style=filled,fontsize=8];
+2 [label=<2<BR />Oscillator M2<BR /> period: 1.640277<BR /> phase_offset: 10.000000<BR /> amplitude: 5.820157>, shape=box,color=red,style=filled,fontsize=8];3 [label=<3<BR />Oscillator M3<BR /> period: 3.067024<BR /> phase_offset: 4.472882<BR /> amplitude: 4.866434>, shape=box,color=red,style=filled,fontsize=8];4 [label=<4<BR />Oscillator M4<BR /> period: 1.013880<BR /> phase_offset: 6.446477<BR /> amplitude: 6.785434>, shape=box,color=red,style=filled,fontsize=8];5[label=<5<BR/>M5>,color="grey",style=filled,fontsize=8];
+6 [label=<6<BR />Oscillator M7<BR /> period: 1.013880<BR /> phase_offset: 6.446477<BR /> amplitude: 6.785434>, shape=box,color=red,style=filled,fontsize=8];7 [label=<7<BR />Oscillator M9<BR /> period: 1.640277<BR /> phase_offset: 9.651928<BR /> amplitude: 6.446784>, shape=box,color=red,style=filled,fontsize=8];8 [label=<8<BR />Oscillator M10<BR /> period: 3.067024<BR /> phase_offset: 2.877320<BR /> amplitude: 4.590116>, shape=box,color=red,style=filled,fontsize=8];9 [label=<9<BR />Oscillator M11<BR /> period: 1.013880<BR /> phase_offset: 6.956307<BR /> amplitude: 6.785434>, shape=box,color=red,style=filled,fontsize=8];10 [label=<10<BR />Oscillator M13<BR /> period: 1.640277<BR /> phase_offset: 9.510153<BR /> amplitude: 4.640894>, shape=box,color=red,style=filled,fontsize=8];11 [label=<11<BR />Oscillator M15<BR /> period: 1.640277<BR /> phase_offset: 9.651928<BR /> amplitude: 4.640894>, shape=box,color=red,style=filled,fontsize=8];1 -> 2[label="1 ",fontsize="8"];
+1 -> 3[label="-0.499769 ",fontsize="8"];
+1 -> 4[label="-0.330877 ",fontsize="8"];
+1 -> 6[label="-0.330877 ",fontsize="8"];
+1 -> 7[label="-0.056748 ",fontsize="8"];
+1 -> 10[label="-0.056748 ",fontsize="8"];
+1 -> 11[label="-0.056748 ",fontsize="8"];
+2 -> 2[label="-0.956513 ",fontsize="8"];
+3 -> 3[label="-0.956513 ",fontsize="8"];
+5 -> 3[label="-1 ",fontsize="8"];
+5 -> 8[label="-0.499769 ",fontsize="8"];
+5 -> 9[label="-0.330877 ",fontsize="8"];
+7 -> 7[label="-0.956513 ",fontsize="8"];
+9 -> 9[label="-0.624987 ",fontsize="8"];
+10 -> 10[label="-0.624987 ",fontsize="8"];
+ }
