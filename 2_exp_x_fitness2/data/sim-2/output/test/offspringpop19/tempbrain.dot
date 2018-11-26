@@ -1,0 +1,27 @@
+ digraph g{ forcelabels=true;
+1 [label=<1<BR />Oscillator M1<BR /> period: 9.247598<BR /> phase_offset: 5.159877<BR /> amplitude: 5.157404>, shape=box,color=red,style=filled,fontsize=8];2 [label=<2<BR />Oscillator M2<BR /> period: 5.323179<BR /> phase_offset: 3.392057<BR /> amplitude: 4.118694>, shape=box,color=red,style=filled,fontsize=8];3[label=<3<BR/>M3>,color="grey",style=filled,fontsize=8];
+4[label=<4<BR/>M4>,color="grey",style=filled,fontsize=8];
+5 [label=<5<BR />Oscillator M5<BR /> period: 6.534556<BR /> phase_offset: 2.720144<BR /> amplitude: 5.649933>, shape=box,color=red,style=filled,fontsize=8];6 [label=<6<BR />Oscillator M6<BR /> period: 2.030112<BR /> phase_offset: 1.000000<BR /> amplitude: 1.000000>, shape=box,color=red,style=filled,fontsize=8];7 [label=<7<BR />Oscillator M8<BR /> period: 9.365577<BR /> phase_offset: 6.096599<BR /> amplitude: 1.470932>, shape=box,color=red,style=filled,fontsize=8];8 [label=<8<BR />Oscillator M9<BR /> period: 5.578927<BR /> phase_offset: 7.238866<BR /> amplitude: 2.868294>, shape=box,color=red,style=filled,fontsize=8];9 [label=<9<BR />Oscillator M10<BR /> period: 2.220984<BR /> phase_offset: 3.468417<BR /> amplitude: 4.167832>, shape=box,color=red,style=filled,fontsize=8];10 [label=<10<BR />Oscillator M12<BR /> period: 9.365577<BR /> phase_offset: 6.925313<BR /> amplitude: 2.155389>, shape=box,color=red,style=filled,fontsize=8];11 [label=<11<BR />Oscillator M13<BR /> period: 5.578927<BR /> phase_offset: 7.238866<BR /> amplitude: 2.868294>, shape=box,color=red,style=filled,fontsize=8];12[label=<12<BR/>M14>,color="grey",style=filled,fontsize=8];
+13[label=<13<BR/>M15>,color="grey",style=filled,fontsize=8];
+14 [label=<14<BR />Oscillator M16<BR /> period: 2.030112<BR /> phase_offset: 3.217456<BR /> amplitude: 1.952430>, shape=box,color=red,style=filled,fontsize=8];15[label=<15<BR/>M14>,color="grey",style=filled,fontsize=8];
+1 -> 1[label="-0.052673 ",fontsize="8"];
+2 -> 2[label="0.408681 ",fontsize="8"];
+3 -> 1[label="1 ",fontsize="8"];
+3 -> 2[label="1 ",fontsize="8"];
+3 -> 7[label="0.178943 ",fontsize="8"];
+3 -> 8[label="-0.918322 ",fontsize="8"];
+3 -> 9[label="-0.205235 ",fontsize="8"];
+3 -> 10[label="0.178943 ",fontsize="8"];
+3 -> 11[label="-0.918322 ",fontsize="8"];
+4 -> 1[label="0.610267 ",fontsize="8"];
+4 -> 5[label="-1 ",fontsize="8"];
+4 -> 6[label="-0.778501 ",fontsize="8"];
+5 -> 5[label="-0.985035 ",fontsize="8"];
+6 -> 6[label="0.408681 ",fontsize="8"];
+7 -> 7[label="0.408681 ",fontsize="8"];
+9 -> 9[label="0.408681 ",fontsize="8"];
+12 -> 5[label="0.859339 ",fontsize="8"];
+13 -> 1[label="0.610267 ",fontsize="8"];
+13 -> 14[label="-0.778501 ",fontsize="8"];
+15 -> 1[label="0.610267 ",fontsize="8"];
+ }

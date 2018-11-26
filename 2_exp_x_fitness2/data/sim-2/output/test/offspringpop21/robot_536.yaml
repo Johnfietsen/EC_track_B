@@ -1,0 +1,247 @@
+body:
+  params:
+    blue: 0
+    green: 1
+    red: 1
+  type        : Core
+  id          : module0
+  children    :
+    3:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : 90
+          params:
+            blue: 0
+            green: 0
+            red: 0.7
+          type        : ActiveHinge
+          id          : module2
+          children    :
+            1:
+              slot        : 0
+              orientation : 0
+              params:
+                blue: 0
+                green: 0
+                red: 0.7
+              type        : ActiveHinge
+              id          : module3
+              children    :
+                1:
+                  slot        : 0
+                  orientation : 0
+                  params:
+                    blue: 0
+                    green: 0
+                    red: 0.7
+                  type        : ActiveHinge
+                  id          : module4
+                  children    :
+                    1:
+                      slot        : 0
+                      orientation : -90
+                      params:
+                        blue: 1
+                        green: 0
+                        red: 0
+                      type        : FixedBrick
+                      id          : module5
+                      children    :
+                        1:
+                          slot        : 0
+                          orientation : 0
+                          params:
+                            blue: 0.58
+                            green: 0.08
+                            red: 1
+                          type        : ActiveHinge
+                          id          : module6
+                          children    :
+                            1:
+                              slot        : 0
+                              orientation : 90
+                              params:
+                                blue: 0
+                                green: 0
+                                red: 0.7
+                              type        : ActiveHinge
+                              id          : module7
+                              children    :
+                                1:
+                                  slot        : 0
+                                  orientation : -90
+                                  params:
+                                    blue: 1
+                                    green: 0
+                                    red: 0
+                                  type        : FixedBrick
+                                  id          : module8
+                                  children    :
+brain:
+  neurons:
+    node1:
+      id: node1
+      layer: output
+      part_id: module2
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
+      part_id: module3
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module6
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module9
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module14
+      type: Oscillator
+    node10:
+      id: node10
+      layer: output
+      part_id: module15
+      type: Oscillator
+    node11:
+      id: node11
+      layer: output
+      part_id: module16
+      type: Oscillator
+    node12:
+      id: node12
+      layer: output
+      part_id: module17
+      type: Oscillator
+    node13:
+      id: node13
+      layer: output
+      part_id: module18
+      type: Oscillator
+    node14:
+      id: node14
+      layer: output
+      part_id: module19
+      type: Oscillator
+    node-core1:
+      id: node-core1
+      layer: input
+      part_id: module0
+      type: Input
+    node-core2:
+      id: node-core2
+      layer: input
+      part_id: module0
+      type: Input
+    node-core3:
+      id: node-core3
+      layer: input
+      part_id: module0
+      type: Input
+    node-core4:
+      id: node-core4
+      layer: input
+      part_id: module0
+      type: Input
+    node-core5:
+      id: node-core5
+      layer: input
+      part_id: module0
+      type: Input
+    node-core6:
+      id: node-core6
+      layer: input
+      part_id: module0
+      type: Input
+  params:
+    node1:
+      period: 2.29417
+      phase_offset: 5.2216
+      amplitude: 9.87373
+    node2:
+      period: 4.21482
+      phase_offset: 8.85435
+      amplitude: 1.04854
+    node3:
+      period: 2.29417
+      phase_offset: 6.17151
+      amplitude: 9.40817
+    node4:
+      period: 5.57893
+      phase_offset: 7.23887
+      amplitude: 2.86829
+    node5:
+      period: 5.5473
+      phase_offset: 8.91631
+      amplitude: 3.92887
+    node6:
+      period: 5.5473
+      phase_offset: 8.91631
+      amplitude: 3.92887
+    node7:
+      period: 5.5473
+      phase_offset: 8.91631
+      amplitude: 3.92887
+    node8:
+      period: 5.5473
+      phase_offset: 8.91631
+      amplitude: 3.92887
+    node9:
+      period: 5.5473
+      phase_offset: 8.91631
+      amplitude: 3.92887
+    node10:
+      period: 5.5473
+      phase_offset: 8.91631
+      amplitude: 3.92887
+    node11:
+      period: 9.36558
+      phase_offset: 6.16814
+      amplitude: 1.49118
+    node12:
+      period: 5.57893
+      phase_offset: 7.23887
+      amplitude: 2.86829
+    node13:
+      period: 4.21482
+      phase_offset: 8.85435
+      amplitude: 1.04854
+    node14:
+      period: 2.29417
+      phase_offset: 6.17151
+      amplitude: 9.40817

@@ -1,0 +1,105 @@
+body:
+  params:
+    blue: 0
+    green: 1
+    red: 1
+  type        : Core
+  id          : module0
+  children    :
+    2:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module1
+      children    :
+brain:
+  neurons:
+    node1:
+      id: node1
+      layer: output
+      part_id: module2
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
+      part_id: module3
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module6
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module8
+      type: Oscillator
+    node-core1:
+      id: node-core1
+      layer: input
+      part_id: module0
+      type: Input
+    node-core2:
+      id: node-core2
+      layer: input
+      part_id: module0
+      type: Input
+    node-core3:
+      id: node-core3
+      layer: input
+      part_id: module0
+      type: Input
+    node-core4:
+      id: node-core4
+      layer: input
+      part_id: module0
+      type: Input
+    node-core5:
+      id: node-core5
+      layer: input
+      part_id: module0
+      type: Input
+    node-core6:
+      id: node-core6
+      layer: input
+      part_id: module0
+      type: Input
+  params:
+    node1:
+      period: 8.1864
+      phase_offset: 9.1483
+      amplitude: 9.20784
+    node2:
+      period: 6.96688
+      phase_offset: 4.35611
+      amplitude: 3.01708
+    node3:
+      period: 1.9713
+      phase_offset: 2.02308
+      amplitude: 7.03022
+    node4:
+      period: 1.72981
+      phase_offset: 2.89199
+      amplitude: 4.95883
+    node5:
+      period: 9.88297
+      phase_offset: 9.1483
+      amplitude: 9.20784
+    node6:
+      period: 6.96688
+      phase_offset: 4.35611
+      amplitude: 3.01708
