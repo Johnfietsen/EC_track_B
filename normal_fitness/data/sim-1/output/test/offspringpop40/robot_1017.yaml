@@ -10,61 +10,644 @@ body:
       slot        : 0
       orientation : 0
       params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-l
-    1:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-f
-    2:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-r
+        blue: 0.58
+        green: 0.08
+        red: 1
+      type        : ActiveHinge
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : 0
+          params:
+            blue: 1
+            green: 0
+            red: 0
+          type        : FixedBrick
+          id          : module2
+          children    :
+            1:
+              slot        : 0
+              orientation : 90
+              params:
+                blue: 0
+                green: 0
+                red: 0.7
+              type        : ActiveHinge
+              id          : module3
+              children    :
+                1:
+                  slot        : 0
+                  orientation : 0
+                  params:
+                    blue: 0
+                    green: 0
+                    red: 0.7
+                  type        : ActiveHinge
+                  id          : module4
+                  children    :
+                    1:
+                      slot        : 0
+                      orientation : 0
+                      params:
+                        blue: 0
+                        green: 0
+                        red: 0.7
+                      type        : ActiveHinge
+                      id          : module5
+                      children    :
+                        1:
+                          slot        : 0
+                          orientation : -90
+                          params:
+                            blue: 1
+                            green: 0
+                            red: 0
+                          type        : FixedBrick
+                          id          : module6
+                          children    :
+                            1:
+                              slot        : 0
+                              orientation : 0
+                              params:
+                                blue: 0.58
+                                green: 0.08
+                                red: 1
+                              type        : ActiveHinge
+                              id          : module7
+                              children    :
+                                1:
+                                  slot        : 0
+                                  orientation : 90
+                                  params:
+                                    blue: 0
+                                    green: 0
+                                    red: 0.7
+                                  type        : ActiveHinge
+                                  id          : module8
+                                  children    :
+                                    1:
+                                      slot        : 0
+                                      orientation : -90
+                                      params:
+                                        blue: 0.58
+                                        green: 0.08
+                                        red: 1
+                                      type        : ActiveHinge
+                                      id          : module9
+                                      children    :
+                                        1:
+                                          slot        : 0
+                                          orientation : 90
+                                          params:
+                                            blue: 0
+                                            green: 0
+                                            red: 0.7
+                                          type        : ActiveHinge
+                                          id          : module10
+                                          children    :
+                                            1:
+                                              slot        : 0
+                                              orientation : -90
+                                              params:
+                                                blue: 1
+                                                green: 0
+                                                red: 0
+                                              type        : FixedBrick
+                                              id          : module11
+                                              children    :
+                                                1:
+                                                  slot        : 0
+                                                  orientation : 0
+                                                  params:
+                                                    blue: 0.58
+                                                    green: 0.08
+                                                    red: 1
+                                                  type        : ActiveHinge
+                                                  id          : module12
+                                                  children    :
+                                                    1:
+                                                      slot        : 0
+                                                      orientation : 0
+                                                      params:
+                                                        blue: 0.58
+                                                        green: 0.08
+                                                        red: 1
+                                                      type        : ActiveHinge
+                                                      id          : module13
+                                                      children    :
+                                                        1:
+                                                          slot        : 0
+                                                          orientation : 90
+                                                          params:
+                                                            blue: 0
+                                                            green: 0
+                                                            red: 0.7
+                                                          type        : ActiveHinge
+                                                          id          : module14
+                                                          children    :
+                                                            1:
+                                                              slot        : 0
+                                                              orientation : -90
+                                                              params:
+                                                                blue: 1
+                                                                green: 0
+                                                                red: 0
+                                                              type        : FixedBrick
+                                                              id          : module15
+                                                              children    :
+                                                                1:
+                                                                  slot        : 0
+                                                                  orientation : 0
+                                                                  params:
+                                                                    blue: 0.58
+                                                                    green: 0.08
+                                                                    red: 1
+                                                                  type        : ActiveHinge
+                                                                  id          : module16
+                                                                2:
+                                                                  slot        : 0
+                                                                  orientation : 0
+                                                                  params:
+                                                                    blue: 0.58
+                                                                    green: 0.08
+                                                                    red: 1
+                                                                  type        : ActiveHinge
+                                                                  id          : module18
+                                                                  children    :
+                                                                    1:
+                                                                      slot        : 0
+                                                                      orientation : 0
+                                                                      params:
+                                                                        blue: 0.58
+                                                                        green: 0.08
+                                                                        red: 1
+                                                                      type        : ActiveHinge
+                                                                      id          : module19
+                                                                      children    :
+                                                                        1:
+                                                                          slot        : 0
+                                                                          orientation : 0
+                                                                          params:
+                                                                            blue: 1
+                                                                            green: 0
+                                                                            red: 0
+                                                                          type        : FixedBrick
+                                                                          id          : module20
+                                                                          children    :
+                                                                            1:
+                                                                              slot        : 0
+                                                                              orientation : 0
+                                                                              params:
+                                                                                blue: 0.58
+                                                                                green: 0.08
+                                                                                red: 1
+                                                                              type        : ActiveHinge
+                                                                              id          : module21
+                                                                              children    :
+                                                                                1:
+                                                                                  slot        : 0
+                                                                                  orientation : 0
+                                                                                  params:
+                                                                                    blue: 1
+                                                                                    green: 0
+                                                                                    red: 0
+                                                                                  type        : FixedBrick
+                                                                                  id          : module22
+                                                                                  children    :
+                                                                                    1:
+                                                                                      slot        : 0
+                                                                                      orientation : 0
+                                                                                      params:
+                                                                                        blue: 0.58
+                                                                                        green: 0.08
+                                                                                        red: 1
+                                                                                      type        : ActiveHinge
+                                                                                      id          : module23
+                                                                                      children    :
+                                                                                        1:
+                                                                                          slot        : 0
+                                                                                          orientation : 0
+                                                                                          params:
+                                                                                            blue: 0.58
+                                                                                            green: 0.08
+                                                                                            red: 1
+                                                                                          type        : ActiveHinge
+                                                                                          id          : module24
+                                                                                          children    :
+                                                                                            1:
+                                                                                              slot        : 0
+                                                                                              orientation : 90
+                                                                                              params:
+                                                                                                blue: 0
+                                                                                                green: 0
+                                                                                                red: 0.7
+                                                                                              type        : ActiveHinge
+                                                                                              id          : module25
+                                                                                              children    :
+                                                                                                1:
+                                                                                                  slot        : 0
+                                                                                                  orientation : -90
+                                                                                                  params:
+                                                                                                    blue: 1
+                                                                                                    green: 0
+                                                                                                    red: 0
+                                                                                                  type        : FixedBrick
+                                                                                                  id          : module26
+                                                                                                  children    :
+                                                                                                    1:
+                                                                                                      slot        : 0
+                                                                                                      orientation : 0
+                                                                                                      params:
+                                                                                                        blue: 0.58
+                                                                                                        green: 0.08
+                                                                                                        red: 1
+                                                                                                      type        : ActiveHinge
+                                                                                                      id          : module27
+                                                                                                      children    :
+                                                                                                        1:
+                                                                                                          slot        : 0
+                                                                                                          orientation : 90
+                                                                                                          params:
+                                                                                                            blue: 0
+                                                                                                            green: 0
+                                                                                                            red: 0.7
+                                                                                                          type        : ActiveHinge
+                                                                                                          id          : module28
+                                                                                                          children    :
+                                                                                                            1:
+                                                                                                              slot        : 0
+                                                                                                              orientation : -90
+                                                                                                              params:
+                                                                                                                blue: 1
+                                                                                                                green: 0
+                                                                                                                red: 0
+                                                                                                              type        : FixedBrick
+                                                                                                              id          : module29
+                                                                                                              children    :
+                                                                                                                3:
+                                                                                                                  slot        : 0
+                                                                                                                  orientation : 90
+                                                                                                                  params:
+                                                                                                                    blue: 0
+                                                                                                                    green: 0
+                                                                                                                    red: 0.7
+                                                                                                                  type        : ActiveHinge
+                                                                                                                  id          : module31
+                                                                                                                1:
+                                                                                                                  slot        : 0
+                                                                                                                  orientation : 0
+                                                                                                                  params:
+                                                                                                                    blue: 0.58
+                                                                                                                    green: 0.08
+                                                                                                                    red: 1
+                                                                                                                  type        : ActiveHinge
+                                                                                                                  id          : module30
+                                                                                                                2:
+                                                                                                                  slot        : 0
+                                                                                                                  orientation : 0
+                                                                                                                  params:
+                                                                                                                    blue: 0.58
+                                                                                                                    green: 0.08
+                                                                                                                    red: 1
+                                                                                                                  type        : ActiveHinge
+                                                                                                                  id          : module32
+                                                                                                                  children    :
+                                                                                                                    1:
+                                                                                                                      slot        : 0
+                                                                                                                      orientation : 0
+                                                                                                                      params:
+                                                                                                                        blue: 0.58
+                                                                                                                        green: 0.08
+                                                                                                                        red: 1
+                                                                                                                      type        : ActiveHinge
+                                                                                                                      id          : module33
+                                                                                                                      children    :
+                                                                                                                        1:
+                                                                                                                          slot        : 0
+                                                                                                                          orientation : 90
+                                                                                                                          params:
+                                                                                                                            blue: 0
+                                                                                                                            green: 0
+                                                                                                                            red: 0.7
+                                                                                                                          type        : ActiveHinge
+                                                                                                                          id          : module34
+                                                                                                                          children    :
+                                                                                                                            1:
+                                                                                                                              slot        : 0
+                                                                                                                              orientation : -90
+                                                                                                                              params:
+                                                                                                                                blue: 1
+                                                                                                                                green: 0
+                                                                                                                                red: 0
+                                                                                                                              type        : FixedBrick
+                                                                                                                              id          : module35
+                                                                                                                              children    :
+                                                                                                                                1:
+                                                                                                                                  slot        : 0
+                                                                                                                                  orientation : 0
+                                                                                                                                  params:
+                                                                                                                                    blue: 0.58
+                                                                                                                                    green: 0.08
+                                                                                                                                    red: 1
+                                                                                                                                  type        : ActiveHinge
+                                                                                                                                  id          : module36
+                                                                                                                                  children    :
+                                                                                                                                    1:
+                                                                                                                                      slot        : 0
+                                                                                                                                      orientation : 0
+                                                                                                                                      params:
+                                                                                                                                        blue: 1
+                                                                                                                                        green: 0
+                                                                                                                                        red: 0
+                                                                                                                                      type        : FixedBrick
+                                                                                                                                      id          : module37
+                                                                                                                                      children    :
+                                                                                                                                        1:
+                                                                                                                                          slot        : 0
+                                                                                                                                          orientation : 0
+                                                                                                                                          params:
+                                                                                                                                            blue: 0.58
+                                                                                                                                            green: 0.08
+                                                                                                                                            red: 1
+                                                                                                                                          type        : ActiveHinge
+                                                                                                                                          id          : module38
+                                                                                                                                          children    :
+                                                                                                                                            1:
+                                                                                                                                              slot        : 0
+                                                                                                                                              orientation : 0
+                                                                                                                                              params:
+                                                                                                                                                blue: 0.58
+                                                                                                                                                green: 0.08
+                                                                                                                                                red: 1
+                                                                                                                                              type        : ActiveHinge
+                                                                                                                                              id          : module39
+                                                                                                                                              children    :
+                                                                                                                                                1:
+                                                                                                                                                  slot        : 0
+                                                                                                                                                  orientation : 90
+                                                                                                                                                  params:
+                                                                                                                                                    blue: 0
+                                                                                                                                                    green: 0
+                                                                                                                                                    red: 0.7
+                                                                                                                                                  type        : ActiveHinge
+                                                                                                                                                  id          : module40
+                                                                                                                                                  children    :
+                                                                                                                                                    1:
+                                                                                                                                                      slot        : 0
+                                                                                                                                                      orientation : -90
+                                                                                                                                                      params:
+                                                                                                                                                        blue: 1
+                                                                                                                                                        green: 0
+                                                                                                                                                        red: 0
+                                                                                                                                                      type        : FixedBrick
+                                                                                                                                                      id          : module41
+                                                                                                                                                      children    :
+                                                                                                                                                        1:
+                                                                                                                                                          slot        : 0
+                                                                                                                                                          orientation : 0
+                                                                                                                                                          params:
+                                                                                                                                                            blue: 0.58
+                                                                                                                                                            green: 0.08
+                                                                                                                                                            red: 1
+                                                                                                                                                          type        : ActiveHinge
+                                                                                                                                                          id          : module42
+                                                                                                                                                          children    :
+                                                                                                                                                            1:
+                                                                                                                                                              slot        : 0
+                                                                                                                                                              orientation : 0
+                                                                                                                                                              params:
+                                                                                                                                                                blue: 0.58
+                                                                                                                                                                green: 0.08
+                                                                                                                                                                red: 1
+                                                                                                                                                              type        : ActiveHinge
+                                                                                                                                                              id          : module43
+                                                                                                                                                              children    :
+                                                                                                                                                                1:
+                                                                                                                                                                  slot        : 0
+                                                                                                                                                                  orientation : 90
+                                                                                                                                                                  params:
+                                                                                                                                                                    blue: 0
+                                                                                                                                                                    green: 0
+                                                                                                                                                                    red: 0.7
+                                                                                                                                                                  type        : ActiveHinge
+                                                                                                                                                                  id          : module44
+                                                                                                                                                                  children    :
+                                                                                                                                                                    1:
+                                                                                                                                                                      slot        : 0
+                                                                                                                                                                      orientation : -90
+                                                                                                                                                                      params:
+                                                                                                                                                                        blue: 1
+                                                                                                                                                                        green: 0
+                                                                                                                                                                        red: 0
+                                                                                                                                                                      type        : FixedBrick
+                                                                                                                                                                      id          : module45
+                                                                                                                                                                      children    :
+                                                                                                                                                                        3:
+                                                                                                                                                                          slot        : 0
+                                                                                                                                                                          orientation : 90
+                                                                                                                                                                          params:
+                                                                                                                                                                            blue: 0
+                                                                                                                                                                            green: 0
+                                                                                                                                                                            red: 0.7
+                                                                                                                                                                          type        : ActiveHinge
+                                                                                                                                                                          id          : module47
+                                                                                                                                                                        1:
+                                                                                                                                                                          slot        : 0
+                                                                                                                                                                          orientation : 0
+                                                                                                                                                                          params:
+                                                                                                                                                                            blue: 0.58
+                                                                                                                                                                            green: 0.08
+                                                                                                                                                                            red: 1
+                                                                                                                                                                          type        : ActiveHinge
+                                                                                                                                                                          id          : module46
 brain:
   neurons:
     node1:
       id: node1
-      layer: input
-      part_id: module0sensor-l
-      type: Input
+      layer: output
+      part_id: module1
+      type: Oscillator
     node2:
       id: node2
-      layer: input
-      part_id: module0sensor-r
-      type: Input
+      layer: output
+      part_id: module3
+      type: Oscillator
     node3:
       id: node3
-      layer: input
-      part_id: module0sensor-f
-      type: Input
-    node1-2:
-      id: node1-2
-      layer: input
-      part_id: module0sensor-l
-      type: Input
-    node2-2:
-      id: node2-2
-      layer: input
-      part_id: module0sensor-r
-      type: Input
-    node3-2:
-      id: node3-2
-      layer: input
-      part_id: module0sensor-f
-      type: Input
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module8
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module9
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node10:
+      id: node10
+      layer: output
+      part_id: module13
+      type: Oscillator
+    node11:
+      id: node11
+      layer: output
+      part_id: module14
+      type: Oscillator
+    node12:
+      id: node12
+      layer: output
+      part_id: module16
+      type: Oscillator
+    node13:
+      id: node13
+      layer: output
+      part_id: module17
+      type: Oscillator
+    node14:
+      id: node14
+      layer: output
+      part_id: module18
+      type: Oscillator
+    node15:
+      id: node15
+      layer: output
+      part_id: module19
+      type: Oscillator
+    node16:
+      id: node16
+      layer: output
+      part_id: module21
+      type: Oscillator
+    node17:
+      id: node17
+      layer: output
+      part_id: module23
+      type: Oscillator
+    node18:
+      id: node18
+      layer: output
+      part_id: module24
+      type: Oscillator
+    node19:
+      id: node19
+      layer: output
+      part_id: module25
+      type: Oscillator
+    node20:
+      id: node20
+      layer: output
+      part_id: module27
+      type: Oscillator
+    node21:
+      id: node21
+      layer: output
+      part_id: module28
+      type: Oscillator
+    node22:
+      id: node22
+      layer: output
+      part_id: module30
+      type: Oscillator
+    node23:
+      id: node23
+      layer: output
+      part_id: module31
+      type: Oscillator
+    node24:
+      id: node24
+      layer: output
+      part_id: module32
+      type: Oscillator
+    node25:
+      id: node25
+      layer: output
+      part_id: module33
+      type: Oscillator
+    node26:
+      id: node26
+      layer: output
+      part_id: module34
+      type: Oscillator
+    node27:
+      id: node27
+      layer: output
+      part_id: module36
+      type: Oscillator
+    node28:
+      id: node28
+      layer: output
+      part_id: module38
+      type: Oscillator
+    node29:
+      id: node29
+      layer: output
+      part_id: module39
+      type: Oscillator
+    node30:
+      id: node30
+      layer: output
+      part_id: module40
+      type: Oscillator
+    node31:
+      id: node31
+      layer: output
+      part_id: module42
+      type: Oscillator
+    node32:
+      id: node32
+      layer: output
+      part_id: module43
+      type: Oscillator
+    node33:
+      id: node33
+      layer: output
+      part_id: module44
+      type: Oscillator
+    node34:
+      id: node34
+      layer: output
+      part_id: module46
+      type: Oscillator
+    node35:
+      id: node35
+      layer: output
+      part_id: module47
+      type: Oscillator
+    node36:
+      id: node36
+      layer: output
+      part_id: module48
+      type: Oscillator
+    node37:
+      id: node37
+      layer: output
+      part_id: module49
+      type: Oscillator
     node-core1:
       id: node-core1
       layer: input
@@ -96,3 +679,151 @@ brain:
       part_id: module0
       type: Input
   params:
+    node1:
+      period: 3.83125
+      phase_offset: 1
+      amplitude: 6.46462
+    node2:
+      period: 7.87335
+      phase_offset: 2.43641
+      amplitude: 8.40112
+    node3:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node4:
+      period: 3.28338
+      phase_offset: 6.33918
+      amplitude: 6.42802
+    node5:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node6:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node7:
+      period: 5.112
+      phase_offset: 8.33241
+      amplitude: 1.01423
+    node8:
+      period: 3.28338
+      phase_offset: 6.33918
+      amplitude: 6.42802
+    node9:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node10:
+      period: 2.54166
+      phase_offset: 7.82998
+      amplitude: 6.1139
+    node11:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node12:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node13:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node14:
+      period: 8.91412
+      phase_offset: 1.89314
+      amplitude: 8.72779
+    node15:
+      period: 2.54166
+      phase_offset: 7.82998
+      amplitude: 6.1139
+    node16:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node17:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node18:
+      period: 5.112
+      phase_offset: 8.33241
+      amplitude: 1.01423
+    node19:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node20:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node21:
+      period: 3.28338
+      phase_offset: 6.33918
+      amplitude: 6.42802
+    node22:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node23:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node24:
+      period: 8.91412
+      phase_offset: 1.89314
+      amplitude: 8.72779
+    node25:
+      period: 2.54166
+      phase_offset: 7.82998
+      amplitude: 6.1139
+    node26:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node27:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node28:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node29:
+      period: 5.112
+      phase_offset: 8.33241
+      amplitude: 1.01423
+    node30:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node31:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node32:
+      period: 2.54166
+      phase_offset: 7.82998
+      amplitude: 6.1139
+    node33:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node34:
+      period: 7.6369
+      phase_offset: 4.05101
+      amplitude: 3.72765
+    node35:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node36:
+      period: 8.91412
+      phase_offset: 1.89314
+      amplitude: 8.72779
+    node37:
+      period: 2.54166
+      phase_offset: 7.82998
+      amplitude: 6.1139

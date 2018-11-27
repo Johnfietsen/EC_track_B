@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainedge_0.395356 addr AJ1_0.158513|6.773684|4.918686|8.825926 mover 
-AJ2 brainmoveTTS_1.000000|1.000000 brainedge_-0.868016 addl AJ1_-0.951216|1.152614|7.595356|4.569973 movel brainmoveTTS_1.000000|1.000000 brainoffperturb_0.251806 addl AJ1_0.493186|1.017068|9.818488|6.896104 movef 
-B brainmoveTTS_1.000000|1.000000 brainloop_-0.651866 addl AJ2_0.837118|1.073786|2.256199|6.793715 movef brainmoveTTS_1.000000|2.000000 brainloop_0.262614 addr ST_0.982541 mover brainmoveFTS_1.000000|1.000000 brainampperturb_-0.892945 addl ST_0.390379 mover 
-C C brainmoveFTS_1.000000|1.000000 brainoffperturb_0.927424 addr B movel 
-ST brainmoveFTS_1.000000|1.000000 brainperturb_0.746890 addr AJ2_0.826380|2.259319|9.723180|8.689640 mover brainmoveTTS_1.000000|3.000000 brainperturb_-1.678879 addr AJ1_-0.022771|9.765128|1.620021|8.137032 mover 
+AJ1 brainmoveTTS_1.000000|1.000000 brainperperturb_-0.431005 addr B moveb brainmoveTTS_1.000000|1.000000 brainedge_0.843923 addf B movel brainmoveFTS_2.000000|1.000000 brainperperturb_-1.473157 addr AJ2_0.980108|6.660290|5.187722|7.318689 mover 
+AJ2 brainmoveTTS_3.000000|1.000000 brainloop_0.147626 addr AJ2_0.472788|5.351015|1.966958|6.932491 mover brainmoveFTS_1.000000|2.000000 brainampperturb_1.025833 addl AJ2_0.619030|3.823406|7.976246|4.541681 moveb 
+B brainmoveTTS_2.000000|2.000000 brainloop_0.106530 addf ST_-0.153714 movel 
+C C brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.714325 addl AJ2_0.412078|4.895619|3.746385|3.727713 movef brainmoveTTS_1.000000|2.000000 brainperturb_-0.751332 addf AJ1_0.065172|7.601212|1.106255|7.114312 moveb brainmoveTTS_1.000000|2.000000 brainperturb_-1.822957 addl AJ2_0.852969|5.482951|4.584258|1.169236 movel 
+ST brainmoveTTS_1.000000|1.000000 brainperperturb_-0.271023 addr AJ2_0.923690|8.865465|5.298290|3.596202 moveb brainmoveFTS_2.000000|1.000000 brainampperturb_0.152912 addf ST_-0.109240 moveb brainmoveTTS_1.000000|1.000000 brainperturb_-1.746430 addl AJ1_0.222303|7.237404|5.377032|2.871667 movel 

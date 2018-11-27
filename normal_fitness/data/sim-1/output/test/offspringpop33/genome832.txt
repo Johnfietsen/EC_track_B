@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 moveb brainperperturb_-0.638040 brainperperturb_1.625571 AJ2_0.843385|3.410623|5.234139|2.890149 brainoffperturb_1.120901 moveb mover mover addf AJ2_0.878939|5.646746|7.950252|2.122914 moveb brainmoveTTS_1.000000|2.000000 ST_-0.274183 brainloop_-0.000480 
-AJ2 moveb mover movef brainmoveFTS_1.000000|1.000000 ST_-0.101278 AJ2_0.075632|8.540566|7.924775|8.068279 mover AJ1_-0.477069|9.634284|8.155018|8.742023 AJ1_-0.748455|7.051370|6.430720|4.419053 addl B addf ST_0.506913 addr movel brainperperturb_0.191365 mover 
-B addf AJ2_-0.558192|5.869481|3.233975|7.431816 brainloop_-0.253994 addf mover addf 
-C C addr brainmoveTTS_1.000000|1.000000 brainmoveFTS_1.000000|1.000000 brainloop_0.124349 brainmoveFTS_2.000000|1.000000 addf AJ1_0.774934|3.613609|2.678748|3.450651 mover brainmoveFTS_2.000000|1.000000 addf ST_-0.639064 
-ST addr B brainperperturb_0.336702 brainmoveFTS_2.000000|2.000000 moveb addr 
+AJ1 brainmoveTTS_1.000000|2.000000 brainampperturb_0.341423 brainmoveTTS_1.000000|2.000000 B addf ST_0.969792 addl movel AJ1_-0.129561|6.852212|6.012119|6.297506 brainmoveTTS_1.000000|2.000000 
+AJ2 brainloop_-0.939604 addf addf addl AJ1_0.179244|1.713402|8.921417|4.498649 addl brainperturb_-0.210093 AJ1_-0.255541|7.636905|4.051007|3.727647 movel brainmoveTTS_1.000000|1.000000 mover mover mover 
+B brainmoveTTS_1.000000|2.000000 addf moveb brainedge_-0.761166 B AJ2_-0.063658|1.127242|3.537141|3.043813 movef 
+C C brainoffperturb_0.715433 addr mover brainoffperturb_0.623159 brainoffperturb_2.582664 brainoffperturb_-0.368767 brainmoveTTS_1.000000|2.000000 B brainmoveFTS_1.000000|1.000000 addf brainmoveFTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 addr AJ1_0.745682|8.379139|8.674045|2.793533 
+ST moveb movel ST_0.987211 brainmoveTTS_1.000000|1.000000 B addr brainmoveFTS_1.000000|2.000000 addf brainmoveFTS_1.000000|1.000000 brainedge_-0.926829 mover movef brainmoveTTS_2.000000|1.000000 brainampperturb_-0.291610 brainmoveFTS_4.000000|1.000000 brainampperturb_-0.804445 addl 

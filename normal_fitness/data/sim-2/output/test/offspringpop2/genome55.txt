@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_2.000000|1.000000 brainperturb_0.404497 addf AJ1_-0.547112|4.945538|5.075303|9.813412 movel brainmoveTTS_2.000000|1.000000 brainperturb_-0.672407 addf AJ1_-0.120997|7.026048|3.801317|3.344242 mover 
-AJ2 brainmoveTTS_1.000000|1.000000 brainampperturb_-0.606737 addr ST_0.206761 movef brainperperturb_-0.976178 addl AJ1_0.785524|1.787926|2.755319|7.471081 movel brainmoveFTS_1.000000|1.000000 brainloop_-0.453994 addl B mover 
-B brainmoveTTS_2.000000|1.000000 brainampperturb_-1.752818 addl AJ1_0.195411|8.717122|5.818807|4.728242 mover brainmoveTTS_2.000000|1.000000 brainperperturb_1.059980 addf AJ1_-0.327960|1.804303|4.659709|7.272426 movef 
-C C brainmoveFTS_1.000000|3.000000 brainloop_-0.196612 addr B mover brainmoveFTS_1.000000|1.000000 brainedge_-0.925610 addl AJ1_0.953044|2.753155|7.830916|6.367988 movel 
-ST brainmoveFTS_2.000000|1.000000 brainloop_-0.261026 addr AJ2_-0.267225|3.900549|4.252462|9.291301 mover 
+AJ1 brainmoveTTS_1.000000|1.000000 brainampperturb_0.429891 addl B mover brainmoveTTS_2.000000|1.000000 addf B movef brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.966899 addf AJ2_0.870066|8.392174|3.580670|5.172754 movef 
+AJ2 brainmoveFTS_1.000000|1.000000 brainloop_-0.543043 addr AJ1_-0.959777|7.341964|3.413754|4.139682 mover brainmoveTTS_1.000000|2.000000 brainloop_-0.947923 addr ST_0.549030 mover 
+B brainmoveTTS_1.000000|1.000000 brainedge_0.819951 addf AJ1_0.624520|4.761179|3.657016|5.877134 movel brainmoveFTS_1.000000|1.000000 brainperturb_-0.427709 addf AJ2_-0.808686|3.718397|1.083607|9.356880 movef brainmoveFTS_2.000000|1.000000 brainedge_-0.826385 addl B mover 
+C C brainmoveTTS_1.000000|1.000000 brainedge_-0.788159 addf ST_-0.882389 movef 
+ST brainmoveTTS_2.000000|1.000000 brainoffperturb_0.612998 addf AJ1_-0.168543|4.182299|9.385841|2.272002 movel brainmoveTTS_1.000000|1.000000 brainperturb_-1.332575 addl AJ2_0.795405|7.494157|8.132381|9.742764 mover brainmoveFTS_1.000000|1.000000 brainampperturb_-0.229031 addf AJ1_-0.002088|7.060818|1.684553|1.715560 moveb 

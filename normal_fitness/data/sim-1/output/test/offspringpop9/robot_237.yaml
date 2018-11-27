@@ -6,7 +6,7 @@ body:
   type        : Core
   id          : module0
   children    :
-    1:
+    3:
       slot        : 0
       orientation : 0
       params:
@@ -14,18 +14,28 @@ body:
         green: 0.7
         red: 0.7
       type        : TouchSensor
-      id          : module0sensor-f
+      id          : module0sensor-l
+    2:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module1
+      children    :
 brain:
   neurons:
     node1:
       id: node1
       layer: input
-      part_id: module0sensor-f
+      part_id: module0sensor-l
       type: Input
     node1-2:
       id: node1-2
       layer: input
-      part_id: module0sensor-f
+      part_id: module0sensor-l
       type: Input
     node-core1:
       id: node-core1

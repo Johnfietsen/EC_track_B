@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 moveb brainperperturb_-0.638040 brainperperturb_1.625571 AJ2_0.843385|3.410623|5.234139|2.890149 brainoffperturb_1.120901 moveb mover mover addf AJ2_0.878939|5.646746|7.950252|2.122914 moveb brainmoveTTS_1.000000|2.000000 ST_-0.274183 brainloop_-0.000480 
-AJ2 moveb mover movef brainmoveFTS_1.000000|1.000000 ST_-0.101278 AJ2_0.075632|8.540566|7.924775|8.068279 mover AJ1_-0.477069|9.634284|8.155018|8.742023 AJ1_-0.748455|7.051370|6.430720|4.419053 addl B addf ST_0.506913 addr movel brainperperturb_0.191365 mover 
-B addf AJ2_-0.558192|5.869481|3.233975|7.431816 brainloop_-0.253994 addf mover addf 
-C C addr brainmoveTTS_1.000000|1.000000 brainmoveFTS_1.000000|1.000000 brainloop_0.124349 brainmoveFTS_2.000000|1.000000 addf AJ1_0.774934|3.613609|2.678748|3.450651 mover brainmoveFTS_2.000000|1.000000 addf ST_-0.639064 
-ST addr addl brainmoveFTS_2.000000|1.000000 brainmoveFTS_1.000000|2.000000 mover ST_0.567757 moveb brainperperturb_0.587007 addr brainmoveFTS_1.000000|1.000000 B 
+AJ1 brainmoveTTS_1.000000|2.000000 brainampperturb_0.341423 brainmoveTTS_1.000000|2.000000 B addf ST_0.969792 addl movel AJ1_-0.129561|6.852212|6.012119|6.297506 brainmoveTTS_1.000000|2.000000 
+AJ2 brainloop_-0.939604 addf addf addl AJ1_0.179244|1.713402|8.921417|4.498649 addl brainperturb_-0.210093 AJ1_-0.255541|7.636905|4.051007|3.727647 movel brainmoveTTS_1.000000|1.000000 mover mover mover 
+B brainmoveTTS_1.000000|1.000000 addf B B AJ1_-0.958731|7.855130|3.107470|2.264044 brainmoveTTS_3.000000|1.000000 AJ1_-0.742065|5.205073|8.466503|6.357272 mover mover brainampperturb_0.406048 addf brainampperturb_-1.183260 
+C C brainmoveFTS_1.000000|1.000000 addf addf brainperturb_-0.562838 
+ST B brainperturb_-0.694929 brainampperturb_0.618523 movel mover AJ2_-0.345196|2.383060|2.965419|6.833562 brainloop_-0.298279 brainmoveFTS_2.000000|1.000000 brainmoveFTS_2.000000|1.000000 movel AJ2_-0.182858|2.622158|2.519795|6.970672 AJ2_-0.336417|1.678411|2.434691|8.041421 brainmoveFTS_1.000000|3.000000 brainedge_0.474905 addr mover 

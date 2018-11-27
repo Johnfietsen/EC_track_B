@@ -6,45 +6,53 @@ body:
   type        : Core
   id          : module0
   children    :
-    2:
+    3:
       slot        : 0
-      orientation : 0
+      orientation : 90
       params:
-        blue: 0.58
-        green: 0.08
-        red: 1
+        blue: 0
+        green: 0
+        red: 0.7
       type        : ActiveHinge
-      id          : module1
+      id          : module2
       children    :
         1:
           slot        : 0
           orientation : 0
           params:
-            blue: 0.58
-            green: 0.08
-            red: 1
+            blue: 0
+            green: 0
+            red: 0.7
           type        : ActiveHinge
-          id          : module2
+          id          : module3
           children    :
             1:
               slot        : 0
               orientation : 0
               params:
-                blue: 0.58
-                green: 0.08
-                red: 1
+                blue: 0
+                green: 0
+                red: 0.7
               type        : ActiveHinge
-              id          : module3
-              children    :
-                1:
-                  slot        : 0
-                  orientation : 0
-                  params:
-                    blue: 0.58
-                    green: 0.08
-                    red: 1
-                  type        : ActiveHinge
-                  id          : module4
+              id          : module5
+    1:
+      slot        : 0
+      orientation : 90
+      params:
+        blue: 0
+        green: 0
+        red: 0.7
+      type        : ActiveHinge
+      id          : module1
+    2:
+      slot        : 0
+      orientation : 90
+      params:
+        blue: 0
+        green: 0
+        red: 0.7
+      type        : ActiveHinge
+      id          : module4
 brain:
   neurons:
     node1:
@@ -66,6 +74,11 @@ brain:
       id: node4
       layer: output
       part_id: module4
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module5
       type: Oscillator
     node-core1:
       id: node-core1
@@ -99,18 +112,22 @@ brain:
       type: Input
   params:
     node1:
-      period: 8.97855
-      phase_offset: 9.94714
+      period: 4.16689
+      phase_offset: 1
       amplitude: 1
     node2:
-      period: 4.77992
-      phase_offset: 6.77577
-      amplitude: 4.16408
+      period: 4.89441
+      phase_offset: 1.76095
+      amplitude: 1.64999
     node3:
-      period: 4.77992
-      phase_offset: 6.77577
-      amplitude: 4.16408
+      period: 7.5099
+      phase_offset: 7.13341
+      amplitude: 2.95533
     node4:
-      period: 4.77992
-      phase_offset: 6.77577
-      amplitude: 4.16408
+      period: 5.81374
+      phase_offset: 8.58839
+      amplitude: 4.55052
+    node5:
+      period: 7.5099
+      phase_offset: 7.13341
+      amplitude: 2.95533

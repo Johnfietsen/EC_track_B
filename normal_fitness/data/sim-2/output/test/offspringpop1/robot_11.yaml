@@ -6,14 +6,14 @@ body:
   type        : Core
   id          : module0
   children    :
-    1:
+    2:
       slot        : 0
       orientation : 0
       params:
-        blue: 1
-        green: 0
-        red: 0
-      type        : FixedBrick
+        blue: 0.58
+        green: 0.08
+        red: 1
+      type        : ActiveHinge
       id          : module1
       children    :
         1:
@@ -28,39 +28,29 @@ body:
           children    :
             1:
               slot        : 0
-              orientation : 90
+              orientation : 0
               params:
-                blue: 0
-                green: 0
-                red: 0.7
+                blue: 0.58
+                green: 0.08
+                red: 1
               type        : ActiveHinge
               id          : module3
-              children    :
-                1:
-                  slot        : 0
-                  orientation : -90
-                  params:
-                    blue: 0.58
-                    green: 0.08
-                    red: 1
-                  type        : ActiveHinge
-                  id          : module4
 brain:
   neurons:
     node1:
       id: node1
       layer: output
-      part_id: module2
+      part_id: module1
       type: Oscillator
     node2:
       id: node2
       layer: output
-      part_id: module3
+      part_id: module2
       type: Oscillator
     node3:
       id: node3
       layer: output
-      part_id: module4
+      part_id: module3
       type: Oscillator
     node-core1:
       id: node-core1
@@ -94,14 +84,14 @@ brain:
       type: Input
   params:
     node1:
-      period: 1.71189
-      phase_offset: 10
-      amplitude: 4.43768
+      period: 7.88655
+      phase_offset: 6.60104
+      amplitude: 1
     node2:
-      period: 2.54753
-      phase_offset: 4.82742
-      amplitude: 2.8092
+      period: 4.63416
+      phase_offset: 7.88891
+      amplitude: 9.60116
     node3:
-      period: 1.81995
-      phase_offset: 3.21754
-      amplitude: 4.1659
+      period: 4.63416
+      phase_offset: 7.88891
+      amplitude: 9.60116

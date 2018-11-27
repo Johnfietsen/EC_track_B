@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_2.000000|1.000000 addf AJ1_-0.547112|4.945538|5.075303|9.813412 moveb movel movel brainloop_0.202551 brainmoveTTS_2.000000|1.000000 brainperturb_-0.672407 AJ1_-0.120997|7.026048|3.801317|3.344242 mover addr movel 
-AJ2 brainmoveTTS_1.000000|2.000000 AJ1_-0.453039|4.729478|9.754726|5.633760 ST_0.613298 movef AJ1_-0.948342|4.259615|3.211175|5.075170 mover addr AJ2_0.860117|3.208511|9.813002|9.068719 brainampperturb_-0.764557 brainmoveTTS_1.000000|2.000000 mover addf brainmoveFTS_1.000000|2.000000 mover brainmoveTTS_1.000000|2.000000 brainperperturb_-0.523524 AJ1_-0.815653|7.671384|2.050011|3.829208 
-B addf brainedge_-0.320387 movel 
-C C brainoffperturb_-1.544692 brainmoveTTS_1.000000|3.000000 brainedge_-0.476571 brainloop_0.565971 brainmoveTTS_1.000000|2.000000 AJ2_-0.029035|1.335393|3.183608|8.087634 addf movel brainmoveFTS_1.000000|1.000000 brainmoveFTS_1.000000|1.000000 addr brainedge_0.606862 AJ2_-0.646936|6.121018|5.639623|1.386258 AJ2_0.587443|7.103723|9.300066|1.273264 
-ST ST_0.287269 brainmoveTTS_2.000000|2.000000 addl 
+AJ1 brainloop_0.338371 addf mover AJ1_0.204056|3.799740|2.308973|8.859329 addf brainmoveFTS_2.000000|1.000000 brainmoveFTS_1.000000|1.000000 movel movef brainoffperturb_0.642247 
+AJ2 brainmoveFTS_1.000000|1.000000 movel brainmoveFTS_1.000000|2.000000 AJ2_-0.606005|7.509895|7.133411|2.955325 ST_-0.674336 addr addf brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.782347 movef brainperturb_-0.792419 AJ1_0.788917|8.098847|4.949436|5.592636 addl 
+B brainmoveTTS_1.000000|1.000000 addf addf movel brainmoveFTS_1.000000|1.000000 brainperturb_-0.427709 AJ1_0.624520|4.761179|3.657016|5.877134 AJ2_-0.808686|3.718397|1.083607|9.356880 movef addr brainmoveFTS_2.000000|1.000000 brainedge_-0.826385 B mover 
+C C brainmoveTTS_2.000000|3.000000 brainperperturb_-0.180603 addf AJ2_0.594810|5.714608|5.602268|7.519067 mover brainloop_-0.560141 addl addf mover brainmoveTTS_2.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.537908 ST_-0.747316 moveb 
+ST brainoffperturb_1.267481 brainperturb_-0.317022 brainmoveTTS_1.000000|1.000000 addr B movef 

@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|2.000000 addr AJ1_-0.261224|3.455788|7.426547|9.706628 moveb 
-AJ2 brainmoveTTS_2.000000|3.000000 brainampperturb_0.862256 addf AJ2_-0.653987|1.298658|9.215821|4.148723 movel brainmoveFTS_1.000000|1.000000 brainoffperturb_-1.103516 addl ST_0.858340 brainmoveFTS_1.000000|1.000000 B movel movef 
-B brainmoveTTS_1.000000|2.000000 brainampperturb_-0.417389 addr ST_-0.096607 movel brainmoveTTS_1.000000|1.000000 brainloop_0.833569 addl AJ1_-0.692057|5.724505|7.871363|8.066086 movef brainmoveFTS_1.000000|1.000000 brainmoveFTS_1.000000|1.000000 brainedge_-0.435718 addl AJ1_0.369352|1.094323|2.873505|4.231603 mover mover 
-C C brainmoveFTS_1.000000|1.000000 brainampperturb_-0.326043 addr B moveb brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.090672 brainperperturb_1.202448 addr AJ2_0.390154|4.400279|3.362444|9.039150 movef brainmoveFTS_1.000000|1.000000 brainoffperturb_-1.433534 addf ST_-0.190314 moveb 
-ST brainmoveFTS_1.000000|1.000000 brainloop_0.918159 addl moveb brainmoveFTS_2.000000|1.000000 brainperperturb_0.587007 addr AJ2_0.429390|2.531930|6.985282|8.262041 movel 
+AJ1 brainmoveFTS_2.000000|2.000000 brainampperturb_-1.798528 addr brainloop_-0.971157 ST_0.122670 moveb brainmoveTTS_1.000000|2.000000 brainampperturb_1.271309 addr AJ1_-0.301092|8.737789|2.024613|6.059544 mover brainmoveTTS_1.000000|1.000000 brainloop_-0.746656 addl AJ2_-0.716650|6.335993|3.940228|7.532181 mover 
+AJ2 brainmoveTTS_2.000000|1.000000 brainoffperturb_-0.096124 addr ST_-0.358098 brainmoveTTS_1.000000|1.000000 brainperperturb_-0.766063 addr B movel 
+B brainmoveFTS_1.000000|2.000000 brainedge_-0.386741 addl ST_-0.460685 moveb brainmoveFTS_1.000000|1.000000 
+C C brainmoveFTS_1.000000|1.000000 brainampperturb_0.853395 addl AJ1_0.390054|9.852077|8.645556|2.058109 movel brainmoveTTS_1.000000|2.000000 brainperturb_-0.174982 addr mover 
+ST brainmoveTTS_1.000000|1.000000 brainampperturb_-0.804445 addr ST_0.218994 movel brainmoveFTS_1.000000|1.000000 brainloop_-0.271636 addr AJ1_0.492088|7.607892|5.610790|1.445898 moveb 

@@ -6,27 +6,48 @@ body:
   type        : Core
   id          : module0
   children    :
-    3:
+    2:
       slot        : 0
       orientation : 0
       params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-l
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module1
+      children    :
 brain:
   neurons:
     node1:
       id: node1
-      layer: input
-      part_id: module0sensor-l
-      type: Input
-    node1-2:
-      id: node1-2
-      layer: input
-      part_id: module0sensor-l
-      type: Input
+      layer: output
+      part_id: module2
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
+      part_id: module3
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module6
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module7
+      type: Oscillator
     node-core1:
       id: node-core1
       layer: input
@@ -58,3 +79,27 @@ brain:
       part_id: module0
       type: Input
   params:
+    node1:
+      period: 1
+      phase_offset: 9.63123
+      amplitude: 1.08691
+    node2:
+      period: 7.2113
+      phase_offset: 3.22535
+      amplitude: 3.51617
+    node3:
+      period: 7.2113
+      phase_offset: 3.22535
+      amplitude: 3.51617
+    node4:
+      period: 7.2113
+      phase_offset: 3.22535
+      amplitude: 3.51617
+    node5:
+      period: 3.28338
+      phase_offset: 6.33918
+      amplitude: 6.42802
+    node6:
+      period: 7.2113
+      phase_offset: 3.22535
+      amplitude: 3.51617

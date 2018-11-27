@@ -18,42 +18,103 @@ body:
       children    :
         1:
           slot        : 0
-          orientation : 0
+          orientation : -90
           params:
-            blue: 0
-            green: 0
-            red: 0.7
+            blue: 0.58
+            green: 0.08
+            red: 1
           type        : ActiveHinge
           id          : module2
           children    :
             1:
               slot        : 0
-              orientation : -90
+              orientation : 0
               params:
-                blue: 1
-                green: 0
-                red: 0
-              type        : FixedBrick
+                blue: 0.58
+                green: 0.08
+                red: 1
+              type        : ActiveHinge
               id          : module3
               children    :
-                3:
-                  slot        : 0
-                  orientation : 0
-                  params:
-                    blue: 0.7
-                    green: 0.7
-                    red: 0.7
-                  type        : TouchSensor
-                  id          : module3sensor-l
                 1:
                   slot        : 0
-                  orientation : 0
+                  orientation : 90
                   params:
-                    blue: 0.58
-                    green: 0.08
-                    red: 1
+                    blue: 0
+                    green: 0
+                    red: 0.7
                   type        : ActiveHinge
                   id          : module4
+                  children    :
+                    1:
+                      slot        : 0
+                      orientation : -90
+                      params:
+                        blue: 0.58
+                        green: 0.08
+                        red: 1
+                      type        : ActiveHinge
+                      id          : module5
+                      children    :
+                        1:
+                          slot        : 0
+                          orientation : 90
+                          params:
+                            blue: 0
+                            green: 0
+                            red: 0.7
+                          type        : ActiveHinge
+                          id          : module6
+                          children    :
+                            1:
+                              slot        : 0
+                              orientation : -90
+                              params:
+                                blue: 0.58
+                                green: 0.08
+                                red: 1
+                              type        : ActiveHinge
+                              id          : module7
+                              children    :
+                                1:
+                                  slot        : 0
+                                  orientation : 0
+                                  params:
+                                    blue: 0.58
+                                    green: 0.08
+                                    red: 1
+                                  type        : ActiveHinge
+                                  id          : module8
+                                  children    :
+                                    1:
+                                      slot        : 0
+                                      orientation : 90
+                                      params:
+                                        blue: 0
+                                        green: 0
+                                        red: 0.7
+                                      type        : ActiveHinge
+                                      id          : module9
+                                      children    :
+                                        1:
+                                          slot        : 0
+                                          orientation : -90
+                                          params:
+                                            blue: 0.58
+                                            green: 0.08
+                                            red: 1
+                                          type        : ActiveHinge
+                                          id          : module10
+                                          children    :
+                                            1:
+                                              slot        : 0
+                                              orientation : 0
+                                              params:
+                                                blue: 0.58
+                                                green: 0.08
+                                                red: 1
+                                              type        : ActiveHinge
+                                              id          : module11
 brain:
   neurons:
     node1:
@@ -68,19 +129,49 @@ brain:
       type: Oscillator
     node3:
       id: node3
-      layer: input
-      part_id: module3sensor-l
-      type: Input
+      layer: output
+      part_id: module3
+      type: Oscillator
     node4:
       id: node4
       layer: output
       part_id: module4
       type: Oscillator
-    node3-2:
-      id: node3-2
-      layer: input
-      part_id: module3sensor-l
-      type: Input
+    node5:
+      id: node5
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module6
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module8
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module9
+      type: Oscillator
+    node10:
+      id: node10
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node11:
+      id: node11
+      layer: output
+      part_id: module11
+      type: Oscillator
     node-core1:
       id: node-core1
       layer: input
@@ -111,35 +202,48 @@ brain:
       layer: input
       part_id: module0
       type: Input
-  connections:
-  - dst: node1
-    src: node1
-    weight: 0.712766
-  - dst: node2
-    src: node2
-    weight: 0.565971
-  - dst: node1
-    src: node3
-    weight: -1
-  - dst: node2
-    src: node3
-    weight: 0.81683
-  - dst: node4
-    src: node3
-    weight: -0.547112
-  - dst: node4
-    src: node4
-    weight: 0.565971
   params:
     node1:
-      period: 1.33539
-      phase_offset: 8.07618
-      amplitude: 10
+      period: 1
+      phase_offset: 2.52645
+      amplitude: 7.51907
     node2:
-      period: 7.10372
-      phase_offset: 10
-      amplitude: 2.11828
+      period: 9.28181
+      phase_offset: 5.21316
+      amplitude: 1.15792
+    node3:
+      period: 4.2425
+      phase_offset: 5.25104
+      amplitude: 7.09393
     node4:
-      period: 4.94554
-      phase_offset: 7.07079
-      amplitude: 9.81341
+      period: 3.52031
+      phase_offset: 6.39583
+      amplitude: 2.85893
+    node5:
+      period: 5.85537
+      phase_offset: 4.68436
+      amplitude: 8.29687
+    node6:
+      period: 3.52031
+      phase_offset: 6.39583
+      amplitude: 2.85893
+    node7:
+      period: 5.85537
+      phase_offset: 4.68436
+      amplitude: 8.29687
+    node8:
+      period: 4.2425
+      phase_offset: 5.25104
+      amplitude: 7.09393
+    node9:
+      period: 3.52031
+      phase_offset: 6.39583
+      amplitude: 2.85893
+    node10:
+      period: 5.85537
+      phase_offset: 4.68436
+      amplitude: 8.29687
+    node11:
+      period: 5.85537
+      phase_offset: 4.68436
+      amplitude: 8.29687

@@ -1,5 +1,5 @@
-AJ1 brainedge_0.819389 brainedge_0.178144 addf addf brainmoveFTS_2.000000|1.000000 brainperperturb_1.585067 brainmoveTTS_1.000000|3.000000 brainedge_0.916359 AJ2_-0.293421|6.600283|8.396149|1.535562 addr movel 
-AJ2 brainoffperturb_1.995489 moveb brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 mover addl brainmoveTTS_1.000000|2.000000 brainmoveTTS_2.000000|2.000000 addl brainoffperturb_-1.681846 AJ2_0.037054|6.424692|5.984554|4.648091 brainmoveTTS_1.000000|1.000000 movel addr AJ1_-0.537355|5.065477|1.722862|4.573907 ST_0.816830 AJ1_-0.307827|9.853456|2.102971|2.317823 brainmoveTTS_1.000000|3.000000 
-B brainedge_-0.320387 movel addl 
-C C brainmoveFTS_1.000000|1.000000 moveb brainoffperturb_-0.291508 AJ2_0.847455|9.069026|5.926896|9.782579 movel AJ1_0.446798|7.238392|2.812471|3.227254 AJ2_-0.872487|8.029694|1.320365|2.090214 addf brainperperturb_1.501845 movef brainoffperturb_-1.523538 
-ST B addl brainmoveTTS_2.000000|2.000000 moveb addl moveb ST_0.287269 
+AJ1 brainmoveFTS_1.000000|2.000000 movef brainmoveFTS_2.000000|1.000000 AJ2_0.080095|2.708766|4.452445|2.846512 mover addl brainampperturb_-0.123722 addf ST_0.889291 brainmoveTTS_2.000000|1.000000 brainperturb_0.289784 addl ST_0.138026 
+AJ2 movel brainmoveFTS_1.000000|1.000000 movef brainoffperturb_-0.782347 brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 addl brainedge_0.017747 B addl AJ1_0.788917|8.098847|4.949436|5.592636 brainmoveFTS_1.000000|2.000000 addl 
+B addr brainedge_0.819951 addf movef B AJ1_0.751562|6.596969|9.020310|8.460101 
+C C brainmoveTTS_2.000000|3.000000 brainperperturb_-0.180603 AJ2_0.594810|5.714608|5.602268|7.519067 addf brainloop_-0.560141 addl moveb movef mover brainmoveTTS_2.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.537908 brainperturb_0.602483 ST_-0.747316 B addf 
+ST brainmoveTTS_2.000000|1.000000 brainoffperturb_0.612998 brainampperturb_-0.229031 addl AJ1_-0.168543|4.182299|9.385841|2.272002 addl ST_-0.254691 ST_0.300981 addf addf AJ1_-0.002088|7.060818|1.684553|1.715560 addf 

@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_1.000000|1.000000 brainperturb_-0.361409 addf AJ2_-0.862763|3.694282|6.914020|4.871789 movel brainmoveFTS_2.000000|3.000000 brainperturb_-0.751188 addr AJ2_-0.150740|3.527225|9.366764|5.476474 movel 
-AJ2 brainmoveTTS_1.000000|1.000000 brainloop_-0.406141 addl ST_0.624179 movel brainmoveFTS_2.000000|1.000000 brainperturb_0.984349 addl B mover brainmoveFTS_1.000000|1.000000 brainloop_-0.925743 addl AJ1_0.821589|5.378282|5.577576|8.209119 moveb 
-B brainmoveFTS_1.000000|3.000000 brainedge_0.765693 addr AJ1_0.106944|5.667810|5.604559|6.039678 movef 
-C C brainmoveFTS_1.000000|1.000000 brainampperturb_0.955752 addl ST_0.677970 moveb brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.200003 addl B mover brainmoveTTS_1.000000|1.000000 brainampperturb_-1.133248 addf AJ2_-0.499578|9.838514|9.040610|8.886066 moveb 
-ST brainmoveTTS_1.000000|1.000000 brainperperturb_0.079629 addl AJ2_0.739672|5.995322|1.676579|3.097425 moveb brainmoveFTS_1.000000|1.000000 brainperperturb_0.263306 addl ST_-0.423246 mover 
+AJ1 brainmoveTTS_1.000000|1.000000 brainperturb_0.506971 addf AJ1_-0.421628|5.855370|4.684355|8.296866 movef brainmoveTTS_1.000000|1.000000 brainperperturb_-0.950901 addl AJ2_-0.131932|3.520308|6.395832|2.858925 moveb brainmoveFTS_1.000000|2.000000 brainedge_-0.316019 addr ST_0.040826 movef 
+AJ2 brainmoveTTS_1.000000|2.000000 brainedge_0.235925 addr AJ1_-0.674930|4.242502|5.251042|7.093928 mover 
+B brainmoveTTS_2.000000|1.000000 brainloop_-0.183363 addl B movef brainmoveTTS_2.000000|1.000000 brainampperturb_0.052786 addl AJ1_-0.603996|9.217526|1.011792|8.143290 movel 
+C C brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.488911 addr AJ1_-0.765213|9.755363|3.812737|1.208532 movel brainmoveFTS_1.000000|1.000000 brainloop_-0.541915 addr AJ1_0.379080|2.257236|5.085610|5.617731 movef brainmoveTTS_1.000000|1.000000 brainedge_-0.589800 addl B mover 
+ST brainmoveFTS_2.000000|2.000000 brainloop_0.001850 addf ST_-0.704439 movef brainmoveFTS_2.000000|2.000000 brainampperturb_-0.825207 addr AJ2_0.663685|6.768431|9.060792|2.326018 movel 

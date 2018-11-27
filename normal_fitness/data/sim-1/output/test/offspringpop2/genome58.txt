@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainedge_0.221930 addr AJ2_0.572714|5.986136|4.347778|5.139381 mover brainmoveTTS_1.000000|2.000000 brainperturb_-0.343043 addf AJ2_-0.099570|1.170014|5.791630|3.362344 movel brainmoveTTS_1.000000|1.000000 brainloop_0.160825 addl AJ2_0.125068|9.371100|7.548196|9.283419 moveb 
-AJ2 brainmoveTTS_3.000000|1.000000 brainperperturb_0.408252 addr B movef brainmoveTTS_2.000000|1.000000 brainedge_-0.023223 addf AJ2_-0.173260|5.126968|9.937864|7.348413 moveb 
-B brainmoveFTS_3.000000|2.000000 brainampperturb_-0.285134 addf B movef brainmoveFTS_2.000000|1.000000 brainperturb_-0.503062 addr AJ1_-0.953499|2.866059|6.047149|9.121255 moveb 
-C C brainmoveFTS_1.000000|1.000000 brainampperturb_0.300899 addr AJ2_-0.983177|6.656310|5.972410|9.415850 movel 
-ST brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.393382 addl B mover brainmoveTTS_1.000000|1.000000 brainloop_-0.310389 addl AJ1_0.986762|7.687928|8.670745|8.811285 movef brainmoveFTS_2.000000|1.000000 brainoffperturb_-0.240711 addr B movel 
+AJ1 brainmoveFTS_2.000000|2.000000 brainoffperturb_1.105519 addl AJ2_-0.896130|5.274510|3.314540|1.855069 moveb brainmoveTTS_1.000000|2.000000 brainperturb_-0.123433 addr AJ1_-0.025844|3.612117|9.260098|9.578629 moveb 
+AJ2 brainmoveTTS_1.000000|2.000000 brainedge_-0.892019 addr AJ2_-0.038922|2.501045|9.175394|5.854920 mover brainmoveFTS_1.000000|1.000000 brainedge_-0.382341 addf AJ1_0.140623|7.440847|7.193892|1.942079 mover brainmoveTTS_1.000000|1.000000 brainoffperturb_1.402450 addl B movel 
+B brainmoveFTS_2.000000|1.000000 brainperperturb_2.518269 addr B movef brainmoveTTS_1.000000|1.000000 brainedge_0.465217 addl AJ2_0.550609|4.209488|1.409124|9.795058 mover brainmoveFTS_3.000000|1.000000 brainedge_-0.500389 addl AJ2_-0.655334|5.679450|2.243511|3.036566 movef 
+C C brainoffperturb_-1.699086 addr AJ1_0.397058|6.948203|9.668991|3.511742 movef 
+ST brainmoveTTS_3.000000|1.000000 brainoffperturb_-0.622184 addl ST_0.159451 mover brainmoveTTS_2.000000|2.000000 brainoffperturb_0.317777 addl ST_0.304840 movel 

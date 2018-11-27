@@ -8,6 +8,45 @@ body:
   children    :
     3:
       slot        : 0
+      orientation : 90
+      params:
+        blue: 0
+        green: 0
+        red: 0.7
+      type        : ActiveHinge
+      id          : module2
+      children    :
+        1:
+          slot        : 0
+          orientation : 0
+          params:
+            blue: 0
+            green: 0
+            red: 0.7
+          type        : ActiveHinge
+          id          : module3
+          children    :
+            1:
+              slot        : 0
+              orientation : -90
+              params:
+                blue: 1
+                green: 0
+                red: 0
+              type        : FixedBrick
+              id          : module4
+              children    :
+                1:
+                  slot        : 0
+                  orientation : 0
+                  params:
+                    blue: 0.58
+                    green: 0.08
+                    red: 1
+                  type        : ActiveHinge
+                  id          : module5
+    1:
+      slot        : 0
       orientation : 0
       params:
         blue: 1
@@ -16,22 +55,42 @@ body:
       type        : FixedBrick
       id          : module1
       children    :
-        1:
+        2:
           slot        : 0
-          orientation : 90
+          orientation : 0
           params:
-            blue: 0
-            green: 0
+            blue: 0.7
+            green: 0.7
             red: 0.7
-          type        : ActiveHinge
-          id          : module2
+          type        : TouchSensor
+          id          : module1sensor-r
 brain:
   neurons:
     node1:
       id: node1
+      layer: input
+      part_id: module1sensor-r
+      type: Input
+    node2:
+      id: node2
       layer: output
       part_id: module2
       type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module3
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node1-2:
+      id: node1-2
+      layer: input
+      part_id: module1sensor-r
+      type: Input
     node-core1:
       id: node-core1
       layer: input
@@ -62,8 +121,35 @@ brain:
       layer: input
       part_id: module0
       type: Input
+  connections:
+  - dst: node2
+    src: node1
+    weight: -0.724199
+  - dst: node3
+    src: node1
+    weight: 1
+  - dst: node4
+    src: node1
+    weight: 0.516299
+  - dst: node2
+    src: node2
+    weight: 0.642359
+  - dst: node3
+    src: node3
+    weight: -0.705093
+  - dst: node4
+    src: node4
+    weight: 0.642359
   params:
-    node1:
-      period: 7.16414
-      phase_offset: 6.33068
-      amplitude: 9.73324
+    node2:
+      period: 2.7503
+      phase_offset: 8.90001
+      amplitude: 8.89868
+    node3:
+      period: 3.28921
+      phase_offset: 2.29717
+      amplitude: 8.73482
+    node4:
+      period: 6.47886
+      phase_offset: 8.56671
+      amplitude: 1

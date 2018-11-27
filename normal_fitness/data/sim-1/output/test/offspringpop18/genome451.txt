@@ -1,5 +1,5 @@
-AJ1 AJ2_0.878939|5.646746|7.950252|2.122914 brainoffperturb_-2.018945 addf movef brainmoveTTS_1.000000|2.000000 brainmoveTTS_1.000000|1.000000 mover brainperperturb_-0.149182 movel mover moveb brainoffperturb_1.120901 brainmoveTTS_1.000000|2.000000 addr movel brainmoveFTS_1.000000|1.000000 
-AJ2 brainmoveFTS_1.000000|2.000000 mover brainperperturb_0.191365 addl addl mover AJ2_-0.858437|8.459700|5.859118|8.976911 addl addr movel brainoffperturb_-0.393210 AJ1_-0.477069|9.634284|8.155018|8.742023 brainmoveFTS_2.000000|1.000000 B ST_0.506913 mover 
-B brainmoveTTS_1.000000|2.000000 B addl movel addf brainloop_-0.581366 
-C C brainmoveFTS_1.000000|1.000000 brainedge_-0.905657 addf brainmoveFTS_1.000000|1.000000 ST_-0.639064 brainmoveFTS_2.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainedge_-0.621370 mover brainmoveFTS_2.000000|1.000000 addr 
-ST addr mover brainedge_-0.375363 addr addf 
+AJ1 brainmoveTTS_1.000000|1.000000 brainampperturb_1.055006 moveb B addr mover brainmoveFTS_2.000000|1.000000 B brainedge_0.020269 
+AJ2 brainmoveFTS_1.000000|1.000000 brainloop_-0.939604 addf mover brainmoveFTS_1.000000|1.000000 brainedge_0.069802 addl AJ2_-0.134301|8.129570|4.481329|7.254254 movel brainperperturb_-0.963440 addf AJ1_-0.255541|7.636905|4.051007|3.727647 movel 
+B brainmoveFTS_1.000000|1.000000 brainoffperturb_1.815090 brainmoveTTS_4.000000|1.000000 mover 
+C C mover brainampperturb_0.252926 AJ1_0.745682|8.379139|8.674045|2.793533 mover brainoffperturb_2.582664 brainmoveTTS_1.000000|2.000000 brainoffperturb_0.715433 addf addf AJ2_-0.185852|5.760806|9.888369|7.713230 brainmoveFTS_1.000000|1.000000 addl brainoffperturb_0.712685 brainmoveFTS_1.000000|1.000000 addr addr brainoffperturb_0.623159 
+ST B brainperturb_-0.694929 brainampperturb_0.618523 brainperturb_-0.470080 addf mover brainmoveFTS_2.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainmoveFTS_2.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainmoveFTS_2.000000|1.000000 AJ2_-0.182858|2.622158|2.519795|6.970672 movel addr AJ2_-0.336417|1.678411|2.434691|8.041421 

@@ -8,70 +8,19 @@ body:
   children    :
     1:
       slot        : 0
-      orientation : 0
+      orientation : 90
       params:
-        blue: 1
+        blue: 0
         green: 0
-        red: 0
-      type        : FixedBrick
+        red: 0.7
+      type        : ActiveHinge
       id          : module1
-      children    :
-        2:
-          slot        : 0
-          orientation : 90
-          params:
-            blue: 0
-            green: 0
-            red: 0.7
-          type        : ActiveHinge
-          id          : module2
-          children    :
-            1:
-              slot        : 0
-              orientation : -90
-              params:
-                blue: 1
-                green: 0
-                red: 0
-              type        : FixedBrick
-              id          : module3
-              children    :
-                3:
-                  slot        : 0
-                  orientation : 0
-                  params:
-                    blue: 1
-                    green: 0
-                    red: 0
-                  type        : FixedBrick
-                  id          : module4
-                  children    :
-                    3:
-                      slot        : 0
-                      orientation : 0
-                      params:
-                        blue: 1
-                        green: 0
-                        red: 0
-                      type        : FixedBrick
-                      id          : module5
-                      children    :
 brain:
   neurons:
     node1:
       id: node1
       layer: output
-      part_id: module2
-      type: Oscillator
-    node2:
-      id: node2
-      layer: output
-      part_id: module10
-      type: Oscillator
-    node3:
-      id: node3
-      layer: output
-      part_id: module16
+      part_id: module1
       type: Oscillator
     node-core1:
       id: node-core1
@@ -105,14 +54,6 @@ brain:
       type: Input
   params:
     node1:
-      period: 10
+      period: 2.83826
       phase_offset: 1
-      amplitude: 1
-    node2:
-      period: 8.24864
-      phase_offset: 5.56404
-      amplitude: 3.20076
-    node3:
-      period: 8.24864
-      phase_offset: 5.56404
-      amplitude: 3.20076
+      amplitude: 5.49934

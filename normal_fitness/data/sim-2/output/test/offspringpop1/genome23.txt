@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainampperturb_-0.698804 addr AJ1_0.856732|5.301336|9.333606|5.359671 moveb 
-AJ2 brainmoveTTS_1.000000|1.000000 brainampperturb_-0.606737 addr ST_0.206761 movef brainmoveTTS_1.000000|1.000000 brainperperturb_-0.976178 addl AJ1_0.785524|1.787926|2.755319|7.471081 movel brainmoveFTS_1.000000|1.000000 brainloop_-0.453994 addl B mover 
-B brainmoveFTS_2.000000|1.000000 brainampperturb_1.120197 addl ST_0.649937 movel brainmoveFTS_1.000000|1.000000 brainampperturb_-0.098252 addr ST_-0.030828 mover 
-C C brainmoveFTS_1.000000|1.000000 brainperperturb_-0.985152 addr AJ2_-0.942403|2.127420|2.754838|5.452696 movel brainmoveTTS_1.000000|1.000000 brainedge_0.290307 addr AJ2_0.048711|9.042709|5.097409|1.799877 movel brainmoveTTS_1.000000|1.000000 brainperturb_0.847824 addl AJ2_0.777003|1.169416|2.495284|5.819646 movef 
-ST brainmoveTTS_3.000000|1.000000 brainampperturb_-0.786756 addl ST_-0.595405 mover brainmoveFTS_1.000000|1.000000 brainampperturb_-0.581955 addl AJ2_0.908439|4.578572|6.615629|6.025259 movel 
+AJ1 brainmoveTTS_1.000000|3.000000 brainperperturb_-0.432694 addr ST_-0.209807 movel brainmoveTTS_1.000000|1.000000 brainoffperturb_1.435298 addr AJ2_-0.888371|4.314953|9.905997|5.919532 moveb brainmoveFTS_1.000000|2.000000 brainedge_0.513196 addf ST_0.236931 mover 
+AJ2 brainmoveTTS_1.000000|1.000000 brainloop_-0.956123 addr B moveb 
+B brainmoveTTS_1.000000|1.000000 brainedge_0.258051 addf B movef brainmoveFTS_1.000000|1.000000 brainloop_-0.895490 addl AJ2_0.156134|2.786910|4.425652|6.893632 movel 
+C C brainmoveTTS_1.000000|1.000000 brainloop_0.678313 addr AJ1_0.276583|5.326408|6.806568|8.608760 mover brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.059363 addr B movel brainmoveFTS_1.000000|1.000000 brainampperturb_0.946566 addf AJ1_-0.725293|4.791390|9.634464|9.963996 moveb 
+ST brainmoveFTS_1.000000|1.000000 brainperturb_-1.656442 addf B movef brainmoveFTS_2.000000|2.000000 brainperturb_0.626206 addr ST_0.268346 mover brainmoveTTS_1.000000|2.000000 brainoffperturb_1.093186 addf AJ2_0.860493|8.145896|8.322336|2.472192 movef 

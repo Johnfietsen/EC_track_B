@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_3.000000|2.000000 brainloop_0.064479 addr B mover 
-AJ2 brainmoveTTS_1.000000|2.000000 brainedge_-0.022567 addr AJ2_0.251918|5.300261|3.737346|3.804430 mover brainmoveFTS_1.000000|2.000000 brainperperturb_-0.523524 addf AJ1_-0.453039|4.729478|9.754726|5.633760 mover 
-B brainmoveTTS_2.000000|1.000000 brainampperturb_0.074792 addf AJ1_-0.840149|2.446493|8.108142|4.446113 movel brainmoveTTS_1.000000|2.000000 brainedge_-0.027954 addr AJ1_0.462011|3.363836|8.715888|6.640782 moveb brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.841563 addr ST_-0.660493 mover 
-C C brainmoveFTS_3.000000|1.000000 brainperperturb_-1.181548 addl B mover brainmoveTTS_1.000000|1.000000 brainperturb_1.295911 addf AJ2_-0.599164|8.384459|5.951190|3.506075 moveb 
-ST brainmoveFTS_1.000000|2.000000 brainperperturb_-0.156210 addr B moveb brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.132505 addr AJ2_0.331718|6.351059|7.075601|9.550564 mover 
+AJ1 brainmoveFTS_1.000000|2.000000 brainoffperturb_-2.817269 addf AJ2_0.080095|2.708766|4.452445|2.846512 mover brainmoveFTS_2.000000|1.000000 brainampperturb_-0.123722 addl ST_0.889291 movef brainmoveTTS_2.000000|1.000000 brainperturb_0.289784 addl ST_0.138026 movel 
+AJ2 brainmoveFTS_1.000000|1.000000 brainloop_-0.543043 addr AJ1_-0.959777|7.341964|3.413754|4.139682 mover brainmoveTTS_1.000000|2.000000 brainloop_-0.947923 addr ST_0.549030 mover 
+B brainmoveTTS_1.000000|1.000000 brainedge_0.819951 addf AJ1_0.624520|4.761179|3.657016|5.877134 movel brainmoveFTS_1.000000|1.000000 brainperturb_-0.427709 addf AJ2_-0.808686|3.718397|1.083607|9.356880 movef brainmoveFTS_2.000000|1.000000 brainedge_-0.826385 addl B mover 
+C C brainmoveTTS_1.000000|1.000000 brainedge_-0.788159 addf ST_-0.882389 movef 
+ST brainmoveTTS_2.000000|1.000000 brainoffperturb_0.612998 addf AJ1_-0.168543|4.182299|9.385841|2.272002 movel brainmoveTTS_1.000000|1.000000 brainperturb_-1.332575 addl AJ2_0.795405|7.494157|8.132381|9.742764 mover brainmoveFTS_1.000000|1.000000 brainampperturb_-0.229031 addf AJ1_-0.002088|7.060818|1.684553|1.715560 moveb 

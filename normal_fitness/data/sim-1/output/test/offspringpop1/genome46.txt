@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|2.000000 brainoffperturb_0.697285 addl AJ1_-0.237133|8.284581|3.914662|5.229167 moveb 
-AJ2 brainmoveFTS_2.000000|2.000000 brainampperturb_3.522984 addl ST_-0.100604 mover 
-B brainmoveTTS_2.000000|1.000000 brainloop_-0.918955 addr AJ1_-0.915021|1.475961|1.695446|5.908277 movel brainmoveTTS_1.000000|2.000000 brainedge_0.144499 addr AJ2_-0.718288|9.836562|6.153140|4.429059 mover brainmoveTTS_1.000000|1.000000 brainperturb_-0.560454 addl AJ2_0.218988|6.773036|6.312899|8.128403 movef 
-C C brainmoveTTS_2.000000|2.000000 brainperturb_0.017707 addl AJ1_0.528267|9.158097|4.912947|2.129541 mover brainmoveTTS_1.000000|2.000000 brainloop_0.771337 addr B movef brainmoveFTS_1.000000|2.000000 brainedge_-0.652426 addr ST_-0.796989 moveb 
-ST brainmoveTTS_1.000000|2.000000 brainperperturb_0.356266 addl AJ1_-0.530841|4.681596|8.416101|2.065428 movef brainmoveFTS_1.000000|1.000000 brainampperturb_0.808752 addl B movel 
+AJ1 brainmoveFTS_4.000000|2.000000 brainperturb_0.960726 addf ST_-0.628233 movel brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.839265 addl AJ1_-0.339026|1.099631|4.072939|1.130083 movef 
+AJ2 brainmoveFTS_1.000000|1.000000 brainperturb_0.825723 addl AJ2_-0.706548|7.787070|9.445450|4.374082 movef brainmoveTTS_1.000000|1.000000 brainloop_-0.507558 addf AJ2_0.265315|4.342327|2.817090|1.309608 moveb brainmoveFTS_2.000000|1.000000 brainperturb_-0.752910 addf ST_-0.475067 moveb 
+B brainmoveFTS_1.000000|1.000000 brainoffperturb_1.678253 addf B mover brainmoveTTS_1.000000|1.000000 brainampperturb_-0.797851 addf AJ1_-0.149544|5.495294|3.287653|1.170980 movef brainmoveFTS_1.000000|1.000000 brainperturb_0.479854 addr ST_0.572420 mover 
+C C brainmoveTTS_2.000000|1.000000 brainampperturb_-2.234367 addl AJ1_0.522062|2.326822|7.354088|7.722838 movel brainmoveTTS_1.000000|1.000000 brainedge_0.758399 addr AJ1_0.043456|6.066611|5.712403|8.381835 mover 
+ST brainmoveFTS_3.000000|1.000000 brainperturb_0.042520 addf AJ2_0.251377|1.789393|8.353566|2.911848 mover brainmoveFTS_1.000000|1.000000 brainperperturb_1.007724 addl B movel 

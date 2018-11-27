@@ -10,62 +10,68 @@ body:
       slot        : 0
       orientation : 0
       params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-f
-    2:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.58
-        green: 0.08
-        red: 1
-      type        : ActiveHinge
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
       id          : module1
       children    :
-        1:
+        2:
           slot        : 0
           orientation : 0
           params:
-            blue: 1
-            green: 0
-            red: 0
-          type        : FixedBrick
+            blue: 0.58
+            green: 0.08
+            red: 1
+          type        : ActiveHinge
           id          : module2
           children    :
+            1:
+              slot        : 0
+              orientation : 0
+              params:
+                blue: 1
+                green: 0
+                red: 0
+              type        : FixedBrick
+              id          : module3
+              children    :
 brain:
   neurons:
     node1:
       id: node1
-      layer: input
-      part_id: module0sensor-f
-      type: Input
+      layer: output
+      part_id: module2
+      type: Oscillator
     node2:
       id: node2
-      layer: output
-      part_id: module1
-      type: Oscillator
+      layer: input
+      part_id: module4sensor-l
+      type: Input
     node3:
       id: node3
-      layer: output
-      part_id: module3
-      type: Oscillator
+      layer: input
+      part_id: module6sensor-l
+      type: Input
     node4:
       id: node4
       layer: input
-      part_id: module5sensor-l
+      part_id: module10sensor-l
       type: Input
-    node1-2:
-      id: node1-2
+    node2-2:
+      id: node2-2
       layer: input
-      part_id: module0sensor-f
+      part_id: module4sensor-l
+      type: Input
+    node3-2:
+      id: node3-2
+      layer: input
+      part_id: module6sensor-l
       type: Input
     node4-2:
       id: node4-2
       layer: input
-      part_id: module5sensor-l
+      part_id: module10sensor-l
       type: Input
     node-core1:
       id: node-core1
@@ -98,27 +104,17 @@ brain:
       part_id: module0
       type: Input
   connections:
-  - dst: node2
-    src: node1
-    weight: 0.774934
-  - dst: node3
-    src: node1
-    weight: -1
-  - dst: node2
+  - dst: node1
     src: node2
-    weight: 0.124349
-  - dst: node3
+    weight: 1
+  - dst: node1
     src: node3
-    weight: 0.124349
-  - dst: node3
+    weight: 1
+  - dst: node1
     src: node4
-    weight: 0.567757
+    weight: 0.969792
   params:
-    node2:
-      period: 4.73659
-      phase_offset: 1.80038
-      amplitude: 3.45065
-    node3:
-      period: 6.93093
-      phase_offset: 3.7955
-      amplitude: 7.293
+    node1:
+      period: 8.37914
+      phase_offset: 10
+      amplitude: 1.34142

@@ -14,7 +14,7 @@ offset_deviation:0
 period_average:0
 period_deviation:0
 recurrence:0
-sensors:0.25
+sensors:0.5
 symmetry:0
 synaptic_reception:0
 total_components:0.01

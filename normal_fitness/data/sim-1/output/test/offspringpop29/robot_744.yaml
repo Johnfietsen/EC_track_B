@@ -5,91 +5,8 @@ body:
     red: 1
   type        : Core
   id          : module0
-  children    :
-    3:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-l
-    1:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-f
-    2:
-      slot        : 0
-      orientation : 90
-      params:
-        blue: 0
-        green: 0
-        red: 0.7
-      type        : ActiveHinge
-      id          : module1
-      children    :
-        1:
-          slot        : 0
-          orientation : 0
-          params:
-            blue: 0
-            green: 0
-            red: 0.7
-          type        : ActiveHinge
-          id          : module2
-          children    :
-            1:
-              slot        : 0
-              orientation : 0
-              params:
-                blue: 0
-                green: 0
-                red: 0.7
-              type        : ActiveHinge
-              id          : module3
 brain:
   neurons:
-    node1:
-      id: node1
-      layer: input
-      part_id: module0sensor-l
-      type: Input
-    node2:
-      id: node2
-      layer: input
-      part_id: module0sensor-f
-      type: Input
-    node3:
-      id: node3
-      layer: output
-      part_id: module1
-      type: Oscillator
-    node4:
-      id: node4
-      layer: output
-      part_id: module2
-      type: Oscillator
-    node5:
-      id: node5
-      layer: output
-      part_id: module3
-      type: Oscillator
-    node1-2:
-      id: node1-2
-      layer: input
-      part_id: module0sensor-l
-      type: Input
-    node2-2:
-      id: node2-2
-      layer: input
-      part_id: module0sensor-f
-      type: Input
     node-core1:
       id: node-core1
       layer: input
@@ -120,32 +37,4 @@ brain:
       layer: input
       part_id: module0
       type: Input
-  connections:
-  - dst: node3
-    src: node1
-    weight: -0.366918
-  - dst: node4
-    src: node1
-    weight: -0.544916
-  - dst: node5
-    src: node1
-    weight: 0.843385
-  - dst: node3
-    src: node2
-    weight: -0.544916
-  - dst: node3
-    src: node3
-    weight: -0.880045
   params:
-    node3:
-      period: 4.09173
-      phase_offset: 4.41969
-      amplitude: 2.59033
-    node4:
-      period: 1.70992
-      phase_offset: 6.09517
-      amplitude: 4.38805
-    node5:
-      period: 3.41062
-      phase_offset: 5.23414
-      amplitude: 2.89015

@@ -8,6 +8,15 @@ body:
   children    :
     2:
       slot        : 0
+      orientation : 0
+      params:
+        blue: 0.7
+        green: 0.7
+        red: 0.7
+      type        : TouchSensor
+      id          : module0sensor-r
+    1:
+      slot        : 0
       orientation : 90
       params:
         blue: 0
@@ -35,7 +44,7 @@ body:
                 red: 0.7
               type        : TouchSensor
               id          : module2sensor-r
-            3:
+            1:
               slot        : 0
               orientation : 0
               params:
@@ -45,34 +54,44 @@ body:
               type        : FixedBrick
               id          : module3
               children    :
-                2:
+                1:
                   slot        : 0
-                  orientation : 0
+                  orientation : 90
                   params:
-                    blue: 0.7
-                    green: 0.7
-                    red: 0.7
-                  type        : TouchSensor
-                  id          : module3sensor-r
-                3:
-                  slot        : 0
-                  orientation : 0
-                  params:
-                    blue: 1
+                    blue: 0
                     green: 0
-                    red: 0
-                  type        : FixedBrick
+                    red: 0.7
+                  type        : ActiveHinge
                   id          : module4
                   children    :
-                    2:
+                    1:
                       slot        : 0
-                      orientation : 0
+                      orientation : -90
                       params:
                         blue: 1
                         green: 0
                         red: 0
                       type        : FixedBrick
                       id          : module5
+                      children    :
+                        2:
+                          slot        : 0
+                          orientation : 0
+                          params:
+                            blue: 0.7
+                            green: 0.7
+                            red: 0.7
+                          type        : TouchSensor
+                          id          : module5sensor-r
+                        1:
+                          slot        : 0
+                          orientation : 0
+                          params:
+                            blue: 1
+                            green: 0
+                            red: 0
+                          type        : FixedBrick
+                          id          : module6
 brain:
   neurons:
     node1:
@@ -83,22 +102,37 @@ brain:
     node2:
       id: node2
       layer: input
-      part_id: module3sensor-r
+      part_id: module0sensor-r
       type: Input
     node3:
       id: node3
       layer: input
       part_id: module2sensor-r
       type: Input
+    node4:
+      id: node4
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node5:
+      id: node5
+      layer: input
+      part_id: module5sensor-r
+      type: Input
     node2-2:
       id: node2-2
       layer: input
-      part_id: module3sensor-r
+      part_id: module0sensor-r
       type: Input
     node3-2:
       id: node3-2
       layer: input
       part_id: module2sensor-r
+      type: Input
+    node5-2:
+      id: node5-2
+      layer: input
+      part_id: module5sensor-r
       type: Input
     node-core1:
       id: node-core1
@@ -132,13 +166,29 @@ brain:
       type: Input
   connections:
   - dst: node1
+    src: node1
+    weight: 0.338371
+  - dst: node1
     src: node2
-    weight: 1
+    weight: -1
+  - dst: node4
+    src: node2
+    weight: -1
   - dst: node1
     src: node3
-    weight: 0.715565
+    weight: -1
+  - dst: node4
+    src: node4
+    weight: 0.338371
+  - dst: node4
+    src: node5
+    weight: -1
   params:
     node1:
-      period: 10
-      phase_offset: 1
-      amplitude: 1.61063
+      period: 1
+      phase_offset: 6.89195
+      amplitude: 6.87069
+    node4:
+      period: 1.1497
+      phase_offset: 1.613
+      amplitude: 9.51342

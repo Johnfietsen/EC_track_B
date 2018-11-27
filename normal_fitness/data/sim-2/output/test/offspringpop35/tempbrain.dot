@@ -1,8 +1,12 @@
  digraph g{ forcelabels=true;
-1 [label=<1<BR />Oscillator M2<BR /> period: 10.000000<BR /> phase_offset: 4.094931<BR /> amplitude: 1.386258>, shape=box,color=red,style=filled,fontsize=8];2 [label=<2<BR />Oscillator M3<BR /> period: 6.462781<BR /> phase_offset: 9.300066<BR /> amplitude: 1.273264>, shape=box,color=red,style=filled,fontsize=8];3 [label=<3<BR />Oscillator M4<BR /> period: 6.612794<BR /> phase_offset: 3.069620<BR /> amplitude: 8.959346>, shape=box,color=red,style=filled,fontsize=8];4[label=<4<BR/>M8>,color="grey",style=filled,fontsize=8];
-5[label=<5<BR/>M11>,color="grey",style=filled,fontsize=8];
+1 [label=<1<BR />Oscillator M1<BR /> period: 2.838262<BR /> phase_offset: 8.502051<BR /> amplitude: 5.870510>, shape=box,color=red,style=filled,fontsize=8];2 [label=<2<BR />Oscillator M2<BR /> period: 7.142305<BR /> phase_offset: 1.914524<BR /> amplitude: 1.358275>, shape=box,color=red,style=filled,fontsize=8];3 [label=<3<BR />Oscillator M4<BR /> period: 8.098847<BR /> phase_offset: 4.949436<BR /> amplitude: 5.592636>, shape=box,color=red,style=filled,fontsize=8];4[label=<4<BR/>M3>,color="grey",style=filled,fontsize=8];
+5 [label=<5<BR />Oscillator M5<BR /> period: 2.406337<BR /> phase_offset: 7.892530<BR /> amplitude: 3.916137>, shape=box,color=red,style=filled,fontsize=8];6 [label=<6<BR />Oscillator M6<BR /> period: 9.184804<BR /> phase_offset: 2.830632<BR /> amplitude: 9.126800>, shape=box,color=red,style=filled,fontsize=8];7 [label=<7<BR />Oscillator M7<BR /> period: 4.008258<BR /> phase_offset: 6.022162<BR /> amplitude: 9.836420>, shape=box,color=red,style=filled,fontsize=8];8 [label=<8<BR />Oscillator M8<BR /> period: 5.813739<BR /> phase_offset: 9.048355<BR /> amplitude: 4.550521>, shape=box,color=red,style=filled,fontsize=8];9 [label=<9<BR />Oscillator M9<BR /> period: 9.184804<BR /> phase_offset: 1.406302<BR /> amplitude: 9.126800>, shape=box,color=red,style=filled,fontsize=8];1 -> 1[label="-0.468122 ",fontsize="8"];
 4 -> 1[label="1 ",fontsize="8"];
-4 -> 2[label="0.587443 ",fontsize="8"];
-4 -> 3[label="-0.757947 ",fontsize="8"];
-5 -> 1[label="-0.757947 ",fontsize="8"];
+4 -> 2[label="0.198628 ",fontsize="8"];
+4 -> 3[label="1 ",fontsize="8"];
+4 -> 5[label="0.435612 ",fontsize="8"];
+4 -> 6[label="-0.366773 ",fontsize="8"];
+4 -> 7[label="0.641704 ",fontsize="8"];
+4 -> 8[label="1 ",fontsize="8"];
+4 -> 9[label="-0.366773 ",fontsize="8"];
  }

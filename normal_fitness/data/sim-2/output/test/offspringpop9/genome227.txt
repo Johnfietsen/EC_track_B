@@ -1,5 +1,5 @@
-AJ1 ST_0.411782 addf AJ2_-0.201011|5.571360|3.663553|2.654645 AJ1_0.085783|1.824303|7.742822|8.370578 brainampperturb_-0.415832 
-AJ2 brainmoveTTS_1.000000|1.000000 AJ1_-0.951216|1.152614|7.595356|4.569973 addl brainedge_-0.868016 movef brainmoveTTS_1.000000|1.000000 brainoffperturb_0.251806 addl brainmoveFTS_1.000000|1.000000 addr AJ1_0.493186|1.017068|9.818488|6.896104 movef 
-B addr brainmoveFTS_1.000000|1.000000 
-C C brainmoveFTS_1.000000|1.000000 brainperperturb_-0.985152 addr AJ2_-0.942403|2.127420|2.754838|5.452696 movel brainmoveTTS_1.000000|1.000000 brainedge_0.290307 addf addr movel brainampperturb_0.105474 brainmoveTTS_1.000000|1.000000 brainperturb_0.847824 addl movef ST_-0.345881 AJ1_0.747062|8.850938|1.340695|6.600661 brainperturb_0.244866 
-ST brainmoveTTS_3.000000|1.000000 brainampperturb_-0.786756 brainmoveTTS_1.000000|1.000000 brainmoveFTS_1.000000|1.000000 ST_-0.595405 mover brainmoveFTS_1.000000|1.000000 brainampperturb_-0.581955 addl movel 
+AJ1 brainmoveTTS_1.000000|1.000000 AJ1_-0.306936|8.460119|5.024134|2.940184 brainperturb_0.506971 addf AJ1_-0.421628|5.855370|4.684355|8.296866 movef brainperperturb_-0.950901 AJ2_-0.131932|3.520308|6.395832|2.858925 addl brainmoveTTS_1.000000|1.000000 moveb brainmoveFTS_1.000000|2.000000 brainmoveFTS_1.000000|2.000000 movef brainedge_-0.316019 
+AJ2 brainmoveTTS_1.000000|1.000000 brainperperturb_0.237237 addf AJ2_-0.565496|5.876208|5.669008|6.723717 moveb brainmoveTTS_1.000000|2.000000 brainloop_0.243511 addr B movel brainmoveTTS_2.000000|1.000000 brainampperturb_-1.309834 addr AJ2_0.282719|6.856487|9.653051|4.672437 moveb 
+B brainmoveFTS_1.000000|2.000000 brainoffperturb_0.767601 addl movel brainedge_0.562347 AJ2_0.435612|2.406337|7.892530|3.916137 
+C C brainmoveTTS_2.000000|3.000000 addf AJ2_0.594810|5.714608|5.602268|7.519067 mover brainloop_-0.560141 addf AJ1_0.197606|9.281812|5.213162|1.157924 mover brainmoveTTS_2.000000|1.000000 brainoffperturb_-1.537908 addf ST_-0.747316 
+ST brainmoveFTS_1.000000|1.000000 brainmoveFTS_1.000000|2.000000 brainperturb_-0.709783 addr ST_-0.362074 mover 

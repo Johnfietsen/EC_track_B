@@ -1,4 +1,13 @@
  digraph g{ forcelabels=true;
 1[label=<1<BR/>M0>,color="grey",style=filled,fontsize=8];
 2[label=<2<BR/>M0>,color="grey",style=filled,fontsize=8];
+3[label=<3<BR/>M0>,color="grey",style=filled,fontsize=8];
+4 [label=<4<BR />Oscillator M2<BR /> period: 7.325918<BR /> phase_offset: 4.518622<BR /> amplitude: 6.658559>, shape=box,color=red,style=filled,fontsize=8];5 [label=<5<BR />Oscillator M3<BR /> period: 1.589824<BR /> phase_offset: 1.155981<BR /> amplitude: 2.954626>, shape=box,color=red,style=filled,fontsize=8];6 [label=<6<BR />Oscillator M4<BR /> period: 7.211298<BR /> phase_offset: 3.225351<BR /> amplitude: 3.516169>, shape=box,color=red,style=filled,fontsize=8];7 [label=<7<BR />Oscillator M5<BR /> period: 1.131344<BR /> phase_offset: 1.155981<BR /> amplitude: 2.954626>, shape=box,color=red,style=filled,fontsize=8];1 -> 4[label="-0.549215 ",fontsize="8"];
+1 -> 5[label="-0.417935 ",fontsize="8"];
+1 -> 6[label="0.736978 ",fontsize="8"];
+1 -> 7[label="0.347669 ",fontsize="8"];
+2 -> 4[label="0.25595 ",fontsize="8"];
+3 -> 4[label="0.736978 ",fontsize="8"];
+4 -> 4[label="-0.939604 ",fontsize="8"];
+5 -> 5[label="-0.939604 ",fontsize="8"];
  }

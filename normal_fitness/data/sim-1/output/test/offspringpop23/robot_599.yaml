@@ -5,8 +5,157 @@ body:
     red: 1
   type        : Core
   id          : module0
+  children    :
+    3:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module2
+    1:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 1
+        green: 0
+        red: 0
+      type        : FixedBrick
+      id          : module3
+      children    :
+        1:
+          slot        : 0
+          orientation : 0
+          params:
+            blue: 1
+            green: 0
+            red: 0
+          type        : FixedBrick
+          id          : module4
+          children    :
+            1:
+              slot        : 0
+              orientation : 0
+              params:
+                blue: 1
+                green: 0
+                red: 0
+              type        : FixedBrick
+              id          : module6
+              children    :
+                3:
+                  slot        : 0
+                  orientation : 90
+                  params:
+                    blue: 0
+                    green: 0
+                    red: 0.7
+                  type        : ActiveHinge
+                  id          : module7
+                1:
+                  slot        : 0
+                  orientation : 0
+                  params:
+                    blue: 1
+                    green: 0
+                    red: 0
+                  type        : FixedBrick
+                  id          : module9
+                  children    :
+                    3:
+                      slot        : 0
+                      orientation : 90
+                      params:
+                        blue: 0
+                        green: 0
+                        red: 0.7
+                      type        : ActiveHinge
+                      id          : module10
+                    1:
+                      slot        : 0
+                      orientation : 0
+                      params:
+                        blue: 1
+                        green: 0
+                        red: 0
+                      type        : FixedBrick
+                      id          : module12
+                      children    :
+                        1:
+                          slot        : 0
+                          orientation : 0
+                          params:
+                            blue: 1
+                            green: 0
+                            red: 0
+                          type        : FixedBrick
+                          id          : module13
+                          children    :
+                            2:
+                              slot        : 0
+                              orientation : 0
+                              params:
+                                blue: 1
+                                green: 0
+                                red: 0
+                              type        : FixedBrick
+                              id          : module14
+                    2:
+                      slot        : 0
+                      orientation : 90
+                      params:
+                        blue: 0
+                        green: 0
+                        red: 0.7
+                      type        : ActiveHinge
+                      id          : module11
+            2:
+              slot        : 0
+              orientation : 0
+              params:
+                blue: 1
+                green: 0
+                red: 0
+              type        : FixedBrick
+              id          : module5
+    2:
+      slot        : 0
+      orientation : 90
+      params:
+        blue: 0
+        green: 0
+        red: 0.7
+      type        : ActiveHinge
+      id          : module1
 brain:
   neurons:
+    node1:
+      id: node1
+      layer: output
+      part_id: module1
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module8
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module11
+      type: Oscillator
     node-core1:
       id: node-core1
       layer: input
@@ -38,3 +187,23 @@ brain:
       part_id: module0
       type: Input
   params:
+    node1:
+      period: 5.75826
+      phase_offset: 1.63868
+      amplitude: 1
+    node2:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node3:
+      period: 4.52435
+      phase_offset: 6.76766
+      amplitude: 6.46533
+    node4:
+      period: 6.71013
+      phase_offset: 3.59147
+      amplitude: 4.2511
+    node5:
+      period: 4.52435
+      phase_offset: 6.76766
+      amplitude: 6.46533

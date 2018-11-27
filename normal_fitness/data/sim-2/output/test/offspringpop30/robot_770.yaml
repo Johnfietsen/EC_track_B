@@ -6,6 +6,25 @@ body:
   type        : Core
   id          : module0
   children    :
+    3:
+      slot        : 0
+      orientation : 90
+      params:
+        blue: 0
+        green: 0
+        red: 0.7
+      type        : ActiveHinge
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : -90
+          params:
+            blue: 1
+            green: 0
+            red: 0
+          type        : FixedBrick
+          id          : module2
     2:
       slot        : 0
       orientation : 0
@@ -14,89 +33,13 @@ body:
         green: 0
         red: 0
       type        : FixedBrick
-      id          : module1
-      children    :
+      id          : module3
 brain:
   neurons:
     node1:
       id: node1
       layer: output
-      part_id: module2
-      type: Oscillator
-    node2:
-      id: node2
-      layer: output
-      part_id: module3
-      type: Oscillator
-    node3:
-      id: node3
-      layer: output
-      part_id: module4
-      type: Oscillator
-    node4:
-      id: node4
-      layer: output
-      part_id: module5
-      type: Oscillator
-    node5:
-      id: node5
-      layer: output
-      part_id: module6
-      type: Oscillator
-    node6:
-      id: node6
-      layer: output
-      part_id: module7
-      type: Oscillator
-    node7:
-      id: node7
-      layer: output
-      part_id: module8
-      type: Oscillator
-    node8:
-      id: node8
-      layer: output
-      part_id: module10
-      type: Oscillator
-    node9:
-      id: node9
-      layer: output
-      part_id: module11
-      type: Oscillator
-    node10:
-      id: node10
-      layer: output
-      part_id: module12
-      type: Oscillator
-    node11:
-      id: node11
-      layer: output
-      part_id: module14
-      type: Oscillator
-    node12:
-      id: node12
-      layer: output
-      part_id: module15
-      type: Oscillator
-    node13:
-      id: node13
-      layer: output
-      part_id: module16
-      type: Oscillator
-    node14:
-      id: node14
-      layer: output
-      part_id: module18
-      type: Oscillator
-    node15:
-      id: node15
-      layer: output
-      part_id: module19
-      type: Oscillator
-    node16:
-      id: node16
-      layer: output
-      part_id: module20
+      part_id: module1
       type: Oscillator
     node-core1:
       id: node-core1
@@ -130,66 +73,6 @@ brain:
       type: Input
   params:
     node1:
-      period: 10
-      phase_offset: 2.55024
-      amplitude: 1
-    node2:
-      period: 7.67138
-      phase_offset: 2.05001
-      amplitude: 3.82921
-    node3:
-      period: 4.25962
-      phase_offset: 3.21117
-      amplitude: 5.07517
-    node4:
-      period: 7.67138
-      phase_offset: 2.05001
-      amplitude: 3.82921
-    node5:
-      period: 4.25962
-      phase_offset: 3.21117
-      amplitude: 5.07517
-    node6:
-      period: 7.67138
-      phase_offset: 2.05001
-      amplitude: 3.82921
-    node7:
-      period: 7.67138
-      phase_offset: 2.05001
-      amplitude: 3.82921
-    node8:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node9:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node10:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node11:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node12:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node13:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node14:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node15:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
-    node16:
-      period: 6.60028
-      phase_offset: 8.39615
-      amplitude: 1.53556
+      period: 1
+      phase_offset: 2.2682
+      amplitude: 6.49004

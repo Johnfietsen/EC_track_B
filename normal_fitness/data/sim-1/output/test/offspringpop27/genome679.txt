@@ -1,5 +1,5 @@
-AJ1 brainoffperturb_1.120901 AJ2_0.211604|5.363669|2.132302|5.081762 movef AJ2_-0.636026|6.981964|6.712493|7.125084 AJ2_0.843385|3.410623|5.234139|2.890149 brainmoveFTS_1.000000|1.000000 mover movef brainoffperturb_-2.018945 brainedge_0.385591 ST_-0.274183 mover AJ2_0.878939|5.646746|7.950252|2.122914 brainmoveTTS_1.000000|2.000000 moveb brainmoveTTS_1.000000|2.000000 addf movel mover 
-AJ2 moveb addl brainmoveFTS_2.000000|1.000000 brainmoveFTS_1.000000|1.000000 brainedge_0.229423 
-B addf 
-C C movel addf brainperturb_-1.609599 brainperturb_-0.440156 AJ2_0.734749|5.125094|5.373089|4.156383 
-ST addr addl addr mover brainampperturb_0.427907 ST_0.567757 brainperperturb_0.587007 brainmoveFTS_2.000000|1.000000 brainmoveFTS_1.000000|1.000000 brainperturb_0.759448 B addr 
+AJ1 brainmoveTTS_1.000000|1.000000 addf addl addr AJ1_0.575763|8.914118|1.893135|8.727785 brainloop_-0.841872 movef AJ2_-0.276928|6.710134|3.591471|4.251099 brainmoveTTS_2.000000|1.000000 moveb addr brainloop_0.696094 AJ2_0.371030|4.524355|6.767664|6.465331 brainperturb_0.747619 
+AJ2 brainmoveFTS_1.000000|1.000000 brainloop_-0.939604 brainedge_0.069802 addl addf brainmoveFTS_1.000000|1.000000 AJ1_-0.255541|7.636905|4.051007|3.727647 brainperperturb_-0.915158 
+B brainmoveTTS_1.000000|1.000000 addf brainedge_-0.484941 B AJ1_-0.742065|5.205073|8.466503|6.357272 brainampperturb_0.406048 B brainmoveTTS_1.000000|1.000000 brainedge_-0.356914 AJ1_-0.685631|8.971516|6.238460|9.900704 mover addf brainampperturb_-1.183260 
+C C brainmoveFTS_1.000000|1.000000 addl AJ2_0.886253|8.412291|6.771980|4.647960 brainmoveTTS_1.000000|2.000000 ST_-0.497397 brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|2.000000 AJ2_0.821957|7.873351|2.436410|8.401123 brainmoveFTS_1.000000|1.000000 addr brainmoveTTS_2.000000|1.000000 movef AJ2_-0.616483|5.758257|1.638676|4.780774 ST_0.890883 brainmoveTTS_1.000000|1.000000 brainedge_0.160130 
+ST moveb brainmoveFTS_4.000000|1.000000 brainampperturb_-0.291610 movef B brainmoveFTS_1.000000|2.000000 movef movel brainmoveTTS_1.000000|1.000000 addr brainampperturb_-0.804445 addl 

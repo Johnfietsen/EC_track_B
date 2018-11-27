@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_2.000000|1.000000 addf brainperturb_0.404497 AJ1_-0.547112|4.945538|5.075303|9.813412 AJ1_-0.120997|7.026048|3.801317|3.344242 movel movel brainmoveTTS_2.000000|1.000000 brainperturb_-0.672407 moveb mover movel addr 
-AJ2 brainmoveTTS_1.000000|2.000000 AJ1_-0.453039|4.729478|9.754726|5.633760 AJ1_-0.948342|4.259615|3.211175|5.075170 mover addr AJ2_0.251918|5.300261|3.737346|3.804430 brainampperturb_-0.764557 brainmoveFTS_1.000000|2.000000 brainperperturb_-0.523524 addf mover 
-B addf brainedge_-0.320387 
-C C brainmoveFTS_1.000000|1.000000 brainmoveTTS_1.000000|2.000000 addl AJ1_0.446798|7.238392|2.812471|3.227254 movel addf movef brainperperturb_1.501845 brainoffperturb_-0.291508 
-ST brainmoveTTS_1.000000|1.000000 brainampperturb_-0.786756 brainloop_-0.438011 movel addl ST_-0.595405 mover brainampperturb_-0.581955 mover mover brainmoveFTS_1.000000|1.000000 movel 
+AJ1 brainloop_0.338371 addf mover addf AJ1_0.204056|3.799740|2.308973|8.859329 addf brainmoveFTS_2.000000|1.000000 brainmoveFTS_1.000000|1.000000 brainoffperturb_0.642247 movef movel 
+AJ2 brainmoveFTS_1.000000|1.000000 ST_0.396100 brainmoveFTS_1.000000|2.000000 brainperperturb_-0.642174 movef moveb ST_-0.674336 B movef brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.782347 addf addf brainmoveTTS_1.000000|1.000000 AJ1_0.788917|8.098847|4.949436|5.592636 brainperturb_-0.792419 addr AJ2_-0.606005|7.509895|7.133411|2.955325 addl 
+B brainmoveTTS_1.000000|1.000000 brainedge_0.819951 addf movel AJ2_-0.808686|3.718397|1.083607|9.356880 AJ1_0.624520|4.761179|3.657016|5.877134 brainperturb_-0.427709 addf addr addr movef addr B brainedge_-0.826385 
+C C brainoffperturb_-1.537908 addf mover AJ2_0.594810|5.714608|5.602268|7.519067 addf brainloop_-0.560141 addr AJ1_0.197606|9.281812|5.213162|1.157924 mover brainmoveTTS_2.000000|1.000000 brainmoveTTS_2.000000|3.000000 mover mover addf moveb 
+ST brainmoveFTS_1.000000|3.000000 ST_-0.716876 addl AJ2_-0.208630|4.875713|1.642791|9.560379 movel brainmoveFTS_1.000000|3.000000 movel brainedge_0.783460 AJ2_-0.885881|5.620519|6.927422|7.410733 

@@ -8,44 +8,60 @@ body:
   children    :
     3:
       slot        : 0
-      orientation : 90
+      orientation : 0
       params:
-        blue: 0
+        blue: 1
         green: 0
-        red: 0.7
-      type        : ActiveHinge
+        red: 0
+      type        : FixedBrick
       id          : module1
       children    :
-        1:
-          slot        : 0
-          orientation : -90
-          params:
-            blue: 1
-            green: 0
-            red: 0
-          type        : FixedBrick
-          id          : module2
-          children    :
-            1:
-              slot        : 0
-              orientation : 0
-              params:
-                blue: 0.58
-                green: 0.08
-                red: 1
-              type        : ActiveHinge
-              id          : module3
 brain:
   neurons:
     node1:
       id: node1
       layer: output
-      part_id: module1
+      part_id: module3
       type: Oscillator
     node2:
       id: node2
       layer: output
-      part_id: module3
+      part_id: module6
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
+      part_id: module7
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module11
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module13
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module14
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module15
       type: Oscillator
     node-core1:
       id: node-core1
@@ -79,10 +95,38 @@ brain:
       type: Input
   params:
     node1:
-      period: 6.60737
-      phase_offset: 4.73292
+      period: 5.6063
+      phase_offset: 3.37739
       amplitude: 10
     node2:
-      period: 2.02232
-      phase_offset: 3.79034
-      amplitude: 1.69369
+      period: 7.52319
+      phase_offset: 4.88962
+      amplitude: 5.37413
+    node3:
+      period: 4.35359
+      phase_offset: 5.51544
+      amplitude: 8.70561
+    node4:
+      period: 7.52319
+      phase_offset: 4.88962
+      amplitude: 5.37413
+    node5:
+      period: 4.35359
+      phase_offset: 5.51544
+      amplitude: 8.70561
+    node6:
+      period: 7.85164
+      phase_offset: 7.26472
+      amplitude: 2.5972
+    node7:
+      period: 6.30069
+      phase_offset: 1.67933
+      amplitude: 6.952
+    node8:
+      period: 7.52319
+      phase_offset: 4.88962
+      amplitude: 5.37413
+    node9:
+      period: 4.35359
+      phase_offset: 5.51544
+      amplitude: 8.70561

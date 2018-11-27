@@ -1,5 +1,5 @@
-AJ1 AJ2_0.878939|5.646746|7.950252|2.122914 brainoffperturb_-2.018945 addf movef brainmoveTTS_1.000000|2.000000 brainmoveTTS_1.000000|1.000000 mover brainperperturb_-0.149182 movel mover moveb brainoffperturb_1.120901 brainmoveTTS_1.000000|2.000000 addr movel brainmoveFTS_1.000000|1.000000 
-AJ2 addr brainperturb_0.280212 brainperperturb_-0.454997 brainmoveFTS_2.000000|1.000000 moveb brainmoveTTS_1.000000|2.000000 brainedge_-0.026771 addl mover 
-B AJ1_-0.692057|5.724505|7.871363|8.066086 addr ST_-0.096607 addl brainmoveTTS_1.000000|1.000000 brainloop_0.833569 addl brainmoveTTS_1.000000|2.000000 brainmoveFTS_1.000000|1.000000 AJ1_0.369352|1.094323|2.873505|4.231603 brainmoveFTS_1.000000|1.000000 addl movef mover 
-C C brainedge_0.834556 addf brainmoveFTS_1.000000|2.000000 addr brainperturb_-0.108147 mover 
-ST addr mover brainedge_-0.375363 addr addf 
+AJ1 mover brainedge_0.339788 ST_-0.141096 brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 addf AJ1_-0.189003|2.198184|6.732267|4.138204 brainmoveFTS_1.000000|1.000000 AJ1_-0.934989|9.715663|2.619433|2.563604 mover brainedge_0.091783 brainmoveFTS_1.000000|1.000000 addr moveb 
+AJ2 brainmoveFTS_1.000000|1.000000 brainloop_-0.939604 addf mover brainmoveFTS_1.000000|1.000000 brainedge_0.069802 addl AJ2_-0.134301|8.129570|4.481329|7.254254 movel brainperperturb_-0.963440 addf AJ1_-0.255541|7.636905|4.051007|3.727647 movel 
+B brainmoveFTS_1.000000|1.000000 brainoffperturb_1.815090 brainmoveTTS_4.000000|1.000000 mover 
+C C mover brainampperturb_0.252926 AJ1_0.745682|8.379139|8.674045|2.793533 mover brainoffperturb_2.582664 brainmoveTTS_1.000000|2.000000 brainoffperturb_0.715433 addf addf AJ2_-0.185852|5.760806|9.888369|7.713230 brainmoveFTS_1.000000|1.000000 addl brainoffperturb_0.712685 brainmoveFTS_1.000000|1.000000 addr addr brainoffperturb_0.623159 
+ST brainmoveTTS_1.000000|1.000000 brainampperturb_-0.291610 brainmoveFTS_1.000000|2.000000 movel moveb brainloop_-0.271636 brainampperturb_-0.804445 ST_0.218994 

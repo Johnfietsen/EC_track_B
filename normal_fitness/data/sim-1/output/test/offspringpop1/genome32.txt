@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_2.000000|1.000000 brainloop_-0.726096 addf AJ2_0.765824|9.828379|1.342842|8.702525 movel brainmoveFTS_2.000000|1.000000 brainoffperturb_-0.776108 addl AJ1_-0.642445|2.075348|8.858961|4.837528 movef 
-AJ2 brainmoveFTS_1.000000|2.000000 brainperturb_0.560656 addr AJ2_0.934765|6.033848|7.655586|3.163799 moveb 
-B brainmoveFTS_1.000000|1.000000 brainloop_-0.722803 addf AJ2_-0.575563|5.538428|2.513702|6.449130 moveb brainmoveTTS_1.000000|2.000000 brainampperturb_-0.754135 addf AJ1_-0.462212|2.957549|7.324459|6.863796 movel brainmoveFTS_1.000000|1.000000 brainedge_-0.917766 addf AJ2_-0.975962|8.504006|4.905037|6.396027 movef 
-C C brainmoveFTS_2.000000|2.000000 brainloop_-0.947321 addl B moveb brainmoveTTS_1.000000|2.000000 brainampperturb_0.776266 addl AJ1_0.402092|3.739138|7.574098|5.832466 movef 
-ST brainmoveFTS_2.000000|3.000000 brainedge_0.912493 addf AJ2_-0.402276|5.476163|3.662130|9.815440 movef 
+AJ1 brainmoveFTS_1.000000|1.000000 brainampperturb_-1.685144 addr AJ1_0.035250|8.377392|2.747317|4.898251 movel brainmoveFTS_1.000000|2.000000 brainoffperturb_0.318193 addf AJ2_0.493270|5.324507|7.388732|7.926642 movel brainmoveTTS_1.000000|2.000000 brainampperturb_-1.415258 addl AJ2_0.749120|8.465270|3.729361|2.377728 movel 
+AJ2 brainmoveTTS_1.000000|1.000000 brainampperturb_1.408978 addl ST_-0.096089 moveb brainmoveTTS_1.000000|2.000000 brainloop_-0.911192 addr B moveb 
+B brainmoveFTS_1.000000|1.000000 brainampperturb_-0.129971 addl AJ1_0.376635|6.537128|4.920586|4.063581 mover brainmoveTTS_1.000000|2.000000 brainoffperturb_0.396036 addr B mover brainmoveTTS_1.000000|1.000000 brainloop_0.833516 addr AJ2_-0.025730|5.284525|1.029954|4.650112 movel 
+C C brainmoveTTS_1.000000|1.000000 brainedge_-0.362695 addf ST_0.481851 moveb brainmoveFTS_1.000000|1.000000 brainloop_0.525860 addl B mover 
+ST brainmoveFTS_2.000000|2.000000 brainperturb_-0.358278 addl AJ1_-0.145422|2.071387|6.085668|9.986519 moveb brainmoveTTS_1.000000|2.000000 brainloop_-0.002316 addf ST_-0.519875 moveb brainmoveFTS_1.000000|1.000000 brainperperturb_1.904060 addf ST_-0.314203 movel 

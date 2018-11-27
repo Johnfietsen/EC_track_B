@@ -6,32 +6,91 @@ body:
   type        : Core
   id          : module0
   children    :
-    2:
+    3:
       slot        : 0
-      orientation : 0
+      orientation : 90
       params:
-        blue: 1
+        blue: 0
         green: 0
-        red: 0
-      type        : FixedBrick
-      id          : module1
+        red: 0.7
+      type        : ActiveHinge
+      id          : module2
       children    :
         1:
           slot        : 0
-          orientation : 90
+          orientation : -90
           params:
-            blue: 0
+            blue: 1
             green: 0
-            red: 0.7
-          type        : ActiveHinge
-          id          : module2
+            red: 0
+          type        : FixedBrick
+          id          : module3
+          children    :
+            1:
+              slot        : 0
+              orientation : 0
+              params:
+                blue: 0.7
+                green: 0.7
+                red: 0.7
+              type        : TouchSensor
+              id          : module3sensor-f
+    2:
+      slot        : 0
+      orientation : 90
+      params:
+        blue: 0
+        green: 0
+        red: 0.7
+      type        : ActiveHinge
+      id          : module1
 brain:
   neurons:
     node1:
       id: node1
       layer: output
+      part_id: module1
+      type: Oscillator
+    node2:
+      id: node2
+      layer: output
       part_id: module2
       type: Oscillator
+    node3:
+      id: node3
+      layer: input
+      part_id: module3sensor-f
+      type: Input
+    node4:
+      id: node4
+      layer: output
+      part_id: module4
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module5
+      type: Oscillator
+    node6:
+      id: node6
+      layer: input
+      part_id: module7sensor-f
+      type: Input
+    node7:
+      id: node7
+      layer: output
+      part_id: module8
+      type: Oscillator
+    node3-2:
+      id: node3-2
+      layer: input
+      part_id: module3sensor-f
+      type: Input
+    node6-2:
+      id: node6-2
+      layer: input
+      part_id: module7sensor-f
+      type: Input
     node-core1:
       id: node-core1
       layer: input
@@ -62,8 +121,49 @@ brain:
       layer: input
       part_id: module0
       type: Input
+  connections:
+  - dst: node1
+    src: node3
+    weight: -0.777711
+  - dst: node2
+    src: node3
+    weight: 0.078322
+  - dst: node4
+    src: node3
+    weight: 0.09837
+  - dst: node5
+    src: node3
+    weight: 0.09837
+  - dst: node4
+    src: node4
+    weight: -0.180134
+  - dst: node1
+    src: node6
+    weight: 0.078322
+  - dst: node7
+    src: node6
+    weight: 0.09837
+  - dst: node7
+    src: node7
+    weight: -0.180134
   params:
     node1:
-      period: 5.48411
-      phase_offset: 5.67411
-      amplitude: 10
+      period: 9.85724
+      phase_offset: 1
+      amplitude: 8.21979
+    node2:
+      period: 3.51021
+      phase_offset: 6.52001
+      amplitude: 6.93989
+    node4:
+      period: 1.59302
+      phase_offset: 1.91809
+      amplitude: 7.3859
+    node5:
+      period: 1
+      phase_offset: 1.91809
+      amplitude: 7.3859
+    node7:
+      period: 1.82411
+      phase_offset: 1.91809
+      amplitude: 7.3859

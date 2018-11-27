@@ -17,6 +17,24 @@ body:
       id          : module0sensor-f
     2:
       slot        : 0
+      orientation : 0
+      params:
+        blue: 0.7
+        green: 0.7
+        red: 0.7
+      type        : TouchSensor
+      id          : module0sensor-r
+    0:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 0.7
+        green: 0.7
+        red: 0.7
+      type        : TouchSensor
+      id          : module0sensor-b
+    3:
+      slot        : 0
       orientation : 90
       params:
         blue: 0
@@ -24,32 +42,12 @@ body:
         red: 0.7
       type        : ActiveHinge
       id          : module1
-      children    :
-        1:
-          slot        : 0
-          orientation : 0
-          params:
-            blue: 0
-            green: 0
-            red: 0.7
-          type        : ActiveHinge
-          id          : module2
-          children    :
-            1:
-              slot        : 0
-              orientation : 0
-              params:
-                blue: 0
-                green: 0
-                red: 0.7
-              type        : ActiveHinge
-              id          : module3
 brain:
   neurons:
     node1:
       id: node1
       layer: input
-      part_id: module0sensor-f
+      part_id: module0sensor-r
       type: Input
     node2:
       id: node2
@@ -58,18 +56,28 @@ brain:
       type: Oscillator
     node3:
       id: node3
-      layer: output
-      part_id: module2
-      type: Oscillator
+      layer: input
+      part_id: module0sensor-f
+      type: Input
     node4:
       id: node4
-      layer: output
-      part_id: module3
-      type: Oscillator
+      layer: input
+      part_id: module0sensor-b
+      type: Input
     node1-2:
       id: node1-2
       layer: input
+      part_id: module0sensor-r
+      type: Input
+    node3-2:
+      id: node3-2
+      layer: input
       part_id: module0sensor-f
+      type: Input
+    node4-2:
+      id: node4-2
+      layer: input
+      part_id: module0sensor-b
       type: Input
     node-core1:
       id: node-core1
@@ -104,23 +112,18 @@ brain:
   connections:
   - dst: node2
     src: node1
-    weight: -0.659426
-  - dst: node3
-    src: node1
-    weight: -0.104278
-  - dst: node4
-    src: node1
-    weight: 0.564604
+    weight: 0.333683
+  - dst: node2
+    src: node2
+    weight: 0.916835
+  - dst: node2
+    src: node3
+    weight: 0.077293
+  - dst: node2
+    src: node4
+    weight: -0.323707
   params:
     node2:
-      period: 7.7171
-      phase_offset: 9.28908
-      amplitude: 4.33816
-    node3:
-      period: 5.49844
-      phase_offset: 2.03977
-      amplitude: 6.18035
-    node4:
-      period: 5.65395
-      phase_offset: 4.86594
-      amplitude: 5.88111
+      period: 2.04784
+      phase_offset: 7.92248
+      amplitude: 6.61168

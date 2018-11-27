@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_2.000000|1.000000 brainedge_0.962253 addl moveb 
-AJ2 brainmoveFTS_1.000000|2.000000 brainperperturb_0.191365 addl AJ2_-0.858437|8.459700|5.859118|8.976911 mover brainmoveFTS_2.000000|1.000000 brainloop_0.927964 addl ST_0.506913 mover 
-B brainmoveFTS_1.000000|3.000000 brainoffperturb_-1.999274 addl ST_-0.799867 moveb brainmoveFTS_2.000000|1.000000 brainperturb_0.664656 addr B mover brainmoveTTS_2.000000|2.000000 brainoffperturb_0.127213 addl AJ2_0.149284|4.191313|6.327123|5.897986 movel 
-C C brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.171519 addl AJ1_0.256485|3.494999|3.581753|7.497342 mover brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.347641 addr B movef brainmoveTTS_2.000000|1.000000 brainloop_-0.969268 addf AJ1_0.137357|5.097425|7.438967|9.996511 movel 
-ST brainmoveFTS_1.000000|1.000000 brainloop_0.675208 addl AJ1_0.104330|2.964011|4.285754|9.636528 movef brainmoveFTS_2.000000|1.000000 brainampperturb_0.682106 addf AJ2_-0.051392|6.877421|5.515029|3.549336 moveb 
+AJ1 brainmoveFTS_2.000000|2.000000 brainperturb_0.907270 addr ST_-0.774979 movef 
+AJ2 brainmoveFTS_1.000000|1.000000 brainperturb_0.557669 addl AJ1_0.680311|1.712632|2.855796|8.226534 movef brainmoveFTS_2.000000|1.000000 brainperperturb_0.111377 addl AJ2_0.198806|7.252431|1.120482|4.929223 
+B brainmoveFTS_2.000000|1.000000 brainoffperturb_-1.310346 addr B movel brainmoveTTS_1.000000|1.000000 brainoffperturb_0.923080 addr B mover 
+C C brainmoveFTS_1.000000|3.000000 brainampperturb_0.234939 addr AJ2_0.587758|8.824119|4.857953|4.707785 movef brainmoveTTS_1.000000|1.000000 brainampperturb_1.187356 addr AJ1_-0.358140|3.503303|8.776998|2.314672 mover brainmoveTTS_1.000000|2.000000 brainoffperturb_-1.728683 addr B moveb 
+ST brainmoveTTS_3.000000|2.000000 brainampperturb_0.005800 addf AJ2_0.473091|8.829814|1.219281|7.640603 movel brainmoveTTS_1.000000|1.000000 brainoffperturb_-1.762724 addl AJ2_0.229515|6.315663|2.510581|9.495171 movef brainmoveTTS_1.000000|3.000000 brainoffperturb_-0.279264 addr AJ1_-0.239309|1.133528|5.454663|9.761149 movel 

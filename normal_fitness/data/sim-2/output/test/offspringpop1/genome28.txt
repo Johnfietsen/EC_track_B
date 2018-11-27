@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_2.000000|1.000000 brainloop_0.732805 addf AJ2_-0.201011|5.571360|3.663553|2.654645 movef 
-AJ2 brainmoveTTS_1.000000|1.000000 brainperturb_0.783424 addl ST_0.797053 mover brainmoveFTS_1.000000|1.000000 brainperperturb_1.272815 addr AJ1_-0.446661|4.345977|6.510192|2.410446 mover 
-B brainmoveFTS_3.000000|1.000000 brainperturb_-0.058043 addr ST_0.383502 mover brainmoveFTS_1.000000|1.000000 brainperturb_-0.166597 addr B movel brainmoveFTS_1.000000|1.000000 brainampperturb_-1.551722 addf ST_0.356543 movel 
-C C brainmoveFTS_1.000000|1.000000 brainloop_-0.608269 addf AJ1_-0.082038|9.467273|8.123845|1.850833 movef brainmoveFTS_1.000000|3.000000 brainoffperturb_0.342591 addl B movel brainmoveTTS_2.000000|1.000000 brainloop_0.866140 addf B movel 
-ST brainmoveTTS_1.000000|1.000000 brainloop_-0.941044 addl ST_-0.806792 mover brainmoveTTS_1.000000|2.000000 brainperturb_-0.036021 addl AJ1_0.661957|3.472235|2.508637|2.924713 movel brainmoveTTS_1.000000|1.000000 brainperperturb_0.091144 addr AJ2_0.604987|1.200572|6.013431|8.034712 moveb 
+AJ1 brainmoveFTS_3.000000|1.000000 brainperturb_1.996635 addf AJ2_-0.655178|3.121145|2.870201|2.328463 movel brainmoveTTS_1.000000|1.000000 brainperperturb_2.910742 addf ST_0.004345 mover 
+AJ2 brainmoveTTS_1.000000|1.000000 brainampperturb_1.509315 addl AJ1_-0.168383|5.983808|3.602194|9.014913 movef 
+B brainmoveTTS_1.000000|1.000000 brainampperturb_0.784290 addl AJ2_0.817988|7.356625|9.925224|9.053294 mover brainmoveFTS_1.000000|1.000000 brainampperturb_1.478201 addf AJ1_-0.811909|4.436494|1.142335|7.901418 movef 
+C C brainmoveFTS_2.000000|2.000000 brainloop_-0.176211 addl AJ1_-0.568563|5.936059|3.261419|3.205575 moveb brainmoveFTS_1.000000|1.000000 brainloop_-0.971307 addf AJ1_-0.293156|3.589368|6.835642|6.407131 mover 
+ST brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.387662 addf B movel brainmoveFTS_2.000000|2.000000 brainoffperturb_2.611256 addl B mover brainmoveFTS_1.000000|1.000000 brainperturb_-1.050927 addl AJ1_0.525854|3.982865|9.242366|7.341842 movef 

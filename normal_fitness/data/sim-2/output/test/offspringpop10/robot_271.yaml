@@ -8,21 +8,21 @@ body:
   children    :
     2:
       slot        : 0
-      orientation : 90
+      orientation : 0
       params:
-        blue: 0
-        green: 0
-        red: 0.7
+        blue: 0.58
+        green: 0.08
+        red: 1
       type        : ActiveHinge
       id          : module1
       children    :
         1:
           slot        : 0
-          orientation : -90
+          orientation : 90
           params:
-            blue: 0.58
-            green: 0.08
-            red: 1
+            blue: 0
+            green: 0
+            red: 0.7
           type        : ActiveHinge
           id          : module2
           children    :
@@ -30,9 +30,9 @@ body:
               slot        : 0
               orientation : 0
               params:
-                blue: 0.58
-                green: 0.08
-                red: 1
+                blue: 0
+                green: 0
+                red: 0.7
               type        : ActiveHinge
               id          : module3
               children    :
@@ -40,21 +40,11 @@ body:
                   slot        : 0
                   orientation : 0
                   params:
-                    blue: 1
+                    blue: 0
                     green: 0
-                    red: 0
-                  type        : FixedBrick
+                    red: 0.7
+                  type        : ActiveHinge
                   id          : module4
-                  children    :
-                    3:
-                      slot        : 0
-                      orientation : 0
-                      params:
-                        blue: 0.7
-                        green: 0.7
-                        red: 0.7
-                      type        : TouchSensor
-                      id          : module4sensor-l
 brain:
   neurons:
     node1:
@@ -74,34 +64,9 @@ brain:
       type: Oscillator
     node4:
       id: node4
-      layer: input
-      part_id: module4sensor-l
-      type: Input
-    node5:
-      id: node5
       layer: output
-      part_id: module5
+      part_id: module4
       type: Oscillator
-    node6:
-      id: node6
-      layer: output
-      part_id: module6
-      type: Oscillator
-    node7:
-      id: node7
-      layer: output
-      part_id: module7
-      type: Oscillator
-    node8:
-      id: node8
-      layer: output
-      part_id: module8
-      type: Oscillator
-    node4-2:
-      id: node4-2
-      layer: input
-      part_id: module4sensor-l
-      type: Input
     node-core1:
       id: node-core1
       layer: input
@@ -132,60 +97,20 @@ brain:
       layer: input
       part_id: module0
       type: Input
-  connections:
-  - dst: node1
-    src: node1
-    weight: -0.651866
-  - dst: node2
-    src: node2
-    weight: 0.262614
-  - dst: node1
-    src: node4
-    weight: -0.094579
-  - dst: node2
-    src: node4
-    weight: 0.747062
-  - dst: node3
-    src: node4
-    weight: -0.595405
-  - dst: node5
-    src: node4
-    weight: 0.403379
-  - dst: node6
-    src: node4
-    weight: 0.158513
-  - dst: node7
-    src: node4
-    weight: 0.837118
-  - dst: node8
-    src: node4
-    weight: 0.403379
   params:
     node1:
-      period: 1.14227
-      phase_offset: 3.25845
-      amplitude: 2.24494
+      period: 8.68741
+      phase_offset: 1
+      amplitude: 1
     node2:
-      period: 8.85094
-      phase_offset: 1.34069
-      amplitude: 5.70772
+      period: 5.65508
+      phase_offset: 2.70802
+      amplitude: 4.04619
     node3:
-      period: 1.15261
-      phase_offset: 7.59536
-      amplitude: 3.98802
-    node5:
-      period: 5.78853
-      phase_offset: 4.91869
-      amplitude: 8.82593
-    node6:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
-    node7:
-      period: 1.07379
-      phase_offset: 2.2562
-      amplitude: 6.79371
-    node8:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 5.81374
+      phase_offset: 8.58839
+      amplitude: 4.55052
+    node4:
+      period: 3.77007
+      phase_offset: 6.35615
+      amplitude: 7.80978

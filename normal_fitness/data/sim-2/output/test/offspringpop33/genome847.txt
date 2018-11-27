@@ -1,5 +1,5 @@
-AJ1 brainedge_0.819389 brainedge_0.178144 addf brainmoveFTS_2.000000|1.000000 movel brainedge_0.916359 AJ2_-0.293421|6.600283|8.396149|1.535562 addr brainmoveFTS_1.000000|1.000000 brainperperturb_1.585067 brainmoveTTS_1.000000|2.000000 
-AJ2 brainoffperturb_1.995489 moveb brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 mover addl brainmoveTTS_1.000000|2.000000 brainmoveTTS_2.000000|2.000000 addl AJ2_0.037054|6.424692|5.984554|4.648091 brainampperturb_0.845020 brainmoveTTS_1.000000|1.000000 movel addr AJ1_-0.537355|5.065477|1.722862|4.573907 ST_0.816830 AJ1_-0.307827|9.853456|2.102971|2.317823 brainmoveTTS_1.000000|3.000000 
-B movel brainedge_-0.320387 addl addf 
-C C brainmoveFTS_1.000000|1.000000 moveb brainoffperturb_-0.291508 movel AJ1_0.446798|7.238392|2.812471|3.227254 AJ2_-0.872487|8.029694|1.320365|2.090214 addf brainperperturb_1.501845 movef 
-ST brainmoveTTS_1.000000|1.000000 brainampperturb_-0.786756 mover movel addl movel brainloop_-0.438011 brainampperturb_-0.581955 mover brainmoveFTS_1.000000|1.000000 ST_-0.595405 brainmoveFTS_2.000000|2.000000 movef 
+AJ1 brainmoveFTS_1.000000|1.000000 brainoffperturb_0.459961 addf mover ST_-0.017697 brainperturb_1.114252 addf AJ1_-0.366773|9.184804|1.406302|9.126800 movef 
+AJ2 brainmoveFTS_1.000000|1.000000 movel brainmoveFTS_1.000000|2.000000 AJ2_-0.606005|7.509895|7.133411|2.955325 brainperperturb_0.428138 brainmoveFTS_1.000000|1.000000 moveb addf brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.782347 AJ1_0.788917|8.098847|4.949436|5.592636 brainperturb_-0.792419 addr addr addl movel 
+B brainmoveFTS_1.000000|2.000000 brainoffperturb_0.767601 addl AJ2_0.435612|2.406337|7.892530|3.916137 brainoffperturb_-0.881580 brainedge_0.562347 movel 
+C C ST_0.549435 addf addr brainedge_-0.788159 brainmoveTTS_2.000000|1.000000 movef 
+ST brainmoveTTS_2.000000|1.000000 AJ2_0.795405|7.494157|8.132381|9.742764 brainoffperturb_0.612998 addl AJ1_-0.168543|4.182299|9.385841|2.272002 addl brainampperturb_-0.229031 addf AJ1_-0.002088|7.060818|1.684553|1.715560 

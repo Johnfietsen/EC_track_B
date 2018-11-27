@@ -1,5 +1,5 @@
-AJ1 AJ2_0.878939|5.646746|7.950252|2.122914 brainoffperturb_-2.018945 AJ1_-0.960261|4.134784|8.091696|3.230577 mover movef brainmoveTTS_1.000000|2.000000 brainloop_0.662114 brainmoveTTS_1.000000|1.000000 mover addl AJ1_-0.805481|6.909301|4.718412|6.358330 moveb brainperperturb_-0.149182 movel brainmoveFTS_1.000000|1.000000 
-AJ2 brainmoveFTS_1.000000|1.000000 brainmoveFTS_2.000000|1.000000 
-B AJ1_-0.692057|5.724505|7.871363|8.066086 addr ST_-0.096607 addl brainmoveTTS_1.000000|1.000000 brainloop_0.833569 addl brainmoveTTS_1.000000|2.000000 movef brainmoveFTS_1.000000|1.000000 addl AJ1_0.369352|1.094323|2.873505|4.231603 mover mover 
-C C AJ2_-0.275426|1.120696|1.344083|6.548066 movef addf brainmoveFTS_1.000000|1.000000 AJ1_-0.218769|5.850463|9.474811|7.186185 brainperturb_-0.108147 movef mover 
-ST addr B brainloop_-0.434145 brainmoveTTS_2.000000|1.000000 mover addr brainedge_-0.375363 
+AJ1 brainampperturb_-1.798528 brainmoveTTS_1.000000|2.000000 addr mover addl brainloop_-0.971157 brainampperturb_1.271309 moveb brainmoveFTS_2.000000|2.000000 ST_-0.170477 ST_0.122670 addr addl AJ2_-0.716650|6.335993|3.940228|7.532181 brainedge_0.685923 mover 
+AJ2 brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.190589 addr brainperturb_-0.289514 movef brainmoveFTS_1.000000|1.000000 brainperturb_-0.083161 addl moveb AJ1_-0.803451|5.377140|5.138078|1.618922 movef AJ1_0.472106|6.017873|3.826390|3.286519 movel brainmoveTTS_1.000000|1.000000 
+B brainmoveTTS_1.000000|2.000000 addf brainmoveTTS_1.000000|2.000000 AJ2_-0.063658|1.127242|3.537141|3.043813 movel brainmoveTTS_1.000000|1.000000 brainedge_-0.761166 addf B moveb movef 
+C C brainmoveFTS_1.000000|1.000000 AJ1_0.530685|3.098273|5.734502|6.949094 brainloop_0.459935 addf AJ2_0.681942|3.956412|1.450500|6.861826 mover ST_-0.527609 brainmoveTTS_1.000000|2.000000 addl brainedge_0.320098 mover 
+ST B brainperturb_-0.694929 brainmoveTTS_1.000000|1.000000 brainperturb_-0.470080 addf mover addf brainampperturb_0.618523 AJ2_-0.182858|2.622158|2.519795|6.970672 brainmoveFTS_2.000000|1.000000 addr AJ2_-0.336417|1.678411|2.434691|8.041421 

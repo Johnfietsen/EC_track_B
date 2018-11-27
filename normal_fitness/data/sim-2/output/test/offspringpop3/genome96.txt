@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainperperturb_0.998868 addl ST_-0.603939 movef 
-AJ2 brainmoveTTS_3.000000|1.000000 brainperturb_-0.191631 addf AJ2_-0.908879|7.992832|1.941445|3.693708 moveb brainmoveFTS_2.000000|2.000000 brainperperturb_1.512835 addf mover brainmoveFTS_1.000000|2.000000 brainedge_0.268691 addr B moveb 
-B addr brainampperturb_-0.052347 brainmoveFTS_1.000000|1.000000 AJ2_0.758818|6.944521|2.074402|9.147653 movel 
-C C brainmoveFTS_1.000000|1.000000 brainloop_-0.608269 addf AJ1_-0.082038|9.467273|8.123845|1.850833 movef brainmoveFTS_1.000000|3.000000 brainoffperturb_0.342591 addl B B movel brainmoveTTS_2.000000|1.000000 brainloop_0.866140 addf B movel 
-ST brainmoveFTS_1.000000|2.000000 brainperturb_1.226529 addf AJ2_-0.316479|9.172561|4.773929|9.540339 moveb 
+AJ1 brainmoveFTS_1.000000|2.000000 movef addf AJ2_0.080095|2.708766|4.452445|2.846512 mover brainmoveFTS_2.000000|1.000000 brainampperturb_-0.123722 addl ST_0.889291 brainoffperturb_-2.817269 brainmoveTTS_2.000000|1.000000 brainperturb_0.289784 addl ST_0.138026 movel 
+AJ2 brainmoveFTS_1.000000|1.000000 brainperperturb_0.625843 addf AJ1_0.382776|8.870720|3.853821|8.958073 movel brainmoveTTS_2.000000|1.000000 brainperturb_-1.701459 brainampperturb_-0.850435 addf AJ1_0.350748|9.837865|5.070802|6.422027 mover brainmoveFTS_1.000000|2.000000 brainoffperturb_2.001291 addr ST_0.972507 mover 
+B brainmoveTTS_2.000000|1.000000 brainloop_-0.183363 brainampperturb_0.819481 addl B movef brainmoveTTS_2.000000|1.000000 brainampperturb_0.052786 addl AJ1_-0.603996|9.217526|1.011792|8.143290 movel 
+C C brainmoveTTS_2.000000|3.000000 brainperperturb_-0.180603 addf AJ2_0.594810|5.714608|5.602268|7.519067 mover brainmoveTTS_1.000000|2.000000 brainloop_-0.560141 addf AJ1_0.197606|9.281812|5.213162|1.157924 mover brainmoveTTS_2.000000|1.000000 brainoffperturb_-1.537908 addf ST_-0.747316 moveb 
+ST brainmoveFTS_2.000000|2.000000 addf ST_-0.704439 movef brainmoveFTS_2.000000|2.000000 brainampperturb_-0.825207 addr AJ2_0.663685|6.768431|9.060792|2.326018 movel 

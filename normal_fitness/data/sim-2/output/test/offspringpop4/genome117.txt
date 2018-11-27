@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_2.000000|1.000000 brainperturb_0.404497 brainoffperturb_-0.399361 addf AJ1_-0.547112|4.945538|5.075303|9.813412 movel brainmoveTTS_2.000000|1.000000 brainperturb_-0.672407 addf AJ1_-0.120997|7.026048|3.801317|3.344242 mover 
-AJ2 brainmoveTTS_1.000000|1.000000 brainampperturb_-2.226591 addl AJ2_-0.894043|2.244515|6.880519|5.265422 moveb brainmoveTTS_1.000000|3.000000 brainoffperturb_0.497290 addl AJ1_-0.307827|9.853456|2.102971|2.317823 movel addl brainampperturb_0.845020 brainmoveTTS_1.000000|1.000000 AJ1_-0.537355|5.065477|1.722862|4.573907 movel 
-B brainmoveFTS_1.000000|2.000000 brainperturb_-0.180729 addr AJ2_0.437027|6.843911|4.329263|3.112864 brainmoveFTS_2.000000|1.000000 B brainperperturb_0.258689 addf AJ2_0.929470|6.612794|4.614312|8.959346 moveb 
-C C brainmoveFTS_1.000000|3.000000 brainloop_-0.196612 addr B mover brainmoveFTS_1.000000|1.000000 brainedge_-0.925610 addl AJ1_0.953044|2.753155|7.830916|6.367988 movel 
-ST brainmoveFTS_2.000000|1.000000 brainloop_-0.261026 addr AJ2_-0.267225|3.900549|4.252462|9.291301 brainmoveTTS_1.000000|1.000000 brainperperturb_-0.422829 mover 
+AJ1 brainmoveFTS_2.000000|1.000000 brainloop_0.338371 addf AJ1_0.204056|3.799740|2.308973|8.859329 movef brainmoveFTS_1.000000|1.000000 brainoffperturb_0.642247 addf B movel 
+AJ2 brainmoveFTS_1.000000|1.000000 brainmoveFTS_1.000000|2.000000 brainperperturb_-0.642174 addl ST_-0.674336 movef brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.782347 addf AJ1_0.788917|8.098847|4.949436|5.592636 brainperturb_-0.792419 addr AJ2_-0.606005|7.509895|7.133411|2.955325 moveb 
+B brainmoveTTS_1.000000|1.000000 brainperturb_-0.913311 ST_-0.154479 moveb brainmoveTTS_1.000000|1.000000 brainedge_-0.071078 addf AJ2_0.864771|5.873145|3.362898|4.236287 
+C C brainmoveFTS_1.000000|1.000000 brainperturb_0.996080 addl AJ2_-0.146744|8.050800|3.060572|7.340583 movef 
+ST brainmoveFTS_1.000000|2.000000 brainperperturb_0.281852 addf AJ2_0.304052|2.593885|7.884197|3.706793 movel brainmoveFTS_1.000000|2.000000 brainoffperturb_1.278502 AJ2_-0.713255|3.785997|4.105636|3.574237 moveb 

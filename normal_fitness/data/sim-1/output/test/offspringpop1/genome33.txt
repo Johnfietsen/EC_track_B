@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_1.000000|1.000000 brainloop_0.750487 addf AJ2_-0.343041|4.873286|4.162054|4.503836 moveb brainmoveFTS_1.000000|1.000000 brainedge_-0.112819 addr AJ2_0.975163|9.122191|3.986333|4.178290 mover brainmoveFTS_2.000000|1.000000 brainedge_0.091399 addf AJ2_0.476929|1.098907|7.432183|1.348879 movef 
-AJ2 brainmoveTTS_2.000000|2.000000 brainperturb_-0.407997 addf ST_0.477228 movef brainmoveTTS_1.000000|1.000000 brainloop_0.221049 addf ST_-0.700878 mover 
-B brainmoveTTS_1.000000|1.000000 brainperperturb_-1.582476 addr AJ1_-0.966479|8.061911|5.227273|6.097465 movel brainmoveFTS_2.000000|1.000000 brainampperturb_1.660290 addf AJ1_0.766575|6.587153|1.082919|4.729104 mover brainmoveFTS_1.000000|1.000000 brainloop_0.115277 addr B mover 
-C C brainmoveFTS_1.000000|2.000000 brainperperturb_-0.002100 addf B mover brainmoveTTS_1.000000|2.000000 brainoffperturb_-0.590558 addf B movef brainmoveTTS_1.000000|3.000000 brainperperturb_-0.149265 addr ST_-0.505329 movel 
-ST brainmoveTTS_2.000000|1.000000 brainperturb_0.508077 addl AJ1_-0.939202|1.006937|8.573144|7.289445 mover 
+AJ1 brainmoveFTS_1.000000|2.000000 brainoffperturb_0.759410 addf B movef brainmoveTTS_1.000000|1.000000 brainoffperturb_-0.375965 addf B movef 
+AJ2 brainmoveTTS_1.000000|2.000000 brainperperturb_-0.688637 addf AJ2_-0.843322|9.217408|3.155565|9.214599 movef 
+B brainmoveFTS_1.000000|1.000000 brainperperturb_-0.694557 addl ST_0.891865 mover brainmoveFTS_1.000000|2.000000 brainperperturb_1.190051 addl AJ1_0.602164|6.224660|3.015454|9.198043 movef brainmoveFTS_1.000000|1.000000 brainperturb_0.974611 addr AJ1_-0.903963|6.373735|5.050113|7.367105 moveb 
+C C brainmoveFTS_1.000000|1.000000 brainedge_-0.835687 addf AJ2_0.118906|1.663562|4.246557|2.385612 mover brainmoveTTS_1.000000|3.000000 brainampperturb_0.308005 addf AJ1_-0.026997|8.260185|4.210515|2.755347 moveb 
+ST brainmoveFTS_2.000000|3.000000 brainoffperturb_-1.468340 addr AJ2_-0.860585|3.839149|8.153238|4.088637 mover brainmoveTTS_3.000000|3.000000 brainperperturb_-0.991695 addr ST_-0.100824 moveb brainmoveFTS_1.000000|2.000000 brainperperturb_0.134909 addf B moveb 

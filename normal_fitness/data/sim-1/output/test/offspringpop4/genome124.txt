@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainperperturb_0.464639 addl brainmoveTTS_1.000000|1.000000 AJ2_0.878438|5.286636|1.349413|3.124488 movel brainmoveFTS_1.000000|3.000000 AJ1_-0.814875|1.218256|5.398267|3.151386 mover AJ1_0.667900|4.530088|5.655767|5.898578 addl 
-AJ2 brainmoveFTS_1.000000|2.000000 brainperperturb_0.191365 addl addl AJ2_-0.858437|8.459700|5.859118|8.976911 mover brainmoveFTS_2.000000|1.000000 brainloop_0.927964 addl ST_0.506913 mover 
-B brainmoveTTS_1.000000|2.000000 brainampperturb_-0.417389 addr ST_-0.096607 movel brainmoveTTS_1.000000|1.000000 brainloop_0.833569 addl AJ1_-0.692057|5.724505|7.871363|8.066086 movef brainmoveFTS_1.000000|1.000000 brainedge_-0.435718 addl AJ1_0.369352|1.094323|2.873505|4.231603 mover 
-C C brainmoveFTS_1.000000|1.000000 brainampperturb_-0.326043 addr B moveb brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.090672 brainperperturb_1.202448 addr AJ2_0.390154|4.400279|3.362444|9.039150 movef brainmoveFTS_1.000000|1.000000 brainoffperturb_-1.433534 addf ST_-0.190314 moveb 
-ST brainmoveFTS_1.000000|1.000000 brainperperturb_1.081665 brainmoveTTS_1.000000|1.000000 B moveb addl brainampperturb_-1.235775 addf ST_0.125645 B movel 
+AJ1 brainmoveTTS_1.000000|1.000000 brainperperturb_0.667556 B addr mover 
+AJ2 brainmoveFTS_1.000000|2.000000 brainperturb_0.786381 addl AJ2_-0.033230|4.961472|9.627441|9.250866 brainloop_0.642359 moveb brainmoveTTS_1.000000|1.000000 addf brainperturb_-0.255290 addl B mover brainmoveFTS_1.000000|1.000000 brainperperturb_0.314238 addl AJ2_0.859036|9.365275|8.238852|7.466193 moveb 
+B brainmoveFTS_1.000000|1.000000 brainoffperturb_1.815090 addr AJ2_-0.029390|8.204105|6.129709|6.653576 brainmoveTTS_4.000000|1.000000 moveb 
+C C brainmoveFTS_1.000000|2.000000 brainampperturb_-0.031238 addf B movel brainmoveTTS_1.000000|2.000000 brainampperturb_-1.230908 addr ST_0.608308 mover 
+ST brainmoveTTS_1.000000|1.000000 brainperturb_0.860219 addl AJ2_0.709481|4.427956|9.350345|6.034046 moveb brainmoveTTS_1.000000|1.000000 brainedge_-0.177355 addl AJ1_-0.040399|9.446705|5.287765|4.583665 mover addl 

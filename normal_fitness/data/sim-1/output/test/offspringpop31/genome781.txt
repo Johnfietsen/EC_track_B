@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 moveb brainperperturb_-0.638040 AJ2_0.843385|3.410623|5.234139|2.890149 brainoffperturb_1.120901 mover mover brainedge_0.385591 addf AJ2_0.878939|5.646746|7.950252|2.122914 moveb brainmoveTTS_1.000000|2.000000 ST_-0.274183 movel brainloop_-0.000480 brainmoveTTS_1.000000|2.000000 
-AJ2 moveb mover movef brainmoveFTS_1.000000|1.000000 ST_-0.101278 AJ2_0.075632|8.540566|7.924775|8.068279 brainperperturb_0.191365 AJ1_-0.748455|7.051370|6.430720|4.419053 addl B addl addf ST_0.506913 addr movel AJ1_-0.477069|9.634284|8.155018|8.742023 mover brainmoveFTS_1.000000|2.000000 
-B brainmoveFTS_1.000000|3.000000 brainoffperturb_-1.999274 B moveb brainmoveFTS_1.000000|2.000000 brainmoveTTS_2.000000|2.000000 brainmoveFTS_1.000000|1.000000 mover B moveb movef addl brainampperturb_-0.103863 moveb AJ2_0.149284|4.191313|6.327123|5.897986 brainperturb_-1.694938 
-C C brainedge_0.834556 mover brainperturb_-0.108147 
-ST brainmoveFTS_1.000000|2.000000 ST_0.942724 brainedge_0.590120 movef 
+AJ1 brainmoveTTS_1.000000|2.000000 brainampperturb_0.341423 brainmoveTTS_1.000000|2.000000 B movel addf addl ST_0.969792 movel brainperturb_0.840433 AJ1_-0.129561|6.852212|6.012119|6.297506 brainmoveTTS_1.000000|2.000000 
+AJ2 brainloop_-0.939604 addf addl AJ1_0.179244|1.713402|8.921417|4.498649 brainmoveTTS_1.000000|1.000000 AJ1_-0.255541|7.636905|4.051007|3.727647 movel mover 
+B brainmoveTTS_1.000000|1.000000 addf B B AJ1_-0.958731|7.855130|3.107470|2.264044 brainmoveTTS_3.000000|1.000000 AJ1_-0.742065|5.205073|8.466503|6.357272 mover brainampperturb_0.406048 brainedge_-0.484941 addf brainampperturb_-1.183260 
+C C brainmoveTTS_1.000000|1.000000 ST_0.191770 B brainmoveFTS_2.000000|1.000000 ST_0.255950 B movel brainloop_0.179418 movel movel ST_-0.549215 mover brainedge_-0.249194 ST_0.113619 addf addl brainmoveTTS_2.000000|1.000000 moveb movef AJ2_-0.734185|3.900211|6.451809|2.202884 brainmoveFTS_1.000000|2.000000 brainoffperturb_1.293271 AJ2_0.520551|9.219436|7.643599|3.280496 
+ST brainmoveTTS_1.000000|3.000000 AJ1_0.022910|2.541658|7.829981|6.113897 brainloop_0.511468 brainmoveTTS_1.000000|1.000000 brainloop_0.798411 

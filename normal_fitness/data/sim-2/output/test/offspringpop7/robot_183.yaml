@@ -6,23 +6,23 @@ body:
   type        : Core
   id          : module0
   children    :
-    2:
+    3:
       slot        : 0
-      orientation : 0
+      orientation : 90
       params:
-        blue: 1
+        blue: 0
         green: 0
-        red: 0
-      type        : FixedBrick
+        red: 0.7
+      type        : ActiveHinge
       id          : module1
       children    :
-        3:
+        1:
           slot        : 0
           orientation : 0
           params:
-            blue: 0.58
-            green: 0.08
-            red: 1
+            blue: 0
+            green: 0
+            red: 0.7
           type        : ActiveHinge
           id          : module2
           children    :
@@ -30,9 +30,9 @@ body:
               slot        : 0
               orientation : 0
               params:
-                blue: 0.58
-                green: 0.08
-                red: 1
+                blue: 0
+                green: 0
+                red: 0.7
               type        : ActiveHinge
               id          : module3
               children    :
@@ -40,9 +40,9 @@ body:
                   slot        : 0
                   orientation : 0
                   params:
-                    blue: 0.58
-                    green: 0.08
-                    red: 1
+                    blue: 0
+                    green: 0
+                    red: 0.7
                   type        : ActiveHinge
                   id          : module4
                   children    :
@@ -50,9 +50,9 @@ body:
                       slot        : 0
                       orientation : 0
                       params:
-                        blue: 0.58
-                        green: 0.08
-                        red: 1
+                        blue: 0
+                        green: 0
+                        red: 0.7
                       type        : ActiveHinge
                       id          : module5
                       children    :
@@ -60,9 +60,9 @@ body:
                           slot        : 0
                           orientation : 0
                           params:
-                            blue: 0.58
-                            green: 0.08
-                            red: 1
+                            blue: 0
+                            green: 0
+                            red: 0.7
                           type        : ActiveHinge
                           id          : module6
                           children    :
@@ -70,57 +70,47 @@ body:
                               slot        : 0
                               orientation : 0
                               params:
-                                blue: 0.58
-                                green: 0.08
-                                red: 1
+                                blue: 0
+                                green: 0
+                                red: 0.7
                               type        : ActiveHinge
                               id          : module7
-                              children    :
-                                1:
-                                  slot        : 0
-                                  orientation : 0
-                                  params:
-                                    blue: 0.58
-                                    green: 0.08
-                                    red: 1
-                                  type        : ActiveHinge
-                                  id          : module8
 brain:
   neurons:
     node1:
       id: node1
       layer: output
-      part_id: module2
+      part_id: module1
       type: Oscillator
     node2:
       id: node2
       layer: output
-      part_id: module3
+      part_id: module2
       type: Oscillator
     node3:
       id: node3
       layer: output
-      part_id: module4
+      part_id: module3
       type: Oscillator
     node4:
       id: node4
       layer: output
-      part_id: module5
+      part_id: module4
       type: Oscillator
     node5:
       id: node5
       layer: output
-      part_id: module6
+      part_id: module5
       type: Oscillator
     node6:
       id: node6
       layer: output
-      part_id: module7
+      part_id: module6
       type: Oscillator
     node7:
       id: node7
       layer: output
-      part_id: module8
+      part_id: module7
       type: Oscillator
     node-core1:
       id: node-core1
@@ -154,30 +144,30 @@ brain:
       type: Input
   params:
     node1:
-      period: 4.87312
-      phase_offset: 7.83092
-      amplitude: 2.86235
+      period: 5.48916
+      phase_offset: 4.78437
+      amplitude: 8.55864
     node2:
-      period: 8.71712
-      phase_offset: 5.81881
-      amplitude: 4.72824
+      period: 4.35359
+      phase_offset: 5.51544
+      amplitude: 8.70561
     node3:
-      period: 1.8043
-      phase_offset: 4.65971
-      amplitude: 7.27243
+      period: 4.35359
+      phase_offset: 5.51544
+      amplitude: 8.70561
     node4:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 5.62052
+      phase_offset: 6.92742
+      amplitude: 7.41073
     node5:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 4.87571
+      phase_offset: 1.64279
+      amplitude: 9.56038
     node6:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 7.52319
+      phase_offset: 4.88962
+      amplitude: 5.37413
     node7:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 4.35359
+      phase_offset: 5.51544
+      amplitude: 8.70561

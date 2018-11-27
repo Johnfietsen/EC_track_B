@@ -1,5 +1,5 @@
-AJ1 AJ2_-0.084021|3.033943|5.119530|7.382356 addf brainmoveTTS_1.000000|3.000000 moveb ST_0.953939 movel brainedge_0.819389 AJ2_0.335529|5.408629|1.673089|7.637837 
-AJ2 brainedge_-0.067513 AJ2_-0.301683|5.135534|2.716361|9.144052 mover mover movef movel 
-B addf addr ST_0.954898 brainperperturb_-0.328522 brainmoveFTS_1.000000|2.000000 brainloop_-0.499249 addf movef 
-C C brainmoveTTS_1.000000|1.000000 B brainmoveFTS_1.000000|1.000000 AJ2_0.847455|9.069026|5.926896|9.782579 brainoffperturb_-0.291508 AJ2_-0.872487|8.029694|1.320365|2.090214 movel movel moveb movef brainperperturb_1.501845 addf B brainoffperturb_-1.523538 
-ST brainmoveTTS_1.000000|1.000000 movef mover AJ1_-0.445244|8.248645|5.564039|3.200759 brainampperturb_-0.581955 addl movel mover movel brainloop_-0.438011 ST_-0.595405 brainampperturb_-0.786756 brainmoveFTS_2.000000|2.000000 addr brainmoveFTS_1.000000|1.000000 
+AJ1 addf addf AJ1_0.204056|3.799740|2.308973|8.859329 brainampperturb_0.307303 ST_0.836798 movef movel B brainloop_0.338371 addl ST_0.061314 brainoffperturb_0.642247 brainmoveFTS_1.000000|1.000000 
+AJ2 ST_-0.674336 AJ1_0.944379|4.870638|8.233513|4.205925 moveb AJ2_-0.892565|5.060401|4.646353|5.028562 addf brainmoveFTS_1.000000|2.000000 AJ2_-0.606005|7.509895|7.133411|2.955325 ST_-0.986920 moveb brainmoveTTS_1.000000|1.000000 AJ1_0.487653|3.091817|1.521523|2.199249 AJ2_0.872580|6.912912|8.579277|6.146603 movel AJ1_-0.130596|2.378781|7.394023|6.880567 movel brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.782347 movef AJ1_-0.703266|5.678971|5.546917|7.198672 mover AJ1_0.788917|8.098847|4.949436|5.592636 addl 
+B brainmoveTTS_1.000000|1.000000 brainmoveTTS_1.000000|1.000000 addr B movel brainmoveFTS_1.000000|1.000000 brainoffperturb_-0.969778 addl brainperturb_2.443522 addl AJ1_-0.610130|5.954625|9.512918|5.586608 moveb brainmoveFTS_1.000000|1.000000 
+C C addf addf addl brainmoveFTS_1.000000|1.000000 moveb moveb addf brainoffperturb_0.964369 moveb brainmoveFTS_2.000000|1.000000 addf movel addf 
+ST brainoffperturb_0.612998 movef addf addf 

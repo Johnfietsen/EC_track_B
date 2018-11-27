@@ -6,33 +6,6 @@ body:
   type        : Core
   id          : module0
   children    :
-    3:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-l
-    2:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-r
-    0:
-      slot        : 0
-      orientation : 0
-      params:
-        blue: 0.7
-        green: 0.7
-        red: 0.7
-      type        : TouchSensor
-      id          : module0sensor-b
     1:
       slot        : 0
       orientation : 90
@@ -41,19 +14,38 @@ body:
         green: 0
         red: 0.7
       type        : ActiveHinge
-      id          : module1
+      id          : module3
       children    :
         1:
           slot        : 0
           orientation : -90
           params:
-            blue: 1
-            green: 0
-            red: 0
-          type        : FixedBrick
+            blue: 0.58
+            green: 0.08
+            red: 1
+          type        : ActiveHinge
+          id          : module4
+    2:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 0.58
+        green: 0.08
+        red: 1
+      type        : ActiveHinge
+      id          : module1
+      children    :
+        1:
+          slot        : 0
+          orientation : 0
+          params:
+            blue: 0.58
+            green: 0.08
+            red: 1
+          type        : ActiveHinge
           id          : module2
           children    :
-            3:
+            1:
               slot        : 0
               orientation : 0
               params:
@@ -61,7 +53,7 @@ body:
                 green: 0
                 red: 0
               type        : FixedBrick
-              id          : module3
+              id          : module5
 brain:
   neurons:
     node1:
@@ -71,34 +63,19 @@ brain:
       type: Oscillator
     node2:
       id: node2
-      layer: input
-      part_id: module0sensor-r
-      type: Input
+      layer: output
+      part_id: module2
+      type: Oscillator
     node3:
       id: node3
-      layer: input
-      part_id: module0sensor-l
-      type: Input
+      layer: output
+      part_id: module3
+      type: Oscillator
     node4:
       id: node4
-      layer: input
-      part_id: module0sensor-b
-      type: Input
-    node2-2:
-      id: node2-2
-      layer: input
-      part_id: module0sensor-r
-      type: Input
-    node3-2:
-      id: node3-2
-      layer: input
-      part_id: module0sensor-l
-      type: Input
-    node4-2:
-      id: node4-2
-      layer: input
-      part_id: module0sensor-b
-      type: Input
+      layer: output
+      part_id: module4
+      type: Oscillator
     node-core1:
       id: node-core1
       layer: input
@@ -129,18 +106,20 @@ brain:
       layer: input
       part_id: module0
       type: Input
-  connections:
-  - dst: node1
-    src: node2
-    weight: -1
-  - dst: node1
-    src: node3
-    weight: -0.122186
-  - dst: node1
-    src: node4
-    weight: -0.020858
   params:
     node1:
-      period: 10
-      phase_offset: 7.26276
-      amplitude: 4.17884
+      period: 6.9482
+      phase_offset: 6.09254
+      amplitude: 3.34878
+    node2:
+      period: 8.0495
+      phase_offset: 4.58858
+      amplitude: 4.76121
+    node3:
+      period: 2.75977
+      phase_offset: 5.0032
+      amplitude: 2.19588
+    node4:
+      period: 8.0495
+      phase_offset: 4.58858
+      amplitude: 4.76121

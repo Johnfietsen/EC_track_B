@@ -1,5 +1,5 @@
-AJ1 brainmoveTTS_2.000000|1.000000 addf brainperturb_0.404497 AJ1_-0.547112|4.945538|5.075303|9.813412 movel movel brainperperturb_0.990946 movel brainmoveTTS_2.000000|1.000000 brainperturb_-0.672407 mover AJ1_-0.120997|7.026048|3.801317|3.344242 
-AJ2 mover AJ2_0.521028|8.981772|1.583562|7.275875 brainoffperturb_1.186661 brainmoveTTS_1.000000|2.000000 
-B addf brainedge_-0.320387 addr 
-C C brainmoveFTS_1.000000|1.000000 AJ2_0.738154|4.310492|7.432154|1.142776 brainmoveTTS_1.000000|2.000000 addl AJ1_0.446798|7.238392|2.812471|3.227254 movel ST_-0.740091 movef brainperperturb_1.501845 brainoffperturb_-0.291508 
-ST brainmoveFTS_2.000000|1.000000 brainloop_-0.261026 addr moveb brainmoveTTS_1.000000|1.000000 brainperperturb_-0.422829 AJ1_0.470283|8.043425|2.391937|4.382385 AJ2_-0.267225|3.900549|4.252462|9.291301 mover addf 
+AJ1 brainmoveFTS_2.000000|1.000000 movef addf AJ1_0.204056|3.799740|2.308973|8.859329 brainloop_0.338371 brainmoveFTS_1.000000|1.000000 brainoffperturb_0.642247 addf movel 
+AJ2 brainmoveFTS_1.000000|1.000000 ST_-0.674336 brainmoveTTS_2.000000|1.000000 movel brainmoveFTS_1.000000|2.000000 AJ2_-0.606005|7.509895|7.133411|2.955325 moveb brainoffperturb_-1.021403 addr brainmoveTTS_2.000000|2.000000 addf AJ2_-0.248284|5.780915|2.429898|9.157133 brainoffperturb_-0.782347 brainmoveFTS_1.000000|1.000000 AJ1_0.788917|8.098847|4.949436|5.592636 brainperturb_-0.792419 brainperperturb_0.166078 brainperturb_2.183840 brainampperturb_-1.057248 movel addr addl 
+B brainmoveFTS_2.000000|1.000000 addr movef brainperperturb_0.524849 ST_-0.570410 ST_-0.570267 brainedge_-0.651853 
+C C brainmoveTTS_1.000000|2.000000 brainperturb_-1.955474 addf B AJ2_0.050253|2.838262|6.450484|5.870510 moveb brainmoveFTS_1.000000|1.000000 brainoffperturb_0.964369 addf AJ1_0.198628|7.142305|1.780806|1.358275 moveb brainmoveFTS_2.000000|1.000000 brainoffperturb_-0.426174 brainoffperturb_-0.359883 addl AJ2_-0.373861|4.894412|1.760947|1.649988 movel 
+ST brainoffperturb_1.267481 brainperturb_-0.317022 brainmoveTTS_1.000000|1.000000 addr B movef 

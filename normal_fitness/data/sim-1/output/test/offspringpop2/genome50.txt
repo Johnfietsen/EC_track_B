@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainperturb_0.543889 addf AJ1_0.448401|2.909155|5.756840|7.551446 movel 
-AJ2 brainmoveFTS_2.000000|3.000000 brainperperturb_0.652406 addl ST_-0.473739 movel 
-B brainmoveFTS_1.000000|1.000000 brainoffperturb_0.732781 addf ST_-0.071478 moveb brainmoveFTS_1.000000|2.000000 brainedge_0.084813 addf AJ1_-0.242150|7.290720|1.786527|5.166413 moveb brainmoveTTS_1.000000|3.000000 brainoffperturb_-1.542729 addr ST_-0.982982 movef 
-C C brainmoveFTS_2.000000|1.000000 brainoffperturb_1.569042 addf B moveb brainmoveTTS_1.000000|2.000000 brainampperturb_0.164421 addl AJ2_0.290285|3.225942|6.989311|4.097323 movel brainmoveFTS_2.000000|1.000000 brainloop_0.414290 addr B movel 
-ST brainmoveFTS_1.000000|1.000000 brainloop_0.675208 addl AJ1_0.104330|2.964011|4.285754|9.636528 movef brainmoveFTS_2.000000|1.000000 brainampperturb_0.682106 addf AJ2_-0.051392|6.877421|5.515029|3.549336 moveb 
+AJ1 brainmoveFTS_1.000000|1.000000 brainperturb_-0.678764 addf ST_-0.527555 mover brainmoveTTS_2.000000|2.000000 brainloop_-0.705093 addr B movef brainmoveTTS_2.000000|1.000000 brainoffperturb_-0.349764 addf AJ1_-0.270082|6.478857|8.566713|1.579583 moveb 
+AJ2 brainmoveFTS_2.000000|1.000000 brainampperturb_-2.529261 addl AJ1_0.114104|2.872015|1.159239|5.630817 movef brainmoveFTS_2.000000|1.000000 brainedge_-0.487854 addr AJ2_0.032505|7.767741|7.490383|1.570942 mover brainmoveTTS_1.000000|2.000000 brainampperturb_-0.591850 addr B movel 
+B brainmoveTTS_3.000000|1.000000 brainampperturb_0.528692 addr AJ1_0.345138|5.728227|5.244136|4.563882 movel brainmoveFTS_1.000000|2.000000 brainampperturb_-1.302024 addf moveb AJ2_-0.155844|4.340778|8.061967|8.629623 
+C C brainmoveFTS_1.000000|2.000000 brainampperturb_-0.031238 addf B movel brainmoveTTS_1.000000|2.000000 brainampperturb_-1.230908 addr ST_0.608308 mover 
+ST brainmoveTTS_1.000000|1.000000 brainedge_-0.739662 addl AJ2_-0.337742|1.807587|9.249772|6.891976 mover brainmoveTTS_1.000000|2.000000 brainampperturb_1.478010 addr AJ2_0.217959|3.289211|2.297168|8.518957 moveb 

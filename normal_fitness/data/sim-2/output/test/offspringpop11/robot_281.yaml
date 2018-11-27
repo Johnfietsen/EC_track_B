@@ -6,7 +6,7 @@ body:
   type        : Core
   id          : module0
   children    :
-    2:
+    1:
       slot        : 0
       orientation : 90
       params:
@@ -15,66 +15,124 @@ body:
         red: 0.7
       type        : ActiveHinge
       id          : module1
+    2:
+      slot        : 0
+      orientation : 0
+      params:
+        blue: 0.58
+        green: 0.08
+        red: 1
+      type        : ActiveHinge
+      id          : module2
       children    :
         1:
           slot        : 0
-          orientation : -90
+          orientation : 0
           params:
             blue: 0.58
             green: 0.08
             red: 1
           type        : ActiveHinge
-          id          : module2
+          id          : module3
           children    :
             1:
               slot        : 0
-              orientation : 0
+              orientation : 90
               params:
-                blue: 1
+                blue: 0
                 green: 0
-                red: 0
-              type        : FixedBrick
-              id          : module3
+                red: 0.7
+              type        : ActiveHinge
+              id          : module4
               children    :
                 1:
                   slot        : 0
-                  orientation : 0
+                  orientation : -90
                   params:
-                    blue: 0.58
-                    green: 0.08
-                    red: 1
-                  type        : ActiveHinge
-                  id          : module4
+                    blue: 1
+                    green: 0
+                    red: 0
+                  type        : FixedBrick
+                  id          : module5
                   children    :
                     1:
                       slot        : 0
                       orientation : 0
                       params:
-                        blue: 0.58
-                        green: 0.08
-                        red: 1
-                      type        : ActiveHinge
-                      id          : module5
+                        blue: 1
+                        green: 0
+                        red: 0
+                      type        : FixedBrick
+                      id          : module6
                       children    :
                         1:
                           slot        : 0
-                          orientation : 0
+                          orientation : 90
                           params:
-                            blue: 0.58
-                            green: 0.08
-                            red: 1
+                            blue: 0
+                            green: 0
+                            red: 0.7
                           type        : ActiveHinge
-                          id          : module6
+                          id          : module7
                           children    :
                             1:
                               slot        : 0
-                              orientation : 0
+                              orientation : -90
                               params:
-                                blue: 0.58
-                                green: 0.08
-                                red: 1
-                              type        : ActiveHinge
-                              id          : module7
+                                blue: 1
+                                green: 0
+                                red: 0
+                              type        : FixedBrick
+                              id          : module8
+                              children    :
+                                1:
+                                  slot        : 0
+                                  orientation : 0
+                                  params:
+                                    blue: 1
+                                    green: 0
+                                    red: 0
+                                  type        : FixedBrick
+                                  id          : module9
+                                  children    :
+                                    3:
+                                      slot        : 0
+                                      orientation : 90
+                                      params:
+                                        blue: 0
+                                        green: 0
+                                        red: 0.7
+                                      type        : ActiveHinge
+                                      id          : module11
+                                      children    :
+                                        1:
+                                          slot        : 0
+                                          orientation : 0
+                                          params:
+                                            blue: 0
+                                            green: 0
+                                            red: 0.7
+                                          type        : ActiveHinge
+                                          id          : module12
+                                          children    :
+                                            1:
+                                              slot        : 0
+                                              orientation : -90
+                                              params:
+                                                blue: 0.58
+                                                green: 0.08
+                                                red: 1
+                                              type        : ActiveHinge
+                                              id          : module13
+                                    1:
+                                      slot        : 0
+                                      orientation : 90
+                                      params:
+                                        blue: 0
+                                        green: 0
+                                        red: 0.7
+                                      type        : ActiveHinge
+                                      id          : module10
 brain:
   neurons:
     node1:
@@ -90,22 +148,37 @@ brain:
     node3:
       id: node3
       layer: output
-      part_id: module4
+      part_id: module3
       type: Oscillator
     node4:
       id: node4
       layer: output
-      part_id: module5
+      part_id: module4
       type: Oscillator
     node5:
       id: node5
       layer: output
-      part_id: module6
+      part_id: module7
       type: Oscillator
     node6:
       id: node6
       layer: output
-      part_id: module7
+      part_id: module10
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module11
+      type: Oscillator
+    node8:
+      id: node8
+      layer: output
+      part_id: module12
+      type: Oscillator
+    node9:
+      id: node9
+      layer: output
+      part_id: module13
       type: Oscillator
     node-core1:
       id: node-core1
@@ -139,26 +212,38 @@ brain:
       type: Input
   params:
     node1:
-      period: 1
-      phase_offset: 3.25845
-      amplitude: 7.78956
+      period: 1.62584
+      phase_offset: 7.48277
+      amplitude: 4.57586
     node2:
-      period: 8.85094
-      phase_offset: 1.34069
-      amplitude: 6.60066
+      period: 4.61334
+      phase_offset: 2.14836
+      amplitude: 4.95663
     node3:
-      period: 8.32187
-      phase_offset: 2.66187
-      amplitude: 4.92031
+      period: 8.87072
+      phase_offset: 3.85382
+      amplitude: 8.95807
     node4:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 8.39217
+      phase_offset: 3.58067
+      amplitude: 5.17275
     node5:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 8.39217
+      phase_offset: 3.58067
+      amplitude: 5.17275
     node6:
-      period: 6.77368
-      phase_offset: 4.91869
-      amplitude: 8.82593
+      period: 8.39217
+      phase_offset: 3.58067
+      amplitude: 5.17275
+    node7:
+      period: 2.40634
+      phase_offset: 7.89253
+      amplitude: 3.91614
+    node8:
+      period: 2.40634
+      phase_offset: 7.89253
+      amplitude: 3.91614
+    node9:
+      period: 8.87072
+      phase_offset: 3.85382
+      amplitude: 8.95807

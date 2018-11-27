@@ -6,13 +6,13 @@ body:
   type        : Core
   id          : module0
   children    :
-    3:
+    1:
       slot        : 0
-      orientation : 0
+      orientation : 90
       params:
-        blue: 0.58
-        green: 0.08
-        red: 1
+        blue: 0
+        green: 0
+        red: 0.7
       type        : ActiveHinge
       id          : module1
     2:
@@ -27,17 +27,17 @@ body:
       children    :
         1:
           slot        : 0
-          orientation : 0
+          orientation : 90
           params:
-            blue: 0.58
-            green: 0.08
-            red: 1
+            blue: 0
+            green: 0
+            red: 0.7
           type        : ActiveHinge
           id          : module3
           children    :
             1:
               slot        : 0
-              orientation : 0
+              orientation : -90
               params:
                 blue: 1
                 green: 0
@@ -45,7 +45,7 @@ body:
               type        : FixedBrick
               id          : module4
               children    :
-                3:
+                1:
                   slot        : 0
                   orientation : 0
                   params:
@@ -53,7 +53,7 @@ body:
                     green: 0.7
                     red: 0.7
                   type        : TouchSensor
-                  id          : module4sensor-l
+                  id          : module4sensor-f
 brain:
   neurons:
     node1:
@@ -74,12 +74,12 @@ brain:
     node4:
       id: node4
       layer: input
-      part_id: module4sensor-l
+      part_id: module4sensor-f
       type: Input
     node4-2:
       id: node4-2
       layer: input
-      part_id: module4sensor-l
+      part_id: module4sensor-f
       type: Input
     node-core1:
       id: node-core1
@@ -114,23 +114,23 @@ brain:
   connections:
   - dst: node1
     src: node4
-    weight: 0.446798
+    weight: -1
   - dst: node2
     src: node4
-    weight: 0.913128
+    weight: -1
   - dst: node3
     src: node4
-    weight: 0.81683
+    weight: -0.915115
   params:
     node1:
-      period: 10
-      phase_offset: 9.06583
-      amplitude: 4.07227
+      period: 1
+      phase_offset: 1
+      amplitude: 4.57837
     node2:
-      period: 8.63228
-      phase_offset: 9.67112
-      amplitude: 4.44163
+      period: 4.19989
+      phase_offset: 1
+      amplitude: 4.83291
     node3:
-      period: 7.13043
-      phase_offset: 10
-      amplitude: 4.44163
+      period: 3.07622
+      phase_offset: 1.08361
+      amplitude: 9.35688

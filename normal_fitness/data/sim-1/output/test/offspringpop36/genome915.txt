@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainperperturb_1.625571 mover moveb AJ2_0.878939|5.646746|7.950252|2.122914 brainmoveFTS_1.000000|1.000000 AJ1_0.859357|1.045431|5.543118|9.549939 moveb brainoffperturb_1.120901 ST_-0.274183 brainmoveTTS_1.000000|2.000000 brainloop_-0.000480 
-AJ2 moveb addr brainperperturb_-0.472741 movef brainedge_0.229423 addl 
-B brainampperturb_0.486284 AJ2_-0.558192|5.869481|3.233975|7.431816 brainloop_-0.253994 addf addf addf brainampperturb_3.198188 
-C C brainedge_0.834556 brainperperturb_0.408441 mover 
-ST addl addr brainmoveFTS_2.000000|1.000000 addr mover ST_0.567757 moveb B brainmoveFTS_1.000000|1.000000 brainperperturb_0.587007 
+AJ1 brainmoveTTS_1.000000|2.000000 brainampperturb_0.341423 brainedge_0.669863 brainmoveTTS_1.000000|2.000000 B addf ST_0.969792 addl movel AJ1_-0.129561|6.852212|6.012119|6.297506 brainmoveTTS_1.000000|2.000000 
+AJ2 brainloop_-0.939604 addf movel addl B AJ1_0.179244|1.713402|8.921417|4.498649 addl brainperperturb_0.114620 brainloop_0.186303 AJ1_-0.255541|7.636905|4.051007|3.727647 addf brainmoveTTS_1.000000|1.000000 addf AJ2_0.736978|7.211298|3.225351|3.516169 mover 
+B brainmoveTTS_1.000000|1.000000 addf B brainmoveFTS_1.000000|1.000000 AJ1_-0.958731|7.855130|3.107470|2.264044 brainmoveTTS_3.000000|1.000000 AJ1_-0.742065|5.205073|8.466503|6.357272 mover B ST_0.496145 brainampperturb_0.406048 addf brainampperturb_-1.183260 ST_-0.435127 brainoffperturb_-0.320562 
+C C addl AJ1_-0.950773|5.870915|1.263505|6.418441 brainmoveFTS_1.000000|1.000000 movef brainmoveTTS_1.000000|2.000000 movel AJ2_-0.616483|5.758257|1.638676|4.780774 addf brainmoveTTS_1.000000|2.000000 AJ2_0.821957|7.873351|2.436410|8.401123 addf brainmoveFTS_1.000000|1.000000 brainedge_-0.157214 B brainampperturb_0.015393 brainmoveTTS_2.000000|1.000000 mover brainmoveTTS_1.000000|1.000000 ST_0.890883 AJ1_0.524828|2.689924|7.989022|7.104642 brainmoveTTS_1.000000|1.000000 
+ST addl movel brainmoveTTS_1.000000|3.000000 brainloop_0.511468 ST_0.553317 brainmoveTTS_1.000000|1.000000 AJ1_0.022910|2.541658|7.829981|6.113897 

@@ -5,23 +5,8 @@ body:
     red: 1
   type        : Core
   id          : module0
-  children    :
-    1:
-      slot        : 0
-      orientation : 90
-      params:
-        blue: 0
-        green: 0
-        red: 0.7
-      type        : ActiveHinge
-      id          : module1
 brain:
   neurons:
-    node1:
-      id: node1
-      layer: output
-      part_id: module1
-      type: Oscillator
     node-core1:
       id: node-core1
       layer: input
@@ -53,7 +38,3 @@ brain:
       part_id: module0
       type: Input
   params:
-    node1:
-      period: 5.12509
-      phase_offset: 5.37309
-      amplitude: 4.15638

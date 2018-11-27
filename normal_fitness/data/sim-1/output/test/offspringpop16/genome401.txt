@@ -1,5 +1,5 @@
-AJ1 AJ2_0.878939|5.646746|7.950252|2.122914 brainoffperturb_-2.018945 addf movef brainmoveTTS_1.000000|2.000000 brainmoveTTS_1.000000|1.000000 addr movel mover moveb brainmoveTTS_1.000000|2.000000 brainperperturb_-0.149182 movel brainmoveFTS_1.000000|1.000000 
-AJ2 brainmoveFTS_1.000000|2.000000 mover brainperperturb_0.191365 addl B mover AJ2_-0.858437|8.459700|5.859118|8.976911 addl addr movel brainoffperturb_-0.393210 AJ1_-0.477069|9.634284|8.155018|8.742023 brainmoveFTS_2.000000|1.000000 addl ST_0.506913 mover 
-B brainmoveFTS_1.000000|3.000000 brainoffperturb_-1.999274 brainmoveFTS_1.000000|2.000000 brainmoveTTS_2.000000|2.000000 addr B movel mover brainperturb_-1.694938 moveb movef addl brainampperturb_1.927467 AJ2_0.149284|4.191313|6.327123|5.897986 addr 
-C C brainmoveFTS_1.000000|1.000000 mover addf brainperturb_-0.108147 addf movef 
-ST brainmoveFTS_1.000000|2.000000 
+AJ1 AJ1_0.347669|1.131344|1.155981|2.954626 brainloop_-0.311393 addr AJ2_-0.126025|5.569871|1.876663|6.711835 movel brainmoveTTS_1.000000|1.000000 brainampperturb_0.300702 AJ1_-0.796408|1.654989|2.430611|6.284366 moveb addf brainmoveTTS_1.000000|1.000000 ST_0.323073 addr brainmoveTTS_2.000000|2.000000 moveb 
+AJ2 brainmoveTTS_1.000000|1.000000 addr addf addf brainedge_-0.432332 brainmoveTTS_1.000000|2.000000 AJ2_-0.215407|6.376648|6.951266|2.490304 addf addr ST_0.580863 
+B brainmoveTTS_1.000000|1.000000 B brainoffperturb_1.100223 AJ1_-0.742065|5.205073|8.466503|6.357272 brainmoveTTS_1.000000|1.000000 brainampperturb_0.406048 addf brainedge_-0.356914 addr B B movel brainmoveTTS_2.000000|1.000000 brainampperturb_-1.183260 addf movef 
+C C mover brainampperturb_0.252926 AJ1_0.745682|8.379139|8.674045|2.793533 mover brainoffperturb_2.582664 brainmoveTTS_1.000000|2.000000 brainoffperturb_0.715433 addf addf AJ2_-0.185852|5.760806|9.888369|7.713230 brainmoveFTS_1.000000|1.000000 addl brainoffperturb_0.712685 brainmoveFTS_1.000000|1.000000 addr brainoffperturb_0.623159 
+ST brainmoveTTS_1.000000|3.000000 brainloop_0.511468 brainampperturb_-0.917001 addr movel AJ1_0.839823|4.412749|8.618583|1.201375 

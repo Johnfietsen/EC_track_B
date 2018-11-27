@@ -1,0 +1,13 @@
+ digraph g{ forcelabels=true;
+1 [label=<1<BR />Oscillator M2<BR /> period: 4.787732<BR /> phase_offset: 9.300066<BR /> amplitude: 1.273264>, shape=box,color=red,style=filled,fontsize=8];2 [label=<2<BR />Oscillator M3<BR /> period: 4.807012<BR /> phase_offset: 2.716361<BR /> amplitude: 9.144052>, shape=box,color=red,style=filled,fontsize=8];3 [label=<3<BR />Oscillator M4<BR /> period: 5.135534<BR /> phase_offset: 2.716361<BR /> amplitude: 9.144052>, shape=box,color=red,style=filled,fontsize=8];4 [label=<4<BR />Oscillator M6<BR /> period: 1.315993<BR /> phase_offset: 7.963284<BR /> amplitude: 4.343727>, shape=box,color=red,style=filled,fontsize=8];5[label=<5<BR/>M5>,color="grey",style=filled,fontsize=8];
+6 [label=<6<BR />Oscillator M7<BR /> period: 4.078204<BR /> phase_offset: 1.673089<BR /> amplitude: 7.637837>, shape=box,color=red,style=filled,fontsize=8];7 [label=<7<BR />Oscillator M8<BR /> period: 5.135534<BR /> phase_offset: 2.716361<BR /> amplitude: 9.144052>, shape=box,color=red,style=filled,fontsize=8];8 [label=<8<BR />Oscillator M9<BR /> period: 5.408629<BR /> phase_offset: 1.673089<BR /> amplitude: 7.637837>, shape=box,color=red,style=filled,fontsize=8];2 -> 2[label="-0.499249 ",fontsize="8"];
+3 -> 3[label="0.763817 ",fontsize="8"];
+4 -> 4[label="0.763817 ",fontsize="8"];
+5 -> 1[label="0.587443 ",fontsize="8"];
+5 -> 2[label="-0.301683 ",fontsize="8"];
+5 -> 3[label="-0.301683 ",fontsize="8"];
+5 -> 4[label="0.953939 ",fontsize="8"];
+5 -> 6[label="0.335529 ",fontsize="8"];
+5 -> 7[label="-0.301683 ",fontsize="8"];
+5 -> 8[label="0.335529 ",fontsize="8"];
+ }

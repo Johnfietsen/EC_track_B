@@ -1,5 +1,5 @@
-AJ1 brainmoveFTS_1.000000|1.000000 brainloop_0.738583 AJ2_-0.317679|4.685332|7.929650|6.107190 AJ2_-0.120877|4.374149|1.625442|8.356259 brainmoveTTS_1.000000|2.000000 brainedge_0.916359 brainperturb_0.138993 addf addl moveb 
-AJ2 brainmoveTTS_1.000000|1.000000 addl AJ2_-0.894043|2.244515|6.880519|5.265422 moveb brainmoveTTS_1.000000|3.000000 addl brainoffperturb_0.497290 B AJ1_-0.307827|9.853456|2.102971|2.317823 movel addl brainampperturb_0.845020 brainmoveTTS_1.000000|1.000000 AJ1_-0.537355|5.065477|1.722862|4.573907 movel 
-B addr brainmoveFTS_1.000000|1.000000 brainedge_-0.320387 
-C C brainloop_0.565971 brainmoveTTS_1.000000|1.000000 addl addf mover movel brainmoveTTS_2.000000|2.000000 brainoffperturb_-1.544692 brainloop_0.712766 AJ2_-0.325557|2.493298|9.682151|1.574432 AJ2_0.587443|7.103723|9.300066|1.273264 brainmoveTTS_1.000000|2.000000 addl AJ2_-0.646936|6.121018|5.639623|1.386258 
-ST brainmoveFTS_1.000000|1.000000 brainampperturb_-0.687749 
+AJ1 brainmoveFTS_2.000000|1.000000 brainloop_0.338371 addf mover addf AJ1_0.204056|3.799740|2.308973|8.859329 movef brainmoveFTS_1.000000|1.000000 addf brainoffperturb_0.642247 B movef movel 
+AJ2 brainmoveFTS_1.000000|1.000000 ST_-0.674336 brainmoveFTS_1.000000|2.000000 AJ2_-0.606005|7.509895|7.133411|2.955325 moveb brainoffperturb_-1.021403 addr addf AJ2_-0.248284|5.780915|2.429898|9.157133 brainoffperturb_-0.782347 brainmoveFTS_1.000000|1.000000 AJ1_0.788917|8.098847|4.949436|5.592636 brainperturb_-0.792419 brainperperturb_0.166078 brainmoveTTS_1.000000|1.000000 brainperturb_2.183840 brainampperturb_-1.057248 movel addr addl 
+B brainmoveTTS_1.000000|1.000000 mover brainedge_0.819951 addf addf movel brainmoveFTS_1.000000|1.000000 addl brainmoveFTS_2.000000|1.000000 AJ1_0.624520|4.761179|3.657016|5.877134 AJ2_-0.808686|3.718397|1.083607|9.356880 movef addl brainperturb_-0.427709 B mover 
+C C brainmoveFTS_1.000000|1.000000 brainperturb_0.996080 AJ2_-0.146744|8.050800|3.060572|7.340583 addl movef 
+ST brainmoveFTS_2.000000|2.000000 addf movef brainmoveFTS_2.000000|2.000000 brainampperturb_-0.825207 brainloop_0.143762 addr movel 

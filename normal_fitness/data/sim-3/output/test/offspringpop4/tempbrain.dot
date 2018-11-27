@@ -1,0 +1,20 @@
+ digraph g{ forcelabels=true;
+1[label=<1<BR/>M0>,color="grey",style=filled,fontsize=8];
+2 [label=<2<BR />Oscillator M2<BR /> period: 7.270809<BR /> phase_offset: 6.437829<BR /> amplitude: 2.796943>, shape=box,color=red,style=filled,fontsize=8];3 [label=<3<BR />Oscillator M3<BR /> period: 4.651466<BR /> phase_offset: 1.349299<BR /> amplitude: 2.979436>, shape=box,color=red,style=filled,fontsize=8];4 [label=<4<BR />Oscillator M5<BR /> period: 5.751275<BR /> phase_offset: 1.349413<BR /> amplitude: 3.124488>, shape=box,color=red,style=filled,fontsize=8];5 [label=<5<BR />Oscillator M6<BR /> period: 7.953479<BR /> phase_offset: 1.258741<BR /> amplitude: 3.124488>, shape=box,color=red,style=filled,fontsize=8];6[label=<6<BR/>M7>,color="grey",style=filled,fontsize=8];
+7 [label=<7<BR />Oscillator M8<BR /> period: 5.724505<BR /> phase_offset: 7.871363<BR /> amplitude: 8.066086>, shape=box,color=red,style=filled,fontsize=8];8 [label=<8<BR />Oscillator M9<BR /> period: 2.175988<BR /> phase_offset: 2.873505<BR /> amplitude: 2.995828>, shape=box,color=red,style=filled,fontsize=8];9[label=<9<BR/>M7>,color="grey",style=filled,fontsize=8];
+10 [label=<10<BR />Oscillator M10<BR /> period: 5.724505<BR /> phase_offset: 7.871363<BR /> amplitude: 8.066086>, shape=box,color=red,style=filled,fontsize=8];11 [label=<11<BR />Oscillator M11<BR /> period: 1.094323<BR /> phase_offset: 2.873505<BR /> amplitude: 4.231603>, shape=box,color=red,style=filled,fontsize=8];1 -> 2[label="-0.692057 ",fontsize="8"];
+1 -> 3[label="0.369352 ",fontsize="8"];
+1 -> 4[label="0.878438 ",fontsize="8"];
+1 -> 5[label="0.878438 ",fontsize="8"];
+1 -> 7[label="-0.435718 ",fontsize="8"];
+1 -> 8[label="0.369352 ",fontsize="8"];
+1 -> 10[label="-0.435718 ",fontsize="8"];
+1 -> 11[label="0.369352 ",fontsize="8"];
+2 -> 2[label="0.833569 ",fontsize="8"];
+3 -> 3[label="0.927964 ",fontsize="8"];
+5 -> 5[label="0.927964 ",fontsize="8"];
+6 -> 3[label="-0.096607 ",fontsize="8"];
+6 -> 7[label="-0.692057 ",fontsize="8"];
+9 -> 2[label="0.125645 ",fontsize="8"];
+9 -> 10[label="-0.692057 ",fontsize="8"];
+ }

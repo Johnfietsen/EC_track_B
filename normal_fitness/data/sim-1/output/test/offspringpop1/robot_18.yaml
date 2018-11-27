@@ -8,25 +8,70 @@ body:
   children    :
     2:
       slot        : 0
-      orientation : 0
+      orientation : 90
       params:
-        blue: 1
+        blue: 0
         green: 0
-        red: 0
-      type        : FixedBrick
+        red: 0.7
+      type        : ActiveHinge
       id          : module1
       children    :
+        1:
+          slot        : 0
+          orientation : -90
+          params:
+            blue: 0.58
+            green: 0.08
+            red: 1
+          type        : ActiveHinge
+          id          : module2
+          children    :
+            1:
+              slot        : 0
+              orientation : 0
+              params:
+                blue: 1
+                green: 0
+                red: 0
+              type        : FixedBrick
+              id          : module3
+              children    :
 brain:
   neurons:
     node1:
       id: node1
       layer: output
-      part_id: module2
+      part_id: module1
       type: Oscillator
     node2:
       id: node2
       layer: output
+      part_id: module2
+      type: Oscillator
+    node3:
+      id: node3
+      layer: output
       part_id: module4
+      type: Oscillator
+    node4:
+      id: node4
+      layer: output
+      part_id: module9
+      type: Oscillator
+    node5:
+      id: node5
+      layer: output
+      part_id: module10
+      type: Oscillator
+    node6:
+      id: node6
+      layer: output
+      part_id: module11
+      type: Oscillator
+    node7:
+      id: node7
+      layer: output
+      part_id: module12
       type: Oscillator
     node-core1:
       id: node-core1
@@ -60,10 +105,30 @@ brain:
       type: Input
   params:
     node1:
-      period: 5.96535
-      phase_offset: 9.43515
-      amplitude: 7.05595
+      period: 1.40693
+      phase_offset: 2.45889
+      amplitude: 8.73973
     node2:
-      period: 9.60382
-      phase_offset: 3.0749
-      amplitude: 8.53705
+      period: 3.5033
+      phase_offset: 8.777
+      amplitude: 2.31467
+    node3:
+      period: 9.60937
+      phase_offset: 5.77452
+      amplitude: 1.53791
+    node4:
+      period: 8.47347
+      phase_offset: 4.37019
+      amplitude: 6.71673
+    node5:
+      period: 9.60937
+      phase_offset: 5.77452
+      amplitude: 1.53791
+    node6:
+      period: 8.47347
+      phase_offset: 4.37019
+      amplitude: 6.71673
+    node7:
+      period: 9.60937
+      phase_offset: 5.77452
+      amplitude: 1.53791
